@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import uuid
 from datetime import datetime
 from typing import Any
@@ -8,12 +6,14 @@ from pydantic import BaseModel, Field
 
 
 class AbilityScores(BaseModel):
-    str: int = 10
-    dex: int = 10
-    con: int = 10
-    int: int = 10
-    wis: int = 10
-    cha: int = 10
+    model_config = {"populate_by_name": True}
+
+    strength: int = Field(default=10, alias="str")
+    dexterity: int = Field(default=10, alias="dex")
+    constitution: int = Field(default=10, alias="con")
+    intelligence: int = Field(default=10, alias="int")
+    wisdom: int = Field(default=10, alias="wis")
+    charisma: int = Field(default=10, alias="cha")
 
 
 class CharacterClassSchema(BaseModel):
