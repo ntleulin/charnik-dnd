@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Warm parchment palette */
+  --bg-color: #f5f0e8;
+  --text-color: #2c2418;
+  --hint-color: #8a7e6b;
+  --link-color: #b8943e;
+  --button-color: #b8943e;
+  --button-text-color: #ffffff;
+  --secondary-bg: #ebe5d9;
+  --header-bg: #b8943e;
+  --accent-text: #b8943e;
+  --section-bg: #faf7f2;
+  --section-header: #8a7e6b;
+  --subtitle-text: #8a7e6b;
+  --destructive: #c0392b;
+
+  /* App-specific */
+  --border-color: rgba(184, 148, 62, 0.15);
+  --card-shadow: 0 1px 4px rgba(44, 36, 24, 0.06);
+  --card-border: 1.5px solid rgba(184, 148, 62, 0.2);
+  --selected-border: 2px solid #b8943e;
+  --selected-bg: rgba(184, 148, 62, 0.06);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --transition: 0.2s ease;
+
+  /* Fonts */
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Gold gradient for buttons */
+  --gold-gradient: linear-gradient(135deg, #c9a84c 0%, #b8943e 50%, #a6832f 100%);
+  --gold-hover: linear-gradient(135deg, #d4b35a 0%, #c9a84c 50%, #b8943e 100%);
+
+  /* Step indicator */
+  --step-done: #b8943e;
+  --step-active: #b8943e;
+  --step-pending: #d4cbb8;
+  --step-text-done: #b8943e;
+  --step-text-active: #b8943e;
+  --step-text-pending: #b0a690;
+
+  /* Chip styles */
+  --chip-bg: #ebe5d9;
+  --chip-border: 1px solid rgba(184, 148, 62, 0.15);
+  --chip-text: #5a4e3a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1e1b16;
+    --text-color: #e8e0d0;
+    --hint-color: #9a8e7b;
+    --secondary-bg: #2a2620;
+    --section-bg: #252119;
+    --border-color: rgba(184, 148, 62, 0.2);
+    --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    --card-border: 1.5px solid rgba(184, 148, 62, 0.25);
+    --selected-bg: rgba(184, 148, 62, 0.1);
+    --chip-bg: #2a2620;
+    --chip-text: #c9b896;
+  }
+}

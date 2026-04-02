@@ -1,0 +1,657 @@
+{
+  "id": "barbarian",
+  "nameRu": "Варвар",
+  "nameEn": "Barbarian",
+  "descriptionRu": "Свирепый воин, черпающий силу из первобытной ярости. Варвары сражаются с необузданной яростью, превосходя врагов грубой силой и стойкостью.",
+  "descriptionEn": "A fierce warrior who draws power from primal rage. Barbarians fight with unbridled fury, overpowering foes with raw strength and resilience.",
+  "hitDie": "d12",
+  "hitDieValue": 12,
+  "primaryAbilities": [
+    "str"
+  ],
+  "savingThrows": [
+    "str",
+    "con"
+  ],
+  "armorProficiencies": [
+    "light",
+    "medium",
+    "shields"
+  ],
+  "weaponProficiencies": [
+    "simple",
+    "martial"
+  ],
+  "toolProficiencies": null,
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "animal_handling",
+      "athletics",
+      "intimidation",
+      "nature",
+      "perception",
+      "survival"
+    ]
+  },
+  "multiclassRequirement": {
+    "minimumScores": {
+      "str": 13
+    },
+    "requireAll": true
+  },
+  "multiclassProficiencies": [
+    "shields",
+    "simple",
+    "martial"
+  ],
+  "spellcastingAbility": null,
+  "spellcastingType": null,
+  "subclassLevel": 3,
+  "levels": {
+    "1": {
+      "features": [
+        "rage",
+        "unarmored_defense",
+        "weapon_mastery"
+      ],
+      "proficiencyBonus": 2,
+      "rages": 2,
+      "rageDamage": 2
+    },
+    "2": {
+      "features": [
+        "danger_sense",
+        "reckless_attack",
+        "primal_knowledge"
+      ],
+      "proficiencyBonus": 2,
+      "rages": 2,
+      "rageDamage": 2
+    },
+    "3": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 2,
+      "rages": 3,
+      "rageDamage": 2
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2,
+      "rages": 3,
+      "rageDamage": 2
+    },
+    "5": {
+      "features": [
+        "extra_attack",
+        "fast_movement"
+      ],
+      "proficiencyBonus": 3,
+      "rages": 3,
+      "rageDamage": 2
+    },
+    "6": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3,
+      "rages": 4,
+      "rageDamage": 2
+    },
+    "7": {
+      "features": [
+        "feral_instinct",
+        "instinctive_pounce"
+      ],
+      "proficiencyBonus": 3,
+      "rages": 4,
+      "rageDamage": 2
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3,
+      "rages": 4,
+      "rageDamage": 2
+    },
+    "9": {
+      "features": [
+        "brutal_strike"
+      ],
+      "proficiencyBonus": 4,
+      "rages": 4,
+      "rageDamage": 3
+    },
+    "10": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 4,
+      "rages": 4,
+      "rageDamage": 3
+    },
+    "11": {
+      "features": [
+        "relentless_rage"
+      ],
+      "proficiencyBonus": 4,
+      "rages": 4,
+      "rageDamage": 3
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4,
+      "rages": 5,
+      "rageDamage": 3
+    },
+    "13": {
+      "features": [
+        "improved_brutal_strike"
+      ],
+      "proficiencyBonus": 5,
+      "rages": 5,
+      "rageDamage": 3
+    },
+    "14": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5,
+      "rages": 5,
+      "rageDamage": 3
+    },
+    "15": {
+      "features": [
+        "persistent_rage"
+      ],
+      "proficiencyBonus": 5,
+      "rages": 5,
+      "rageDamage": 3
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5,
+      "rages": 5,
+      "rageDamage": 4
+    },
+    "17": {
+      "features": [
+        "improved_brutal_strike_2"
+      ],
+      "proficiencyBonus": 6,
+      "rages": 6,
+      "rageDamage": 4
+    },
+    "18": {
+      "features": [
+        "indomitable_might"
+      ],
+      "proficiencyBonus": 6,
+      "rages": 6,
+      "rageDamage": 4
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6,
+      "rages": 6,
+      "rageDamage": 4
+    },
+    "20": {
+      "features": [
+        "primal_champion"
+      ],
+      "proficiencyBonus": 6,
+      "rages": "unlimited",
+      "rageDamage": 4
+    }
+  },
+  "subclasses": [
+    {
+      "id": "berserker",
+      "nameRu": "Берсерк",
+      "nameEn": "Berserker",
+      "descriptionRu": "Берсерк направляет ярость в неистовую боевую мощь, становясь неудержимой силой разрушения на поле боя.",
+      "descriptionEn": "A Berserker channels rage into violent combat fury, becoming an unstoppable force of destruction on the battlefield.",
+      "features": {
+        "3": [
+          "frenzy"
+        ],
+        "6": [
+          "mindless_rage"
+        ],
+        "10": [
+          "retaliation"
+        ],
+        "14": [
+          "intimidating_presence"
+        ]
+      }
+    },
+    {
+      "id": "wild_heart",
+      "nameRu": "Дикое сердце",
+      "nameEn": "Wild Heart",
+      "descriptionRu": "Дикое сердце черпает силу из духов природы, обретая звериные способности во время ярости.",
+      "descriptionEn": "A Wild Heart draws power from nature spirits, gaining bestial abilities while raging.",
+      "features": {
+        "3": [
+          "animal_speaker",
+          "rage_of_the_wilds"
+        ],
+        "6": [
+          "aspect_of_the_wilds"
+        ],
+        "10": [
+          "power_of_the_wilds"
+        ],
+        "14": [
+          "soul_of_the_wilds"
+        ]
+      }
+    },
+    {
+      "id": "world_tree",
+      "nameRu": "Мировое древо",
+      "nameEn": "World Tree",
+      "descriptionRu": "Варвар Мирового древа черпает силу из космического древа, соединяющего все планы существования, используя его для телепортации и защиты.",
+      "descriptionEn": "A World Tree barbarian draws power from the cosmic tree connecting all planes of existence, using it for teleportation and protection.",
+      "features": {
+        "3": [
+          "vitality_of_the_tree"
+        ],
+        "6": [
+          "branches_of_the_tree"
+        ],
+        "10": [
+          "battering_roots"
+        ],
+        "14": [
+          "travel_along_the_tree"
+        ]
+      }
+    },
+    {
+      "id": "zealot",
+      "nameRu": "Фанатик",
+      "nameEn": "Zealot",
+      "descriptionRu": "Фанатик — воин, чья ярость подпитывается божественной силой. Сражаясь, он направляет эту силу для нанесения сокрушительных ударов.",
+      "descriptionEn": "A Zealot is a warrior whose rage is fueled by divine power. While fighting, they channel that power to deal devastating strikes.",
+      "features": {
+        "3": [
+          "divine_fury",
+          "warrior_of_the_gods"
+        ],
+        "6": [
+          "fanatical_focus"
+        ],
+        "10": [
+          "zealous_presence"
+        ],
+        "14": [
+          "rage_beyond_death"
+        ]
+      }
+    }
+  ],
+  "spellSlots": null,
+  "features": {
+    "rage": {
+      "id": "rage",
+      "nameRu": "Ярость",
+      "nameEn": "Rage",
+      "descriptionRu": "Бонусным действием вы впадаете в ярость. Пока вы в ярости и не носите тяжёлые доспехи: вы получаете преимущество к проверкам и спасброскам Силы, получаете бонус к урону рукопашных атак, основанных на Силе, и получаете сопротивление дробящему, колющему и рубящему урону. Ярость длится 10 раундов.",
+      "descriptionEn": "As a Bonus Action, you enter a rage. While raging and not wearing heavy armor: you have Advantage on Strength checks and saves, you gain a bonus to melee damage rolls using Strength, and you have resistance to Bludgeoning, Piercing, and Slashing damage. Rage lasts 10 rounds.",
+      "level": 1,
+      "actionType": "bonus_action",
+      "usesPerRest": 2,
+      "restType": "long",
+      "usesScaling": {
+        "1": 2,
+        "3": 3,
+        "6": 4,
+        "12": 5,
+        "17": 6,
+        "20": "unlimited"
+      }
+    },
+    "unarmored_defense": {
+      "id": "unarmored_defense",
+      "nameRu": "Защита без доспехов",
+      "nameEn": "Unarmored Defense",
+      "descriptionRu": "Пока вы не носите доспехов, ваш КД равен 10 + модификатор Ловкости + модификатор Телосложения. Вы можете использовать щит и получать это преимущество.",
+      "descriptionEn": "While you are not wearing any armor, your AC equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "weapon_mastery": {
+      "id": "weapon_mastery",
+      "nameRu": "Мастерство оружия",
+      "nameEn": "Weapon Mastery",
+      "descriptionRu": "Ваша подготовка с оружием позволяет вам использовать свойства мастерства оружия.",
+      "descriptionEn": "Your training with weapons allows you to use the mastery properties of weapons.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "danger_sense": {
+      "id": "danger_sense",
+      "nameRu": "Чувство опасности",
+      "nameEn": "Danger Sense",
+      "descriptionRu": "Вы получаете преимущество к спасброскам Ловкости, если вы не ослеплены, оглушены или лишены дееспособности.",
+      "descriptionEn": "You have Advantage on Dexterity saving throws unless you are Blinded, Deafened, or Incapacitated.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "reckless_attack": {
+      "id": "reckless_attack",
+      "nameRu": "Безрассудная атака",
+      "nameEn": "Reckless Attack",
+      "descriptionRu": "Когда вы совершаете первую атаку в свой ход, вы можете решить атаковать безрассудно. Вы получаете преимущество ко всем броскам атаки рукопашным оружием с использованием Силы в этом ходу, но броски атаки по вам тоже получают преимущество до начала вашего следующего хода.",
+      "descriptionEn": "When you make your first attack on your turn, you can decide to attack recklessly. You gain Advantage on all melee weapon attack rolls using Strength during this turn, but attack rolls against you also have Advantage until the start of your next turn.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "primal_knowledge": {
+      "id": "primal_knowledge",
+      "nameRu": "Первобытные знания",
+      "nameEn": "Primal Knowledge",
+      "descriptionRu": "Пока вы в ярости, вы можете добавить бонус урона ярости к проверкам Силы и Телосложения. Вы также получаете владение ещё одним навыком из списка навыков варвара.",
+      "descriptionEn": "While raging, you can add your rage damage bonus to Strength and Constitution checks. You also gain proficiency in one additional skill from the Barbarian skill list.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "subclass_feature": {
+      "id": "subclass_feature",
+      "nameRu": "Умение подкласса",
+      "nameEn": "Subclass Feature",
+      "descriptionRu": "Вы получаете умение от выбранного подкласса.",
+      "descriptionEn": "You gain a feature from your chosen subclass.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Характеристика не может превышать 20. Вместо этого вы можете взять черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. An ability score can't exceed 20. Alternatively, you can take a feat.",
+      "level": 4,
+      "actionType": "passive"
+    },
+    "extra_attack": {
+      "id": "extra_attack",
+      "nameRu": "Дополнительная атака",
+      "nameEn": "Extra Attack",
+      "descriptionRu": "Вы можете атаковать дважды, а не один раз, когда совершаете действие Атаки в свой ход.",
+      "descriptionEn": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+      "level": 5,
+      "actionType": "passive"
+    },
+    "fast_movement": {
+      "id": "fast_movement",
+      "nameRu": "Быстрое передвижение",
+      "nameEn": "Fast Movement",
+      "descriptionRu": "Ваша скорость ходьбы увеличивается на 10 футов, если вы не носите тяжёлые доспехи.",
+      "descriptionEn": "Your walking speed increases by 10 feet while you aren't wearing heavy armor.",
+      "level": 5,
+      "actionType": "passive"
+    },
+    "feral_instinct": {
+      "id": "feral_instinct",
+      "nameRu": "Дикий инстинкт",
+      "nameEn": "Feral Instinct",
+      "descriptionRu": "Вы получаете преимущество к проверкам Инициативы. Если вы захвачены врасплох и не лишены дееспособности, вы можете впасть в ярость, чтобы действовать нормально в первый ход.",
+      "descriptionEn": "You have Advantage on Initiative rolls. If you are surprised and aren't Incapacitated, you can enter a rage to act normally on your first turn.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "instinctive_pounce": {
+      "id": "instinctive_pounce",
+      "nameRu": "Инстинктивный бросок",
+      "nameEn": "Instinctive Pounce",
+      "descriptionRu": "Когда вы впадаете в ярость, вы можете переместиться на расстояние до половины вашей скорости.",
+      "descriptionEn": "When you enter your rage, you can move up to half your speed.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "brutal_strike": {
+      "id": "brutal_strike",
+      "nameRu": "Жестокий удар",
+      "nameEn": "Brutal Strike",
+      "descriptionRu": "Когда вы используете Безрассудную атаку, вы можете отказаться от преимущества одной атаки, чтобы нанести дополнительный 1d10 урона и применить эффект: Сбивание (цель падает ничком) или Вынуждающий удар (цель отталкивается на 15 футов).",
+      "descriptionEn": "When you use Reckless Attack, you can forgo Advantage on one attack to deal an extra 1d10 damage and apply an effect: Forceful Blow (target is knocked prone) or Hamstring Blow (target's speed reduced by 15 feet).",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "relentless_rage": {
+      "id": "relentless_rage",
+      "nameRu": "Неустанная ярость",
+      "nameEn": "Relentless Rage",
+      "descriptionRu": "Ваша ярость может поддерживать вас в бою. Если ваши хиты падают до 0, пока вы в ярости, вы можете сделать спасбросок Телосложения (СЛ 10, возрастает на 5 за каждое использование после первого). При успехе хиты становятся равны 1.",
+      "descriptionEn": "Your rage can keep you fighting. If you drop to 0 HP while raging, you can make a Constitution save (DC 10, increases by 5 each time after the first). On a success, you drop to 1 HP instead.",
+      "level": 11,
+      "actionType": "passive",
+      "usesPerRest": "unlimited",
+      "restType": "long"
+    },
+    "improved_brutal_strike": {
+      "id": "improved_brutal_strike",
+      "nameRu": "Улучшенный жестокий удар",
+      "nameEn": "Improved Brutal Strike",
+      "descriptionRu": "Дополнительный урон от Жестокого удара возрастает до 2d10. Вы также получаете доступ к эффекту Раздирающий удар: цель получает помеху к следующему спасброску до начала вашего следующего хода.",
+      "descriptionEn": "The extra damage from Brutal Strike increases to 2d10. You also gain the Staggering Blow effect: the target has Disadvantage on its next saving throw before the start of your next turn.",
+      "level": 13,
+      "actionType": "passive"
+    },
+    "persistent_rage": {
+      "id": "persistent_rage",
+      "nameRu": "Непрекращающаяся ярость",
+      "nameEn": "Persistent Rage",
+      "descriptionRu": "Ваша ярость больше не заканчивается досрочно. Она длится все 10 раундов, пока вы не завершите её бонусным действием или не потеряете сознание.",
+      "descriptionEn": "Your rage no longer ends early. It lasts for the full 10 rounds unless you end it as a Bonus Action or fall Unconscious.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "improved_brutal_strike_2": {
+      "id": "improved_brutal_strike_2",
+      "nameRu": "Жестокий удар (улучшение 2)",
+      "nameEn": "Brutal Strike (Improvement 2)",
+      "descriptionRu": "Дополнительный урон от Жестокого удара возрастает до 3d10. Вы можете применить два эффекта одновременно при Жестоком ударе.",
+      "descriptionEn": "The extra damage from Brutal Strike increases to 3d10. You can apply two effects simultaneously when using Brutal Strike.",
+      "level": 17,
+      "actionType": "passive"
+    },
+    "indomitable_might": {
+      "id": "indomitable_might",
+      "nameRu": "Неукротимая мощь",
+      "nameEn": "Indomitable Might",
+      "descriptionRu": "Если результат вашей проверки Силы или спасброска Силы меньше значения вашей Силы, вы можете использовать значение Силы вместо результата.",
+      "descriptionEn": "If your total for a Strength check or Strength saving throw is less than your Strength score, you can use your Strength score in place of the total.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "primal_champion": {
+      "id": "primal_champion",
+      "nameRu": "Первобытный чемпион",
+      "nameEn": "Primal Champion",
+      "descriptionRu": "Ваши значения Силы и Телосложения увеличиваются на 4. Максимум для этих характеристик теперь равен 25. Количество использований ярости становится неограниченным.",
+      "descriptionEn": "Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 25. Your number of rages is now unlimited.",
+      "level": 20,
+      "actionType": "passive"
+    },
+    "frenzy": {
+      "id": "frenzy",
+      "nameRu": "Бешенство",
+      "nameEn": "Frenzy",
+      "descriptionRu": "Пока вы в ярости, вы можете совершить одну атаку рукопашным оружием бонусным действием в каждый свой ход. Попав по цели Бешенством, вы наносите дополнительный урон, равный бонусу урона ярости.",
+      "descriptionEn": "While raging, you can make one melee weapon attack as a Bonus Action on each of your turns. When you hit with Frenzy, you deal extra damage equal to your rage damage bonus.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "mindless_rage": {
+      "id": "mindless_rage",
+      "nameRu": "Бездумная ярость",
+      "nameEn": "Mindless Rage",
+      "descriptionRu": "Вы не можете быть очарованы или испуганы, пока находитесь в ярости. Если вы были очарованы или испуганы при входе в ярость, эффект приостанавливается на время ярости.",
+      "descriptionEn": "You can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "retaliation": {
+      "id": "retaliation",
+      "nameRu": "Возмездие",
+      "nameEn": "Retaliation",
+      "descriptionRu": "Когда существо в пределах 5 футов наносит вам урон, вы можете использовать реакцию, чтобы совершить одну рукопашную атаку по этому существу.",
+      "descriptionEn": "When a creature within 5 feet of you deals damage to you, you can use your Reaction to make one melee attack against that creature.",
+      "level": 10,
+      "actionType": "reaction"
+    },
+    "intimidating_presence": {
+      "id": "intimidating_presence",
+      "nameRu": "Устрашающее присутствие",
+      "nameEn": "Intimidating Presence",
+      "descriptionRu": "Бонусным действием вы можете устрашить существо в пределах 30 футов. Оно должно совершить спасбросок Мудрости (СЛ = 8 + бонус мастерства + модификатор Силы) или стать испуганным до конца вашего следующего хода. При провале на 5 и более — также Ошеломлено.",
+      "descriptionEn": "As a Bonus Action, you can frighten a creature within 30 feet. It must make a Wisdom save (DC = 8 + proficiency bonus + Strength modifier) or become Frightened until end of your next turn. On a failure of 5 or more, it is also Stunned.",
+      "level": 14,
+      "actionType": "bonus_action"
+    },
+    "animal_speaker": {
+      "id": "animal_speaker",
+      "nameRu": "Голос зверей",
+      "nameEn": "Animal Speaker",
+      "descriptionRu": "Вы можете сотворить заклинание Общение с животными и Разговор с животными как ритуал.",
+      "descriptionEn": "You can cast Beast Sense and Speak with Animals as rituals.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "rage_of_the_wilds": {
+      "id": "rage_of_the_wilds",
+      "nameRu": "Ярость дикой природы",
+      "nameEn": "Rage of the Wilds",
+      "descriptionRu": "Входя в ярость, вы выбираете один из эффектов: Медведь (сопротивление всему урону кроме психического), Орёл (Рывок бонусным действием, атаки по возможности не провоцируют), Волк (союзники в 5 футах от цели получают преимущество к атакам по ней).",
+      "descriptionEn": "When you enter your rage, choose one effect: Bear (resistance to all damage except Psychic), Eagle (Dash as Bonus Action, attacks of opportunity against you have Disadvantage), Wolf (allies within 5 feet of your target have Advantage on attacks against it).",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "aspect_of_the_wilds": {
+      "id": "aspect_of_the_wilds",
+      "nameRu": "Аспект дикой природы",
+      "nameEn": "Aspect of the Wilds",
+      "descriptionRu": "Вы получаете один из постоянных эффектов: Сова (тёмное зрение 60 футов и преимущество к проверкам Мудрости (Восприятие) на зрение), Пантера (скорость лазания равна скорости ходьбы), Лосось (скорость плавания равна скорости ходьбы).",
+      "descriptionEn": "You gain a permanent effect: Owl (darkvision 60 ft. and Advantage on Wisdom (Perception) checks relying on sight), Panther (climbing speed equals walking speed), Salmon (swimming speed equals walking speed).",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "power_of_the_wilds": {
+      "id": "power_of_the_wilds",
+      "nameRu": "Сила дикой природы",
+      "nameEn": "Power of the Wilds",
+      "descriptionRu": "Входя в ярость, вы выбираете один дополнительный эффект: Лев (бонусным действием можно сбить с ног существо, по которому вы попали атакой), Баран (можно толкнуть существо на 15 футов при попадании), Лось (аура дружественных существ в 5 футах получают +10 к скорости).",
+      "descriptionEn": "When entering rage, choose an additional effect: Lion (Bonus Action to knock prone a creature you hit), Ram (push creature 15 ft. on hit), Elk (aura giving friendly creatures within 5 ft. +10 speed).",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "soul_of_the_wilds": {
+      "id": "soul_of_the_wilds",
+      "nameRu": "Душа дикой природы",
+      "nameEn": "Soul of the Wilds",
+      "descriptionRu": "Пока вы в ярости, вы получаете скорость полёта, равную вашей скорости ходьбы, при условии что вы не носите тяжёлые доспехи.",
+      "descriptionEn": "While raging, you have a flying speed equal to your walking speed, provided you aren't wearing heavy armor.",
+      "level": 14,
+      "actionType": "passive"
+    },
+    "vitality_of_the_tree": {
+      "id": "vitality_of_the_tree",
+      "nameRu": "Жизненная сила Древа",
+      "nameEn": "Vitality of the Tree",
+      "descriptionRu": "Пока вы в ярости, вы получаете временные хиты, равные вашему бонусу мастерства в начале каждого вашего хода.",
+      "descriptionEn": "While raging, you gain Temporary Hit Points equal to your proficiency bonus at the start of each of your turns.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "branches_of_the_tree": {
+      "id": "branches_of_the_tree",
+      "nameRu": "Ветви Древа",
+      "nameEn": "Branches of the Tree",
+      "descriptionRu": "Пока вы в ярости, при попадании по существу атакой вы можете телепортировать его на расстояние до 5 футов в свободное пространство, которое видите. Также реакцией вы можете телепортировать ударившее вас существо в пределах 5 футов.",
+      "descriptionEn": "While raging, when you hit a creature with an attack, you can teleport it up to 5 feet to an unoccupied space you can see. Also, as a Reaction, you can teleport a creature that hit you within 5 feet.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "battering_roots": {
+      "id": "battering_roots",
+      "nameRu": "Бьющие корни",
+      "nameEn": "Battering Roots",
+      "descriptionRu": "Пока вы в ярости, ваша досягаемость для рукопашных атак увеличивается на 10 футов. При Жестоком ударе вы можете добавить эффект Толчок или Стягивание.",
+      "descriptionEn": "While raging, your reach for melee attacks increases by 10 feet. When using Brutal Strike, you can add the Push or Pull effect.",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "travel_along_the_tree": {
+      "id": "travel_along_the_tree",
+      "nameRu": "Путешествие по Древу",
+      "nameEn": "Travel Along the Tree",
+      "descriptionRu": "Бонусным действием, пока вы в ярости, вы можете телепортироваться на расстояние до 60 футов в свободное пространство, которое видите, и можете взять с собой одно существо, держащее вас или в пределах 5 футов.",
+      "descriptionEn": "As a Bonus Action while raging, you can teleport up to 60 feet to an unoccupied space you can see, and you can bring one willing creature that is holding you or within 5 feet.",
+      "level": 14,
+      "actionType": "bonus_action"
+    },
+    "divine_fury": {
+      "id": "divine_fury",
+      "nameRu": "Божественная ярость",
+      "nameEn": "Divine Fury",
+      "descriptionRu": "Пока вы в ярости, первое существо, по которому вы попадаете рукопашной атакой в каждый ход, получает дополнительный 1d6 + половина уровня варвара урона некротической энергией или излучением (ваш выбор).",
+      "descriptionEn": "While raging, the first creature you hit with a melee attack on each turn takes an extra 1d6 + half your Barbarian level in Necrotic or Radiant damage (your choice).",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "warrior_of_the_gods": {
+      "id": "warrior_of_the_gods",
+      "nameRu": "Воин богов",
+      "nameEn": "Warrior of the Gods",
+      "descriptionRu": "Заклинание, возвращающее вас к жизни (кроме Воскрешения), не требует материальных компонентов при использовании на вас.",
+      "descriptionEn": "A spell that restores you to life (other than Wish) does not require material components when cast on you.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "fanatical_focus": {
+      "id": "fanatical_focus",
+      "nameRu": "Фанатичная сосредоточенность",
+      "nameEn": "Fanatical Focus",
+      "descriptionRu": "Если вы проваливаете спасбросок, находясь в ярости, вы можете перебросить его с бонусом, равным бонусу урона ярости. Вы должны использовать новый результат. Один раз за ярость.",
+      "descriptionEn": "If you fail a saving throw while raging, you can reroll it with a bonus equal to your rage damage bonus. You must use the new roll. Once per rage.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "zealous_presence": {
+      "id": "zealous_presence",
+      "nameRu": "Ревностное присутствие",
+      "nameEn": "Zealous Presence",
+      "descriptionRu": "Бонусным действием вы испускаете боевой клич. До 10 существ по вашему выбору в пределах 60 футов получают преимущество к броскам атаки и спасброскам до начала вашего следующего хода. Можно использовать один раз за длительный отдых.",
+      "descriptionEn": "As a Bonus Action, you unleash a battle cry. Up to 10 creatures of your choice within 60 feet gain Advantage on attack rolls and saving throws until the start of your next turn. Once per Long Rest.",
+      "level": 10,
+      "actionType": "bonus_action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "rage_beyond_death": {
+      "id": "rage_beyond_death",
+      "nameRu": "Ярость за гранью смерти",
+      "nameEn": "Rage Beyond Death",
+      "descriptionRu": "Пока вы в ярости, наличие 0 хитов не лишает вас сознания. Вы всё ещё совершаете спасброски от смерти, а при трёх провалах умираете. Вы умираете, только когда ярость заканчивается и у вас 0 хитов.",
+      "descriptionEn": "While raging, having 0 Hit Points doesn't knock you unconscious. You still make death saves, and you die if you get three failures. You only die when your rage ends if you still have 0 HP.",
+      "level": 14,
+      "actionType": "passive"
+    }
+  }
+}

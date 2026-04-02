@@ -1,0 +1,941 @@
+{
+  "id": "paladin",
+  "nameRu": "Паладин",
+  "nameEn": "Paladin",
+  "descriptionRu": "Священный воин, связанный клятвой служения справедливости и защиты слабых. Паладины сочетают боевое мастерство с божественной магией.",
+  "descriptionEn": "A holy warrior bound by an oath to serve justice and protect the weak. Paladins combine martial prowess with divine magic.",
+  "hitDie": "d10",
+  "hitDieValue": 10,
+  "primaryAbilities": [
+    "str",
+    "cha"
+  ],
+  "savingThrows": [
+    "wis",
+    "cha"
+  ],
+  "armorProficiencies": [
+    "light",
+    "medium",
+    "heavy",
+    "shields"
+  ],
+  "weaponProficiencies": [
+    "simple",
+    "martial"
+  ],
+  "toolProficiencies": null,
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "athletics",
+      "insight",
+      "intimidation",
+      "medicine",
+      "persuasion",
+      "religion"
+    ]
+  },
+  "multiclassRequirement": {
+    "minimumScores": {
+      "str": 13,
+      "cha": 13
+    },
+    "requireAll": true
+  },
+  "multiclassProficiencies": [
+    "light",
+    "medium",
+    "shields",
+    "simple",
+    "martial"
+  ],
+  "spellcastingAbility": "cha",
+  "spellcastingType": "half",
+  "subclassLevel": 3,
+  "levels": {
+    "1": {
+      "features": [
+        "lay_on_hands",
+        "divine_sense",
+        "weapon_mastery"
+      ],
+      "proficiencyBonus": 2
+    },
+    "2": {
+      "features": [
+        "fighting_style",
+        "spellcasting",
+        "divine_smite"
+      ],
+      "proficiencyBonus": 2
+    },
+    "3": {
+      "features": [
+        "subclass_feature",
+        "channel_divinity"
+      ],
+      "proficiencyBonus": 2
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2
+    },
+    "5": {
+      "features": [
+        "extra_attack",
+        "faithful_steed"
+      ],
+      "proficiencyBonus": 3
+    },
+    "6": {
+      "features": [
+        "aura_of_protection"
+      ],
+      "proficiencyBonus": 3
+    },
+    "7": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3
+    },
+    "9": {
+      "features": [
+        "abjure_foes"
+      ],
+      "proficiencyBonus": 4
+    },
+    "10": {
+      "features": [
+        "aura_of_courage"
+      ],
+      "proficiencyBonus": 4
+    },
+    "11": {
+      "features": [
+        "radiant_strikes"
+      ],
+      "proficiencyBonus": 4
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4
+    },
+    "13": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5
+    },
+    "14": {
+      "features": [
+        "restoring_touch"
+      ],
+      "proficiencyBonus": 5
+    },
+    "15": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5
+    },
+    "17": {
+      "features": [
+        "aura_expansion"
+      ],
+      "proficiencyBonus": 6
+    },
+    "18": {
+      "features": [
+        "divine_conduit"
+      ],
+      "proficiencyBonus": 6
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6
+    },
+    "20": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 6
+    }
+  },
+  "subclasses": [
+    {
+      "id": "devotion",
+      "nameRu": "Клятва Преданности",
+      "nameEn": "Oath of Devotion",
+      "descriptionRu": "Паладин Преданности привержен высшим идеалам справедливости, добродетели и порядка. Они стремятся быть маяком надежды в мире тьмы.",
+      "descriptionEn": "A Paladin of Devotion is committed to the loftiest ideals of justice, virtue, and order. They strive to be a beacon of hope in a world of darkness.",
+      "features": {
+        "3": [
+          "devotion_spells",
+          "sacred_weapon",
+          "turn_the_unholy"
+        ],
+        "7": [
+          "aura_of_devotion"
+        ],
+        "13": [
+          "smite_of_protection"
+        ],
+        "15": [
+          "holy_nimbus_aura"
+        ],
+        "20": [
+          "holy_nimbus"
+        ]
+      }
+    },
+    {
+      "id": "ancients",
+      "nameRu": "Клятва Древних",
+      "nameEn": "Oath of the Ancients",
+      "descriptionRu": "Паладин Древних клянётся защищать свет мира от тьмы, следуя принципам, которые старше многих богов.",
+      "descriptionEn": "A Paladin of the Ancients swears to protect the light of the world against darkness, following principles older than many gods.",
+      "features": {
+        "3": [
+          "ancients_spells",
+          "natures_wrath",
+          "turn_the_faithless"
+        ],
+        "7": [
+          "aura_of_warding"
+        ],
+        "13": [
+          "undying_sentinel"
+        ],
+        "15": [
+          "elder_champion_aura"
+        ],
+        "20": [
+          "elder_champion"
+        ]
+      }
+    },
+    {
+      "id": "vengeance",
+      "nameRu": "Клятва Мести",
+      "nameEn": "Oath of Vengeance",
+      "descriptionRu": "Паладин Мести посвящает себя наказанию тех, кто совершил тяжкие грехи. Для них справедливость важнее милосердия.",
+      "descriptionEn": "A Paladin of Vengeance dedicates themselves to punishing those who have committed grievous sins. For them, justice outweighs mercy.",
+      "features": {
+        "3": [
+          "vengeance_spells",
+          "abjure_enemy",
+          "vow_of_enmity"
+        ],
+        "7": [
+          "relentless_avenger"
+        ],
+        "13": [
+          "soul_of_vengeance"
+        ],
+        "15": [
+          "scornful_rebuke"
+        ],
+        "20": [
+          "avenging_angel"
+        ]
+      }
+    },
+    {
+      "id": "glory",
+      "nameRu": "Клятва Славы",
+      "nameEn": "Oath of Glory",
+      "descriptionRu": "Паладин Славы стремится к величию через подвиги доблести. Они верят, что рождены для свершения легендарных деяний.",
+      "descriptionEn": "A Paladin of Glory strives for greatness through deeds of valor. They believe they are destined for legendary accomplishments.",
+      "features": {
+        "3": [
+          "glory_spells",
+          "peerless_athlete",
+          "inspiring_smite"
+        ],
+        "7": [
+          "aura_of_alacrity"
+        ],
+        "13": [
+          "glorious_defense"
+        ],
+        "15": [
+          "living_legend_aura"
+        ],
+        "20": [
+          "living_legend"
+        ]
+      }
+    }
+  ],
+  "spellSlots": {
+    "1": {
+      "slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 0
+    },
+    "2": {
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 2
+    },
+    "3": {
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 3
+    },
+    "4": {
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 4
+    },
+    "5": {
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 5
+    },
+    "6": {
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 6
+    },
+    "7": {
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 7
+    },
+    "8": {
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 8
+    },
+    "9": {
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 9
+    },
+    "10": {
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 10
+    },
+    "11": {
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 11
+    },
+    "12": {
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 11
+    },
+    "13": {
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 12
+    },
+    "14": {
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 12
+    },
+    "15": {
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 13
+    },
+    "16": {
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 13
+    },
+    "17": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 14
+    },
+    "18": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 14
+    },
+    "19": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 15
+    },
+    "20": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "cantripsKnown": 0,
+      "spellsPrepared": 15
+    }
+  },
+  "features": {
+    "lay_on_hands": {
+      "id": "lay_on_hands",
+      "nameRu": "Наложение рук",
+      "nameEn": "Lay on Hands",
+      "descriptionRu": "У вас есть запас целительной силы, равный 5 x ваш уровень паладина. Действием вы можете коснуться существа и восстановить ему хиты из этого запаса. Вы также можете потратить 5 хитов из запаса, чтобы вылечить одну болезнь или нейтрализовать один яд.",
+      "descriptionEn": "You have a pool of healing power equal to 5 x your Paladin level. As an action, you can touch a creature and restore Hit Points from this pool. You can also expend 5 HP from the pool to cure one disease or neutralize one poison.",
+      "level": 1,
+      "actionType": "action",
+      "usesPerRest": "pool",
+      "restType": "long",
+      "poolFormula": "paladin_level_x5"
+    },
+    "divine_sense": {
+      "id": "divine_sense",
+      "nameRu": "Божественное чувство",
+      "nameEn": "Divine Sense",
+      "descriptionRu": "Бонусным действием вы можете открыть своё сознание для обнаружения небесных, исчадий и нежити. До конца вашего следующего хода вы знаете местоположение таких существ в пределах 60 футов, не находящихся за полным укрытием.",
+      "descriptionEn": "As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. Until the end of your next turn, you know the location of such creatures within 60 feet that aren't behind total cover.",
+      "level": 1,
+      "actionType": "bonus_action",
+      "usesPerRest": "proficiency_bonus",
+      "restType": "long"
+    },
+    "weapon_mastery": {
+      "id": "weapon_mastery",
+      "nameRu": "Мастерство оружия",
+      "nameEn": "Weapon Mastery",
+      "descriptionRu": "Ваша подготовка с оружием позволяет вам использовать свойства мастерства оружия.",
+      "descriptionEn": "Your training with weapons allows you to use the mastery properties of weapons.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "fighting_style": {
+      "id": "fighting_style",
+      "nameRu": "Боевой стиль",
+      "nameEn": "Fighting Style",
+      "descriptionRu": "Вы принимаете определённый стиль боя. Выберите один из вариантов боевого стиля.",
+      "descriptionEn": "You adopt a particular style of fighting as your specialty. Choose one Fighting Style option.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "spellcasting": {
+      "id": "spellcasting",
+      "nameRu": "Использование заклинаний",
+      "nameEn": "Spellcasting",
+      "descriptionRu": "Вы научились черпать божественную магию через молитву и медитацию. Харизма — ваша заклинательная характеристика. Вы подготавливаете заклинания из списка заклинаний паладина.",
+      "descriptionEn": "You have learned to draw on divine magic through prayer and meditation. Charisma is your spellcasting ability. You prepare spells from the Paladin spell list.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "divine_smite": {
+      "id": "divine_smite",
+      "nameRu": "Божественная кара",
+      "nameEn": "Divine Smite",
+      "descriptionRu": "Когда вы попадаете по существу рукопашной атакой оружием, вы можете потратить ячейку заклинания, чтобы нанести дополнительный урон излучением. Урон составляет 2d8 за ячейку 1-го уровня, плюс 1d8 за каждый уровень ячейки выше 1-го (максимум 5d8). Против нежити и исчадий урон увеличивается на 1d8.",
+      "descriptionEn": "When you hit a creature with a melee weapon attack, you can expend a spell slot to deal extra Radiant damage. The damage is 2d8 for a 1st-level slot, plus 1d8 for each slot level above 1st (maximum 5d8). Against Undead and Fiends, the damage increases by 1d8.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "subclass_feature": {
+      "id": "subclass_feature",
+      "nameRu": "Умение подкласса",
+      "nameEn": "Subclass Feature",
+      "descriptionRu": "Вы получаете умение от выбранной клятвы.",
+      "descriptionEn": "You gain a feature from your chosen oath.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "channel_divinity": {
+      "id": "channel_divinity",
+      "nameRu": "Божественный канал",
+      "nameEn": "Channel Divinity",
+      "descriptionRu": "Вы получаете возможность направлять божественную энергию для подпитки магических эффектов. Вы начинаете с одним использованием и восстанавливаете его после короткого или длительного отдыха. Конкретные эффекты определяются вашей клятвой.",
+      "descriptionEn": "You gain the ability to channel divine energy to fuel magical effects. You start with one use and regain it after a Short or Long Rest. The specific effects are determined by your oath.",
+      "level": 3,
+      "actionType": "varies",
+      "usesPerRest": 1,
+      "restType": "short"
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Характеристика не может превышать 20. Вместо этого вы можете взять черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. An ability score can't exceed 20. Alternatively, you can take a feat.",
+      "level": 4,
+      "actionType": "passive"
+    },
+    "extra_attack": {
+      "id": "extra_attack",
+      "nameRu": "Дополнительная атака",
+      "nameEn": "Extra Attack",
+      "descriptionRu": "Вы можете атаковать дважды, а не один раз, когда совершаете действие Атаки в свой ход.",
+      "descriptionEn": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+      "level": 5,
+      "actionType": "passive"
+    },
+    "faithful_steed": {
+      "id": "faithful_steed",
+      "nameRu": "Верный скакун",
+      "nameEn": "Faithful Steed",
+      "descriptionRu": "Вы можете сотворить заклинание Найти скакуна без использования ячейки заклинания. После сотворения вы не можете использовать это свойство снова, пока не завершите длительный отдых.",
+      "descriptionEn": "You can cast Find Steed without expending a spell slot. Once you cast it, you can't use this feature again until you finish a Long Rest.",
+      "level": 5,
+      "actionType": "action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "aura_of_protection": {
+      "id": "aura_of_protection",
+      "nameRu": "Аура защиты",
+      "nameEn": "Aura of Protection",
+      "descriptionRu": "Вы и дружественные существа в пределах 10 футов от вас получаете бонус к спасброскам, равный вашему модификатору Харизмы (минимум +1). На 17-м уровне радиус увеличивается до 30 футов.",
+      "descriptionEn": "You and friendly creatures within 10 feet of you gain a bonus to saving throws equal to your Charisma modifier (minimum +1). At 17th level, the range increases to 30 feet.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "abjure_foes": {
+      "id": "abjure_foes",
+      "nameRu": "Изгнание врагов",
+      "nameEn": "Abjure Foes",
+      "descriptionRu": "Действием вы можете заставить существ по вашему выбору в пределах 60 футов (количество равно бонусу мастерства) совершить спасбросок Мудрости. При провале существо Испугано на 1 минуту, его скорость равна 0. При успехе скорость уменьшена вдвое на 1 минуту. Можно использовать один раз за длительный отдых или за ячейку заклинания.",
+      "descriptionEn": "As an action, you can force creatures of your choice within 60 feet (number equals proficiency bonus) to make a Wisdom save. On a failure, a creature is Frightened for 1 minute with 0 speed. On success, speed is halved for 1 minute. Once per Long Rest or per spell slot expenditure.",
+      "level": 9,
+      "actionType": "action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "aura_of_courage": {
+      "id": "aura_of_courage",
+      "nameRu": "Аура отваги",
+      "nameEn": "Aura of Courage",
+      "descriptionRu": "Вы и дружественные существа в пределах 10 футов от вас не можете быть испуганы, пока вы в сознании. На 17-м уровне радиус увеличивается до 30 футов.",
+      "descriptionEn": "You and friendly creatures within 10 feet of you can't be Frightened while you are conscious. At 17th level, the range increases to 30 feet.",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "radiant_strikes": {
+      "id": "radiant_strikes",
+      "nameRu": "Сияющие удары",
+      "nameEn": "Radiant Strikes",
+      "descriptionRu": "Ваши атаки оружием наносят дополнительно 1d8 урона излучением при попадании.",
+      "descriptionEn": "Your weapon attacks deal an extra 1d8 Radiant damage on a hit.",
+      "level": 11,
+      "actionType": "passive"
+    },
+    "restoring_touch": {
+      "id": "restoring_touch",
+      "nameRu": "Восстанавливающее касание",
+      "nameEn": "Restoring Touch",
+      "descriptionRu": "При использовании Наложения рук вы можете также снять одно из следующих состояний: Ослеплён, Очарован, Оглушён, Отравлен, Парализован, Ошеломлён.",
+      "descriptionEn": "When you use Lay on Hands, you can also remove one of the following conditions: Blinded, Charmed, Deafened, Poisoned, Paralyzed, Stunned.",
+      "level": 14,
+      "actionType": "passive"
+    },
+    "aura_expansion": {
+      "id": "aura_expansion",
+      "nameRu": "Расширение ауры",
+      "nameEn": "Aura Expansion",
+      "descriptionRu": "Все ваши ауры паладина теперь действуют в радиусе 30 футов вместо 10.",
+      "descriptionEn": "All your Paladin auras now extend to 30 feet instead of 10.",
+      "level": 17,
+      "actionType": "passive"
+    },
+    "divine_conduit": {
+      "id": "divine_conduit",
+      "nameRu": "Божественный проводник",
+      "nameEn": "Divine Conduit",
+      "descriptionRu": "Каждый раз, когда вы совершаете бросок Инициативы, вы восстанавливаете одно использование Божественного канала.",
+      "descriptionEn": "Whenever you roll Initiative, you regain one expended use of Channel Divinity.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "devotion_spells": {
+      "id": "devotion_spells",
+      "nameRu": "Заклинания клятвы Преданности",
+      "nameEn": "Oath of Devotion Spells",
+      "descriptionRu": "Вы получаете заклинания клятвы на указанных уровнях паладина: 3-й — Защита от Зла и Добра, Щит Веры; 5-й — Малое Восстановление, Область Истины; 9-й — Маяк Надежды, Рассеивание Магии; 13-й — Страж Веры, Свобода Перемещения; 17-й — Небесный Огонь, Общение.",
+      "descriptionEn": "You gain oath spells at listed Paladin levels: 3rd — Protection from Evil and Good, Shield of Faith; 5th — Aid, Zone of Truth; 9th — Beacon of Hope, Dispel Magic; 13th — Freedom of Movement, Guardian of Faith; 17th — Commune, Flame Strike.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "sacred_weapon": {
+      "id": "sacred_weapon",
+      "nameRu": "Священное оружие",
+      "nameEn": "Sacred Weapon",
+      "descriptionRu": "Используя Божественный канал бонусным действием, вы наделяете одно оружие священной силой на 10 минут. Вы добавляете модификатор Харизмы к броскам атаки этим оружием, оно излучает яркий свет в радиусе 20 футов и тусклый свет ещё на 20 футов.",
+      "descriptionEn": "Using Channel Divinity as a Bonus Action, you imbue one weapon with holy power for 10 minutes. You add your Charisma modifier to attack rolls with that weapon, and it emits bright light in a 20-foot radius and dim light 20 feet beyond that.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "turn_the_unholy": {
+      "id": "turn_the_unholy",
+      "nameRu": "Изгнание нечестивых",
+      "nameEn": "Turn the Unholy",
+      "descriptionRu": "Используя Божественный канал действием, каждый исчадие и нежить в пределах 30 футов должны совершить спасбросок Мудрости. При провале существо изгнано на 1 минуту.",
+      "descriptionEn": "Using Channel Divinity as an action, each Fiend and Undead within 30 feet must make a Wisdom save. On a failure, the creature is turned for 1 minute.",
+      "level": 3,
+      "actionType": "action"
+    },
+    "aura_of_devotion": {
+      "id": "aura_of_devotion",
+      "nameRu": "Аура преданности",
+      "nameEn": "Aura of Devotion",
+      "descriptionRu": "Вы и дружественные существа в пределах 10 футов не можете быть очарованы, пока вы в сознании.",
+      "descriptionEn": "You and friendly creatures within 10 feet can't be charmed while you are conscious.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "smite_of_protection": {
+      "id": "smite_of_protection",
+      "nameRu": "Кара защиты",
+      "nameEn": "Smite of Protection",
+      "descriptionRu": "Когда вы или союзник в пределах 30 футов получает урон, вы можете реакцией потратить ячейку заклинания, чтобы уменьшить урон на 2d8 + уровень ячейки.",
+      "descriptionEn": "When you or an ally within 30 feet takes damage, you can use your Reaction to expend a spell slot to reduce the damage by 2d8 + slot level.",
+      "level": 13,
+      "actionType": "reaction"
+    },
+    "holy_nimbus_aura": {
+      "id": "holy_nimbus_aura",
+      "nameRu": "Аура святого сияния",
+      "nameEn": "Holy Nimbus Aura",
+      "descriptionRu": "Когда исчадие или нежить попадает по вам или союзнику в пределах 10 футов атакой, атакующий получает 2d8 урона излучением.",
+      "descriptionEn": "When a Fiend or Undead hits you or an ally within 10 feet with an attack, the attacker takes 2d8 Radiant damage.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "holy_nimbus": {
+      "id": "holy_nimbus",
+      "nameRu": "Святое сияние",
+      "nameEn": "Holy Nimbus",
+      "descriptionRu": "Бонусным действием вы окружаете себя святым сиянием на 1 минуту. Вы излучаете яркий свет в радиусе 30 футов и тусклый свет ещё на 30 футов. Враги в ярком свете получают помеху к броскам атаки по вам. Вы получаете преимущество к спасброскам от заклинаний исчадий и нежити. Один раз за длительный отдых.",
+      "descriptionEn": "As a Bonus Action, you surround yourself with holy radiance for 1 minute. You emit bright light in a 30-foot radius and dim light 30 feet beyond that. Enemies in bright light have Disadvantage on attack rolls against you. You have Advantage on saves against spells of Fiends and Undead. Once per Long Rest.",
+      "level": 20,
+      "actionType": "bonus_action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "ancients_spells": {
+      "id": "ancients_spells",
+      "nameRu": "Заклинания клятвы Древних",
+      "nameEn": "Oath of the Ancients Spells",
+      "descriptionRu": "Вы получаете заклинания клятвы: 3-й — Опутывание, Разговор с животными; 5-й — Лунный луч, Туманный шаг; 9-й — Рост растений, Защита от энергии; 13-й — Ледяная буря, Каменная кожа; 17-й — Общение с природой, Древесный шаг.",
+      "descriptionEn": "You gain oath spells: 3rd — Ensnaring Strike, Speak with Animals; 5th — Moonbeam, Misty Step; 9th — Plant Growth, Protection from Energy; 13th — Ice Storm, Stoneskin; 17th — Commune with Nature, Tree Stride.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "natures_wrath": {
+      "id": "natures_wrath",
+      "nameRu": "Гнев природы",
+      "nameEn": "Nature's Wrath",
+      "descriptionRu": "Используя Божественный канал действием, вы можете вызвать призрачные лианы, которые опутывают существо в пределах 15 футов. Цель должна совершить спасбросок Силы или стать Удерживаемой.",
+      "descriptionEn": "Using Channel Divinity as an action, you invoke spectral vines to restrain a creature within 15 feet. The target must make a Strength save or become Restrained.",
+      "level": 3,
+      "actionType": "action"
+    },
+    "turn_the_faithless": {
+      "id": "turn_the_faithless",
+      "nameRu": "Изгнание вероломных",
+      "nameEn": "Turn the Faithless",
+      "descriptionRu": "Используя Божественный канал действием, каждая фея и исчадие в пределах 30 футов должны совершить спасбросок Мудрости. При провале существо изгнано на 1 минуту.",
+      "descriptionEn": "Using Channel Divinity as an action, each Fey and Fiend within 30 feet must make a Wisdom save. On failure, the creature is turned for 1 minute.",
+      "level": 3,
+      "actionType": "action"
+    },
+    "aura_of_warding": {
+      "id": "aura_of_warding",
+      "nameRu": "Аура защиты от магии",
+      "nameEn": "Aura of Warding",
+      "descriptionRu": "Вы и дружественные существа в пределах 10 футов получаете сопротивление урону от заклинаний.",
+      "descriptionEn": "You and friendly creatures within 10 feet have resistance to damage from spells.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "undying_sentinel": {
+      "id": "undying_sentinel",
+      "nameRu": "Бессмертный страж",
+      "nameEn": "Undying Sentinel",
+      "descriptionRu": "Когда ваши хиты падают до 0 и вы не убиты наповал, вы можете вместо этого упасть до 1 хита. Один раз за длительный отдых. Кроме того, вы не страдаете от немощей старости и не можете быть состарены магически.",
+      "descriptionEn": "When you are reduced to 0 HP and not killed outright, you can drop to 1 HP instead. Once per Long Rest. Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically.",
+      "level": 13,
+      "actionType": "passive"
+    },
+    "elder_champion_aura": {
+      "id": "elder_champion_aura",
+      "nameRu": "Аура древнего чемпиона",
+      "nameEn": "Elder Champion Aura",
+      "descriptionRu": "Враги в пределах 10 футов от вас получают помеху к спасброскам от ваших заклинаний и способностей Божественного канала.",
+      "descriptionEn": "Enemies within 10 feet of you have Disadvantage on saving throws against your spells and Channel Divinity abilities.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "elder_champion": {
+      "id": "elder_champion",
+      "nameRu": "Древний чемпион",
+      "nameEn": "Elder Champion",
+      "descriptionRu": "Бонусным действием вы принимаете форму древней силы природы на 1 минуту. Вы восстанавливаете 10 хитов в начале каждого хода. Вы можете сотворять заклинания паладина бонусным действием. Враги в пределах 10 футов получают помеху к спасброскам от ваших заклинаний. Один раз за длительный отдых.",
+      "descriptionEn": "As a Bonus Action, you assume an ancient nature form for 1 minute. You regain 10 HP at the start of each turn. You can cast Paladin spells as a Bonus Action. Enemies within 10 feet have Disadvantage on saves against your spells. Once per Long Rest.",
+      "level": 20,
+      "actionType": "bonus_action"
+    },
+    "vengeance_spells": {
+      "id": "vengeance_spells",
+      "nameRu": "Заклинания клятвы Мести",
+      "nameEn": "Oath of Vengeance Spells",
+      "descriptionRu": "Вы получаете заклинания клятвы: 3-й — Проклятие, Охотничья метка; 5-й — Удержание личности, Туманный шаг; 9-й — Ускорение, Защита от энергии; 13-й — Изгнание, Мерное око; 17-й — Удержание чудовища, Поиск.",
+      "descriptionEn": "You gain oath spells: 3rd — Bane, Hunter's Mark; 5th — Hold Person, Misty Step; 9th — Haste, Protection from Energy; 13th — Banishment, Dimension Door; 17th — Hold Monster, Scrying.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "abjure_enemy": {
+      "id": "abjure_enemy",
+      "nameRu": "Изгнание врага",
+      "nameEn": "Abjure Enemy",
+      "descriptionRu": "Используя Божественный канал действием, вы выбираете одно существо в пределах 60 футов. Оно должно совершить спасбросок Мудрости или стать Испуганным на 1 минуту со скоростью 0.",
+      "descriptionEn": "Using Channel Divinity as an action, you choose one creature within 60 feet. It must make a Wisdom save or become Frightened for 1 minute with 0 speed.",
+      "level": 3,
+      "actionType": "action"
+    },
+    "vow_of_enmity": {
+      "id": "vow_of_enmity",
+      "nameRu": "Обет вражды",
+      "nameEn": "Vow of Enmity",
+      "descriptionRu": "Используя Божественный канал бонусным действием, вы произносите обет вражды по отношению к существу в пределах 30 футов. Вы получаете преимущество к броскам атаки по этому существу в течение 1 минуты.",
+      "descriptionEn": "Using Channel Divinity as a Bonus Action, you utter a vow of enmity against a creature within 30 feet. You gain Advantage on attack rolls against that creature for 1 minute.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "relentless_avenger": {
+      "id": "relentless_avenger",
+      "nameRu": "Неумолимый мститель",
+      "nameEn": "Relentless Avenger",
+      "descriptionRu": "Когда вы попадаете по существу атакой по возможности, вы можете переместиться на расстояние до половины вашей скорости после атаки. Это перемещение не провоцирует атаки по возможности.",
+      "descriptionEn": "When you hit a creature with an opportunity attack, you can move up to half your speed immediately after. This movement doesn't provoke opportunity attacks.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "soul_of_vengeance": {
+      "id": "soul_of_vengeance",
+      "nameRu": "Душа мести",
+      "nameEn": "Soul of Vengeance",
+      "descriptionRu": "Когда существо, на которое действует ваш Обет вражды, совершает атаку, вы можете реакцией совершить рукопашную атаку по нему.",
+      "descriptionEn": "When a creature under your Vow of Enmity makes an attack, you can use your Reaction to make a melee attack against it.",
+      "level": 13,
+      "actionType": "reaction"
+    },
+    "scornful_rebuke": {
+      "id": "scornful_rebuke",
+      "nameRu": "Презрительный отпор",
+      "nameEn": "Scornful Rebuke",
+      "descriptionRu": "Когда существо попадает по вам атакой, оно получает урон излучением, равный вашему модификатору Харизмы (минимум 1).",
+      "descriptionEn": "When a creature hits you with an attack, it takes Radiant damage equal to your Charisma modifier (minimum 1).",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "avenging_angel": {
+      "id": "avenging_angel",
+      "nameRu": "Ангел-мститель",
+      "nameEn": "Avenging Angel",
+      "descriptionRu": "Бонусным действием вы обретаете крылья (скорость полёта 60 футов) и ауру угрозы (30 футов) на 10 минут. Враги, впервые входящие в ауру или начинающие в ней ход, должны совершить спасбросок Мудрости или стать Испуганными на 1 минуту. Один раз за длительный отдых.",
+      "descriptionEn": "As a Bonus Action, you sprout wings (60 ft. fly speed) and gain a menace aura (30 ft.) for 10 minutes. Enemies entering or starting in the aura must make a Wisdom save or become Frightened for 1 minute. Once per Long Rest.",
+      "level": 20,
+      "actionType": "bonus_action"
+    },
+    "glory_spells": {
+      "id": "glory_spells",
+      "nameRu": "Заклинания клятвы Славы",
+      "nameEn": "Oath of Glory Spells",
+      "descriptionRu": "Вы получаете заклинания клятвы: 3-й — Героизм, Направляющий удар; 5-й — Улучшение характеристик, Магическое оружие; 9-й — Ускорение, Защита от энергии; 13-й — Принуждение, Свобода перемещения; 17-й — Общение, Небесный огонь.",
+      "descriptionEn": "You gain oath spells: 3rd — Guiding Bolt, Heroism; 5th — Enhance Ability, Magic Weapon; 9th — Haste, Protection from Energy; 13th — Compulsion, Freedom of Movement; 17th — Commune, Flame Strike.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "peerless_athlete": {
+      "id": "peerless_athlete",
+      "nameRu": "Непревзойдённый атлет",
+      "nameEn": "Peerless Athlete",
+      "descriptionRu": "Используя Божественный канал бонусным действием, вы на 10 минут получаете преимущество к проверкам Силы (Атлетика) и Ловкости (Акробатика). Дальность ваших прыжков удваивается.",
+      "descriptionEn": "Using Channel Divinity as a Bonus Action, for 10 minutes you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks. Your jump distance is doubled.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "inspiring_smite": {
+      "id": "inspiring_smite",
+      "nameRu": "Вдохновляющая кара",
+      "nameEn": "Inspiring Smite",
+      "descriptionRu": "Используя Божественный канал сразу после нанесения Божественной кары, вы распределяете временные хиты, равные 2d8 + ваш уровень паладина, среди существ по вашему выбору в пределах 30 футов.",
+      "descriptionEn": "Using Channel Divinity immediately after dealing Divine Smite damage, you distribute temporary HP equal to 2d8 + your Paladin level among creatures of your choice within 30 feet.",
+      "level": 3,
+      "actionType": "free"
+    },
+    "aura_of_alacrity": {
+      "id": "aura_of_alacrity",
+      "nameRu": "Аура быстроты",
+      "nameEn": "Aura of Alacrity",
+      "descriptionRu": "Ваша скорость ходьбы увеличивается на 10 футов. Дружественные существа в пределах 10 футов от вас также увеличивают скорость на 10 футов.",
+      "descriptionEn": "Your walking speed increases by 10 feet. Friendly creatures within 10 feet of you also increase their speed by 10 feet.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "glorious_defense": {
+      "id": "glorious_defense",
+      "nameRu": "Славная защита",
+      "nameEn": "Glorious Defense",
+      "descriptionRu": "Когда существо попадает по вам или союзнику в пределах 10 футов атакой, вы можете реакцией добавить модификатор Харизмы к КД цели. Если атака всё ещё промахивается, вы можете совершить рукопашную атаку по атакующему.",
+      "descriptionEn": "When a creature hits you or an ally within 10 feet with an attack, you can use your Reaction to add your Charisma modifier to the target's AC. If the attack then misses, you can make a melee attack against the attacker.",
+      "level": 13,
+      "actionType": "reaction"
+    },
+    "living_legend_aura": {
+      "id": "living_legend_aura",
+      "nameRu": "Аура живой легенды",
+      "nameEn": "Living Legend Aura",
+      "descriptionRu": "Вы получаете преимущество к проверкам Харизмы. Промах по атаке может быть превращён в попадание раз в ход.",
+      "descriptionEn": "You have Advantage on Charisma checks. A missed attack can be turned into a hit once per turn.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "living_legend": {
+      "id": "living_legend",
+      "nameRu": "Живая легенда",
+      "nameEn": "Living Legend",
+      "descriptionRu": "Бонусным действием вы окутываетесь аурой легенды на 10 минут. Вы получаете преимущество к проверкам Харизмы, промах атакой может быть превращён в попадание раз в ход, и если вы проваливаете спасбросок, вы можете использовать реакцию для переброса. Один раз за длительный отдых.",
+      "descriptionEn": "As a Bonus Action, you cloak yourself in legendary aura for 10 minutes. You gain Advantage on Charisma checks, a missed attack can be turned into a hit once per turn, and if you fail a save, you can use your Reaction to reroll. Once per Long Rest.",
+      "level": 20,
+      "actionType": "bonus_action"
+    }
+  }
+}

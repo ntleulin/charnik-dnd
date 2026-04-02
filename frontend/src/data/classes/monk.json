@@ -1,0 +1,657 @@
+{
+  "id": "monk",
+  "nameRu": "Монах",
+  "nameEn": "Monk",
+  "hitDie": "d8",
+  "hitDieValue": 8,
+  "primaryAbilities": [
+    "dex",
+    "wis"
+  ],
+  "savingThrows": [
+    "str",
+    "dex"
+  ],
+  "armorProficiencies": [],
+  "weaponProficiencies": [
+    "simple",
+    "shortswords"
+  ],
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "acrobatics",
+      "athletics",
+      "history",
+      "insight",
+      "religion",
+      "stealth"
+    ]
+  },
+  "spellcastingAbility": null,
+  "spellcastingType": null,
+  "preparedCaster": false,
+  "subclassLevel": 3,
+  "subclassNameRu": "Монашеская традиция",
+  "subclassNameEn": "Monastic Tradition",
+  "multiclassRequirements": {
+    "dex": 13,
+    "wis": 13
+  },
+  "multiclassProficiencies": {
+    "armor": [],
+    "weapons": [
+      "simple",
+      "shortswords"
+    ]
+  },
+  "martialArtsDie": {
+    "1": "1d6",
+    "2": "1d6",
+    "3": "1d6",
+    "4": "1d6",
+    "5": "1d8",
+    "6": "1d8",
+    "7": "1d8",
+    "8": "1d8",
+    "9": "1d8",
+    "10": "1d8",
+    "11": "1d10",
+    "12": "1d10",
+    "13": "1d10",
+    "14": "1d10",
+    "15": "1d10",
+    "16": "1d10",
+    "17": "1d12",
+    "18": "1d12",
+    "19": "1d12",
+    "20": "1d12"
+  },
+  "disciplinePoints": {
+    "1": 0,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 18,
+    "19": 19,
+    "20": 20
+  },
+  "unarmoredMovement": {
+    "1": 0,
+    "2": 10,
+    "3": 10,
+    "4": 10,
+    "5": 10,
+    "6": 15,
+    "7": 15,
+    "8": 15,
+    "9": 15,
+    "10": 20,
+    "11": 20,
+    "12": 20,
+    "13": 20,
+    "14": 25,
+    "15": 25,
+    "16": 25,
+    "17": 25,
+    "18": 30,
+    "19": 30,
+    "20": 30
+  },
+  "levels": {
+    "1": {
+      "proficiencyBonus": 2,
+      "features": [
+        "martial_arts",
+        "unarmored_defense"
+      ]
+    },
+    "2": {
+      "proficiencyBonus": 2,
+      "features": [
+        "discipline_points",
+        "unarmored_movement",
+        "flurry_of_blows",
+        "patient_defense",
+        "step_of_the_wind"
+      ]
+    },
+    "3": {
+      "proficiencyBonus": 2,
+      "features": [
+        "monastic_tradition",
+        "deflect_missiles"
+      ]
+    },
+    "4": {
+      "proficiencyBonus": 2,
+      "features": [
+        "asi_4",
+        "slow_fall"
+      ]
+    },
+    "5": {
+      "proficiencyBonus": 3,
+      "features": [
+        "extra_attack",
+        "stunning_strike"
+      ]
+    },
+    "6": {
+      "proficiencyBonus": 3,
+      "features": [
+        "empowered_strikes",
+        "subclass_feature_6"
+      ]
+    },
+    "7": {
+      "proficiencyBonus": 3,
+      "features": [
+        "evasion",
+        "stillness_of_mind"
+      ]
+    },
+    "8": {
+      "proficiencyBonus": 3,
+      "features": [
+        "asi_8"
+      ]
+    },
+    "9": {
+      "proficiencyBonus": 4,
+      "features": [
+        "acrobatic_movement"
+      ]
+    },
+    "10": {
+      "proficiencyBonus": 4,
+      "features": [
+        "self_restoration"
+      ]
+    },
+    "11": {
+      "proficiencyBonus": 4,
+      "features": [
+        "subclass_feature_11"
+      ]
+    },
+    "12": {
+      "proficiencyBonus": 4,
+      "features": [
+        "asi_12"
+      ]
+    },
+    "13": {
+      "proficiencyBonus": 5,
+      "features": [
+        "deflect_energy"
+      ]
+    },
+    "14": {
+      "proficiencyBonus": 5,
+      "features": [
+        "disciplined_survivor"
+      ]
+    },
+    "15": {
+      "proficiencyBonus": 5,
+      "features": [
+        "perfect_discipline"
+      ]
+    },
+    "16": {
+      "proficiencyBonus": 5,
+      "features": [
+        "asi_16"
+      ]
+    },
+    "17": {
+      "proficiencyBonus": 6,
+      "features": [
+        "subclass_feature_17"
+      ]
+    },
+    "18": {
+      "proficiencyBonus": 6,
+      "features": [
+        "superior_defense"
+      ]
+    },
+    "19": {
+      "proficiencyBonus": 6,
+      "features": [
+        "asi_19"
+      ]
+    },
+    "20": {
+      "proficiencyBonus": 6,
+      "features": [
+        "body_and_mind"
+      ]
+    }
+  },
+  "features": {
+    "martial_arts": {
+      "id": "martial_arts",
+      "nameRu": "Боевые искусства",
+      "nameEn": "Martial Arts",
+      "level": 1,
+      "descriptionRu": "Ваша практика боевых искусств даёт вам мастерство в стилях боя, использующих безоружные удары и монашеское оружие (простое оружие и короткие мечи). Вы получаете следующие преимущества, когда не носите доспехов и не используете щит: вы можете использовать Ловкость вместо Силы для бросков атаки и урона безоружных ударов и монашеского оружия; вы можете бросать кость боевых искусств вместо обычного урона; когда вы совершаете действие Атака с безоружным ударом или монашеским оружием, вы можете совершить один безоружный удар бонусным действием.",
+      "descriptionEn": "Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons (simple weapons and shortswords). You gain the following benefits while unarmed or wielding only monk weapons and not wearing armor or a shield: you can use Dexterity instead of Strength for attack and damage rolls; you can roll your Martial Arts die in place of normal damage; when you take the Attack action with an unarmed strike or monk weapon, you can make one unarmed strike as a bonus action."
+    },
+    "unarmored_defense": {
+      "id": "unarmored_defense",
+      "nameRu": "Защита без доспехов",
+      "nameEn": "Unarmored Defense",
+      "level": 1,
+      "descriptionRu": "Когда вы не носите доспехов и не используете щит, ваш Класс Доспеха равен 10 + модификатор Ловкости + модификатор Мудрости.",
+      "descriptionEn": "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+    },
+    "discipline_points": {
+      "id": "discipline_points",
+      "nameRu": "Очки дисциплины",
+      "nameEn": "Discipline Points",
+      "level": 2,
+      "descriptionRu": "Ваша тренировка позволяет вам использовать мистическую энергию, называемую дисциплиной. Количество очков дисциплины определяется вашим уровнем монаха (см. таблицу). Вы можете тратить эти очки для активации различных способностей. Все потраченные очки восстанавливаются после короткого или длинного отдыха.",
+      "descriptionEn": "Your training allows you to harness a mystical energy called discipline. Your number of discipline points is determined by your monk level (see table). You can spend these points to fuel various features. You regain all spent points after a short or long rest.",
+      "usesPerRest": "class_level",
+      "restType": "short"
+    },
+    "unarmored_movement": {
+      "id": "unarmored_movement",
+      "nameRu": "Передвижение без доспехов",
+      "nameEn": "Unarmored Movement",
+      "level": 2,
+      "descriptionRu": "Ваша скорость увеличивается на 10 футов, когда вы не носите доспехов и не используете щит. Этот бонус увеличивается на более высоких уровнях: +15 футов на 6-м, +20 на 10-м, +25 на 14-м и +30 на 18-м уровне.",
+      "descriptionEn": "Your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases at higher levels: +15 feet at 6th, +20 at 10th, +25 at 14th, and +30 at 18th level."
+    },
+    "flurry_of_blows": {
+      "id": "flurry_of_blows",
+      "nameRu": "Шквал ударов",
+      "nameEn": "Flurry of Blows",
+      "level": 2,
+      "descriptionRu": "Сразу после совершения действия Атака вы можете потратить 1 очко дисциплины, чтобы совершить два безоружных удара бонусным действием (вместо одного от Боевых искусств).",
+      "descriptionEn": "Immediately after you take the Attack action, you can spend 1 discipline point to make two unarmed strikes as a bonus action (instead of one from Martial Arts).",
+      "costType": "discipline_points",
+      "costAmount": 1
+    },
+    "patient_defense": {
+      "id": "patient_defense",
+      "nameRu": "Терпеливая оборона",
+      "nameEn": "Patient Defense",
+      "level": 2,
+      "descriptionRu": "Вы можете потратить 1 очко дисциплины, чтобы бонусным действием совершить действие Уклонение.",
+      "descriptionEn": "You can spend 1 discipline point to take the Dodge action as a bonus action.",
+      "costType": "discipline_points",
+      "costAmount": 1
+    },
+    "step_of_the_wind": {
+      "id": "step_of_the_wind",
+      "nameRu": "Шаг ветра",
+      "nameEn": "Step of the Wind",
+      "level": 2,
+      "descriptionRu": "Вы можете потратить 1 очко дисциплины, чтобы бонусным действием совершить действие Отход или Рывок, и ваша дистанция прыжка удваивается на этот ход.",
+      "descriptionEn": "You can spend 1 discipline point to take the Disengage or Dash action as a bonus action, and your jump distance is doubled for the turn.",
+      "costType": "discipline_points",
+      "costAmount": 1
+    },
+    "monastic_tradition": {
+      "id": "monastic_tradition",
+      "nameRu": "Монашеская традиция",
+      "nameEn": "Monastic Tradition",
+      "level": 3,
+      "descriptionRu": "Вы выбираете монашескую традицию, которой следуете: Путь Милосердия, Путь Открытой Ладони, Путь Тени или Путь Четырёх Стихий. Ваш выбор предоставляет вам способности на 3-м, 6-м, 11-м и 17-м уровнях.",
+      "descriptionEn": "You choose a monastic tradition to follow: Way of Mercy, Way of the Open Hand, Way of Shadow, or Way of the Four Elements. Your choice grants you features at 3rd, 6th, 11th, and 17th level."
+    },
+    "deflect_missiles": {
+      "id": "deflect_missiles",
+      "nameRu": "Отражение снарядов",
+      "nameEn": "Deflect Missiles",
+      "level": 3,
+      "descriptionRu": "Вы можете реакцией отбить или поймать снаряд, когда вас поражает дальнобойная атака оружием. Урон уменьшается на 1d10 + модификатор Ловкости + уровень монаха. Если урон снижен до 0, вы можете поймать снаряд (если он достаточно мал) и потратить 1 очко дисциплины, чтобы совершить дальнобойную атаку этим снарядом.",
+      "descriptionEn": "You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. The damage is reduced by 1d10 + your Dexterity modifier + your monk level. If the damage is reduced to 0, you can catch the missile (if small enough) and spend 1 discipline point to make a ranged attack with it.",
+      "costType": "discipline_points",
+      "costAmount": 1
+    },
+    "slow_fall": {
+      "id": "slow_fall",
+      "nameRu": "Медленное падение",
+      "nameEn": "Slow Fall",
+      "level": 4,
+      "descriptionRu": "Вы можете реакцией уменьшить урон от падения на количество, равное пятикратному уровню монаха.",
+      "descriptionEn": "You can use your reaction to reduce falling damage by an amount equal to five times your monk level."
+    },
+    "extra_attack": {
+      "id": "extra_attack",
+      "nameRu": "Дополнительная атака",
+      "nameEn": "Extra Attack",
+      "level": 5,
+      "descriptionRu": "Вы можете атаковать дважды, а не один раз, когда совершаете действие Атака в свой ход.",
+      "descriptionEn": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    "stunning_strike": {
+      "id": "stunning_strike",
+      "nameRu": "Ошеломляющий удар",
+      "nameEn": "Stunning Strike",
+      "level": 5,
+      "descriptionRu": "Когда вы попадаете по существу атакой оружием ближнего боя, вы можете потратить 1 очко дисциплины, чтобы попытаться оглушить цель. Цель должна пройти спасбросок Телосложения или будет ошеломлена до конца вашего следующего хода.",
+      "descriptionEn": "When you hit a creature with a melee weapon attack, you can spend 1 discipline point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.",
+      "costType": "discipline_points",
+      "costAmount": 1
+    },
+    "empowered_strikes": {
+      "id": "empowered_strikes",
+      "nameRu": "Усиленные удары",
+      "nameEn": "Empowered Strikes",
+      "level": 6,
+      "descriptionRu": "Ваши безоружные удары считаются магическими для преодоления сопротивления и иммунитета к немагическим атакам и урону.",
+      "descriptionEn": "Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+    },
+    "evasion": {
+      "id": "evasion",
+      "nameRu": "Уклонение",
+      "nameEn": "Evasion",
+      "level": 7,
+      "descriptionRu": "Когда вы подвергаетесь эффекту, позволяющему совершить спасбросок Ловкости для получения половины урона, вы не получаете урона при успешном спасброске и только половину урона при провале.",
+      "descriptionEn": "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage on a success, and only half damage on a failure."
+    },
+    "stillness_of_mind": {
+      "id": "stillness_of_mind",
+      "nameRu": "Спокойствие разума",
+      "nameEn": "Stillness of Mind",
+      "level": 7,
+      "descriptionRu": "Вы можете действием прекратить один эффект, который вызывает у вас состояние очарования или испуга.",
+      "descriptionEn": "You can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+    },
+    "acrobatic_movement": {
+      "id": "acrobatic_movement",
+      "nameRu": "Акробатическое передвижение",
+      "nameEn": "Acrobatic Movement",
+      "level": 9,
+      "descriptionRu": "Пока вы не носите доспехов и не используете щит, вы получаете способность перемещаться по вертикальным поверхностям и по жидкостям без падения во время движения.",
+      "descriptionEn": "While you are not wearing armor or wielding a shield, you gain the ability to move along vertical surfaces and across liquids without falling during the move."
+    },
+    "self_restoration": {
+      "id": "self_restoration",
+      "nameRu": "Самовосстановление",
+      "nameEn": "Self-Restoration",
+      "level": 10,
+      "descriptionRu": "Вы можете использовать действие и потратить 2 очка дисциплины, чтобы прекратить одну болезнь или одно из следующих состояний: ослепление, оглушение, отравление или паралич.",
+      "descriptionEn": "You can use an action and spend 2 discipline points to end one disease or one of the following conditions: blinded, deafened, poisoned, or paralyzed."
+    },
+    "deflect_energy": {
+      "id": "deflect_energy",
+      "nameRu": "Отражение энергии",
+      "nameEn": "Deflect Energy",
+      "level": 13,
+      "descriptionRu": "Ваша способность Отражение снарядов теперь работает против всех дальнобойных атак, а не только оружейных. Кроме того, вы можете перенаправить урон энергией (огонь, холод, молния и т.д.).",
+      "descriptionEn": "Your Deflect Missiles feature now works against all ranged attacks, not just weapon attacks. Additionally, you can redirect energy damage (fire, cold, lightning, etc.)."
+    },
+    "disciplined_survivor": {
+      "id": "disciplined_survivor",
+      "nameRu": "Дисциплинированный выживший",
+      "nameEn": "Disciplined Survivor",
+      "level": 14,
+      "descriptionRu": "Вы получаете владение всеми спасбросками. Кроме того, когда вы проваливаете спасбросок, вы можете потратить 1 очко дисциплины, чтобы перебросить его, и вы должны использовать новый результат.",
+      "descriptionEn": "You gain proficiency in all saving throws. Additionally, when you fail a saving throw, you can spend 1 discipline point to reroll it, and you must use the new roll."
+    },
+    "perfect_discipline": {
+      "id": "perfect_discipline",
+      "nameRu": "Идеальная дисциплина",
+      "nameEn": "Perfect Discipline",
+      "level": 15,
+      "descriptionRu": "Когда вы бросаете инициативу и у вас не осталось очков дисциплины, вы восстанавливаете 4 очка дисциплины.",
+      "descriptionEn": "When you roll initiative and have no discipline points remaining, you regain 4 discipline points."
+    },
+    "superior_defense": {
+      "id": "superior_defense",
+      "nameRu": "Превосходная защита",
+      "nameEn": "Superior Defense",
+      "level": 18,
+      "descriptionRu": "Вы можете действием потратить 3 очка дисциплины, чтобы на 1 минуту получить сопротивление ко всем видам урона, кроме силового.",
+      "descriptionEn": "You can spend 3 discipline points as an action to gain resistance to all damage except force damage for 1 minute."
+    },
+    "body_and_mind": {
+      "id": "body_and_mind",
+      "nameRu": "Тело и разум",
+      "nameEn": "Body and Mind",
+      "level": 20,
+      "descriptionRu": "Ваши значения Ловкости и Мудрости увеличиваются на 4. Максимум для этих характеристик теперь равен 26.",
+      "descriptionEn": "Your Dexterity and Wisdom scores increase by 4. Your maximum for those scores is now 26."
+    },
+    "asi_4": {
+      "id": "asi_4",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 4,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_8": {
+      "id": "asi_8",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 8,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_12": {
+      "id": "asi_12",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 12,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_16": {
+      "id": "asi_16",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 16,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_19": {
+      "id": "asi_19",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 19,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "subclass_feature_6": {
+      "id": "subclass_feature_6",
+      "nameRu": "Способность традиции (6-й уровень)",
+      "nameEn": "Tradition Feature (6th level)",
+      "level": 6,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашей монашеской традицией.",
+      "descriptionEn": "You gain a feature granted by your Monastic Tradition."
+    },
+    "subclass_feature_11": {
+      "id": "subclass_feature_11",
+      "nameRu": "Способность традиции (11-й уровень)",
+      "nameEn": "Tradition Feature (11th level)",
+      "level": 11,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашей монашеской традицией.",
+      "descriptionEn": "You gain a feature granted by your Monastic Tradition."
+    },
+    "subclass_feature_17": {
+      "id": "subclass_feature_17",
+      "nameRu": "Способность традиции (17-й уровень)",
+      "nameEn": "Tradition Feature (17th level)",
+      "level": 17,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашей монашеской традицией.",
+      "descriptionEn": "You gain a feature granted by your Monastic Tradition."
+    }
+  },
+  "subclasses": [
+    {
+      "id": "mercy",
+      "nameRu": "Путь Милосердия",
+      "nameEn": "Way of Mercy",
+      "descriptionRu": "Монахи Пути Милосердия учатся манипулировать жизненной силой других, чтобы помогать нуждающимся. Они странствующие врачеватели, несущие облегчение в самые тёмные уголки мира. Однако тем, кто стоит за пределами их милости, остаётся лишь быстрый конец.",
+      "descriptionEn": "Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians, bringing relief to the darkest corners of the world. However, to those beyond their mercy, they bring a swift end.",
+      "features": {
+        "3": {
+          "id": "hand_of_healing",
+          "nameRu": "Рука исцеления",
+          "nameEn": "Hand of Healing",
+          "descriptionRu": "Вы можете потратить 1 очко дисциплины, чтобы коснуться существа и восстановить ему хиты, равные броску кости боевых искусств + модификатор Мудрости. Когда вы используете Шквал ударов, вы можете заменить один из безоружных ударов на использование Руки исцеления без траты дополнительного очка.",
+          "descriptionEn": "You can spend 1 discipline point to touch a creature and restore hit points equal to a roll of your Martial Arts die + your Wisdom modifier. When you use Flurry of Blows, you can replace one of the unarmed strikes with a use of Hand of Healing without spending an additional point."
+        },
+        "3b": {
+          "id": "hand_of_harm",
+          "nameRu": "Рука вреда",
+          "nameEn": "Hand of Harm",
+          "descriptionRu": "Когда вы попадаете безоружным ударом, вы можете потратить 1 очко дисциплины, чтобы нанести дополнительный урон некротической энергией, равный одному броску кости боевых искусств + модификатор Мудрости. Вы можете использовать эту способность только один раз за ход.",
+          "descriptionEn": "When you hit with an unarmed strike, you can spend 1 discipline point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this feature only once per turn."
+        },
+        "6": {
+          "id": "physicians_touch",
+          "nameRu": "Прикосновение целителя",
+          "nameEn": "Physician's Touch",
+          "descriptionRu": "Когда вы используете Руку исцеления, вы также можете прекратить одну болезнь или одно из состояний: ослепление, оглушение, отравление, паралич или ошеломление. Когда вы используете Руку вреда, вы можете наложить состояние отравления на цель до конца вашего следующего хода.",
+          "descriptionEn": "When you use Hand of Healing, you can also end one disease or one of these conditions: blinded, deafened, poisoned, paralyzed, or stunned. When you use Hand of Harm, you can subject the target to the poisoned condition until the end of your next turn."
+        },
+        "11": {
+          "id": "flurry_of_healing_and_harm",
+          "nameRu": "Шквал исцеления и вреда",
+          "nameEn": "Flurry of Healing and Harm",
+          "descriptionRu": "Когда вы используете Шквал ударов, вы можете заменить оба безоружных удара на использование Руки исцеления (не тратя дополнительные очки). Кроме того, при использовании Руки вреда через Шквал ударов дополнительный урон некротической энергией увеличивается до 3 бросков кости боевых искусств.",
+          "descriptionEn": "When you use Flurry of Blows, you can replace both unarmed strikes with uses of Hand of Healing (without spending additional points). Additionally, when using Hand of Harm through Flurry of Blows, the extra necrotic damage increases to 3 rolls of your Martial Arts die."
+        },
+        "17": {
+          "id": "hand_of_ultimate_mercy",
+          "nameRu": "Рука высшего милосердия",
+          "nameEn": "Hand of Ultimate Mercy",
+          "descriptionRu": "Ваше прикосновение может вернуть жизнь мёртвому. Действием вы касаетесь существа, погибшего не более 24 часов назад, и тратите 5 очков дисциплины. Существо возвращается к жизни с количеством хитов, равным 4 броскам кости боевых искусств + модификатор Мудрости. Использовать повторно можно после длинного отдыха.",
+          "descriptionEn": "Your touch can bring the dead back to life. As an action, you touch a creature that has died within the last 24 hours and expend 5 discipline points. The creature returns to life with hit points equal to 4 rolls of your Martial Arts die + your Wisdom modifier. You can use this again after a long rest."
+        }
+      }
+    },
+    {
+      "id": "open_hand",
+      "nameRu": "Путь Открытой Ладони",
+      "nameEn": "Way of the Open Hand",
+      "descriptionRu": "Монахи Пути Открытой Ладони -- непревзойдённые мастера боевых искусств, будь то вооружённые или безоружные. Они изучают техники, позволяющие толкать и опрокидывать противников, манипулировать потоками энергии для исцеления собственных ран и практиковать передовые формы медитации.",
+      "descriptionEn": "Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate energy to heal their own wounds, and practice advanced meditation.",
+      "features": {
+        "3": {
+          "id": "open_hand_technique",
+          "nameRu": "Техника открытой ладони",
+          "nameEn": "Open Hand Technique",
+          "descriptionRu": "Когда вы попадаете по существу одной из атак Шквала ударов, вы можете наложить один из эффектов: существо должно пройти спасбросок Ловкости или быть сбито с ног; существо должно пройти спасбросок Силы или быть оттолкнуто на 15 футов; существо не может совершать реакции до конца вашего следующего хода.",
+          "descriptionEn": "When you hit a creature with one of your Flurry of Blows attacks, you can impose one of the following effects: the target must make a Dexterity save or be knocked prone; the target must make a Strength save or be pushed up to 15 feet; the target can't take reactions until the end of your next turn."
+        },
+        "6": {
+          "id": "wholeness_of_body",
+          "nameRu": "Целостность тела",
+          "nameEn": "Wholeness of Body",
+          "descriptionRu": "Вы получаете способность исцелять себя. Действием вы восстанавливаете хиты, равные трёхкратному уровню монаха. Вы можете использовать эту способность один раз за длинный отдых.",
+          "descriptionEn": "You gain the ability to heal yourself. As an action, you regain hit points equal to three times your monk level. You can use this feature once per long rest."
+        },
+        "11": {
+          "id": "fleet_step",
+          "nameRu": "Стремительный шаг",
+          "nameEn": "Fleet Step",
+          "descriptionRu": "Вы можете использовать Шаг ветра без траты очков дисциплины.",
+          "descriptionEn": "You can use Step of the Wind without spending any discipline points."
+        },
+        "17": {
+          "id": "quivering_palm",
+          "nameRu": "Дрожащая ладонь",
+          "nameEn": "Quivering Palm",
+          "descriptionRu": "Когда вы попадаете по существу безоружным ударом, вы можете потратить 4 очка дисциплины, чтобы создать невидимые вибрации в его теле, которые длятся количество дней, равное вашему уровню монаха. Вы можете действием прекратить вибрации: существо должно пройти спасбросок Телосложения или его хиты падают до 0, при успехе -- 10d12 урона некротической энергией.",
+          "descriptionEn": "When you hit a creature with an unarmed strike, you can spend 4 discipline points to start imperceptible vibrations in its body, lasting a number of days equal to your monk level. You can use an action to end the vibrations: the creature must make a Constitution save or be reduced to 0 HP, taking 10d12 necrotic damage on a success."
+        }
+      }
+    },
+    {
+      "id": "shadow",
+      "nameRu": "Путь Тени",
+      "nameEn": "Way of Shadow",
+      "descriptionRu": "Монахи Пути Тени следуют традиции, которая ценит скрытность и хитрость. Эти монахи могут быть ниндзя или убийцами. Иногда члены ниндзя-клана описываются как семьи, а практики этого пути -- как тенемастера.",
+      "descriptionEn": "Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadowdancers. Sometimes the members of a ninja clan are described as families, and practitioners of this way are called shadow masters.",
+      "features": {
+        "3": {
+          "id": "shadow_arts",
+          "nameRu": "Искусство тени",
+          "nameEn": "Shadow Arts",
+          "descriptionRu": "Вы можете потратить 2 очка дисциплины, чтобы сотворить Тьму, Невидимость, Тёмное зрение или Тишину без материальных компонентов. Кроме того, вы изучаете заговор Малая иллюзия, если ещё его не знаете.",
+          "descriptionEn": "You can spend 2 discipline points to cast Darkness, Darkvision, Pass Without Trace, or Silence without material components. Additionally, you learn the Minor Illusion cantrip if you don't already know it."
+        },
+        "6": {
+          "id": "shadow_step",
+          "nameRu": "Теневой шаг",
+          "nameEn": "Shadow Step",
+          "descriptionRu": "Когда вы находитесь в тусклом свете или темноте, бонусным действием вы можете телепортироваться на расстояние до 60 футов в незанятое пространство, которое также находится в тусклом свете или темноте. После этого вы получаете преимущество на первый бросок рукопашной атаки до конца хода.",
+          "descriptionEn": "When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack roll you make before the end of the turn."
+        },
+        "11": {
+          "id": "improved_shadow_step",
+          "nameRu": "Улучшенный теневой шаг",
+          "nameEn": "Improved Shadow Step",
+          "descriptionRu": "Когда вы используете Теневой шаг, вы можете телепортироваться на расстояние до 120 футов. Кроме того, вы можете потратить 3 очка дисциплины при телепортации, чтобы стать невидимым до конца хода.",
+          "descriptionEn": "When you use Shadow Step, you can teleport up to 120 feet. Additionally, you can spend 3 discipline points when teleporting to become invisible until the end of the turn."
+        },
+        "17": {
+          "id": "cloak_of_shadows",
+          "nameRu": "Покров теней",
+          "nameEn": "Cloak of Shadows",
+          "descriptionRu": "Вы можете действием стать невидимым. Невидимость сохраняется до тех пор, пока вы не атакуете, не сотворите заклинание или не окажетесь в зоне яркого света.",
+          "descriptionEn": "You can use your action to become invisible. The invisibility lasts until you attack, cast a spell, or are in an area of bright light."
+        }
+      }
+    },
+    {
+      "id": "elements",
+      "nameRu": "Путь Четырёх Стихий",
+      "nameEn": "Way of the Four Elements",
+      "descriptionRu": "Вы следуете монашеской традиции, которая учит вас управлять стихиями. Сосредоточившись, вы можете привести свою магию в гармонию с силами природы, чтобы повелевать огнём, водой, землёй и воздухом.",
+      "descriptionEn": "You follow a monastic tradition that teaches you to harness the elements. When you focus, you can align your magic with the forces of nature to command fire, water, earth, and air.",
+      "features": {
+        "3": {
+          "id": "elemental_attunement",
+          "nameRu": "Настройка на стихии",
+          "nameEn": "Elemental Attunement",
+          "descriptionRu": "Вы изучаете магические дисциплины, использующие силу четырёх стихий. Вы можете потратить очки дисциплины, чтобы сотворять заклинания стихий. На 3-м уровне вы выбираете 2 дисциплины из списка (например: Кулак Четырёх Громов -- Громовая волна, Удар водного кнута -- Водяная стена, Объятия пламени -- Огненные ладони, Порыв духов -- Волна грома). Вы можете тратить дополнительные очки для усиления заклинаний.",
+          "descriptionEn": "You learn magical disciplines that harness the power of the four elements. You can spend discipline points to cast elemental spells. At 3rd level, choose 2 disciplines from the list (examples: Fist of Four Thunders -- Thunderwave, Water Whip -- watery tendrils attack, Sweeping Cinder Strike -- Burning Hands, Rush of the Gale Spirits -- Gust of Wind). You can spend additional points to upcast spells."
+        },
+        "6": {
+          "id": "elemental_burst",
+          "nameRu": "Стихийный всплеск",
+          "nameEn": "Elemental Burst",
+          "descriptionRu": "Вы изучаете дополнительную элементальную дисциплину. Кроме того, вы можете потратить 3 очка дисциплины, чтобы создать взрыв стихийной энергии. Каждое существо в сфере радиусом 20 футов в пределах 120 футов от вас должно совершить спасбросок Ловкости, получая 3d6 урона выбранного типа стихии при провале.",
+          "descriptionEn": "You learn one additional elemental discipline. Additionally, you can spend 3 discipline points to create a burst of elemental energy. Each creature in a 20-foot radius sphere within 120 feet must make a Dexterity saving throw, taking 3d6 damage of a chosen elemental type on a failure."
+        },
+        "11": {
+          "id": "stride_of_the_elements",
+          "nameRu": "Поступь стихий",
+          "nameEn": "Stride of the Elements",
+          "descriptionRu": "Вы получаете скорость полёта и скорость плавания, равные вашей скорости ходьбы.",
+          "descriptionEn": "You gain a flying speed and a swimming speed equal to your walking speed."
+        },
+        "17": {
+          "id": "elemental_epitome",
+          "nameRu": "Воплощение стихий",
+          "nameEn": "Elemental Epitome",
+          "descriptionRu": "Когда вы используете Звёздный облик стихий или Элементальный всплеск, вы можете потратить дополнительные очки дисциплины, чтобы усилить свои стихийные атаки. Ваш Стихийный всплеск наносит 5d6 урона вместо 3d6, и вы получаете сопротивление к одному типу урона стихий по выбору.",
+          "descriptionEn": "When you use your elemental abilities, you can spend extra discipline points to enhance them. Your Elemental Burst deals 5d6 damage instead of 3d6, and you gain resistance to one elemental damage type of your choice."
+        }
+      }
+    }
+  ]
+}

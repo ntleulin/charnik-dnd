@@ -1,0 +1,1680 @@
+[
+  {
+    "id": "alert",
+    "nameRu": "Бдительность",
+    "nameEn": "Alert",
+    "descriptionRu": "Вы всегда начеку и готовы к опасности.",
+    "descriptionEn": "You are always on the lookout for danger.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы добавляете бонус мастерства к инициативе.",
+        "descriptionEn": "You add your Proficiency Bonus to your Initiative rolls.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы можете обменяться значениями инициативы с согласным союзником.",
+        "descriptionEn": "You can swap your Initiative with a willing ally.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "crafter",
+    "nameRu": "Ремесленник",
+    "nameEn": "Crafter",
+    "descriptionRu": "Вы искусный мастер, способный создавать предметы эффективнее других.",
+    "descriptionEn": "You are a skilled crafter, able to craft items more efficiently.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы владеете тремя ремесленными инструментами на выбор.",
+        "descriptionEn": "You gain proficiency with three Artisan's Tools of your choice.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Скидка 20% при покупке немагических предметов.",
+        "descriptionEn": "20% discount when buying nonmagical items.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Во время длинного отдыха можно создать одно временное снаряжение.",
+        "descriptionEn": "During a Long Rest you can craft one temporary piece of adventuring gear.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "healer",
+    "nameRu": "Целитель",
+    "nameEn": "Healer",
+    "descriptionRu": "Вы умеете лечить раны быстрее и эффективнее.",
+    "descriptionEn": "You have the training to tend wounds effectively.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При использовании набора целителя существо восстанавливает 2d6 + бонус мастерства хитов. Раз в длинный отдых на существо.",
+        "descriptionEn": "When using a Healer's Kit, a creature regains 2d6 + your Proficiency Bonus HP. Once per Long Rest per creature.",
+        "type": "action"
+      },
+      {
+        "descriptionRu": "Вы можете бесплатно использовать Reroll заклинания лечения, если результат 1.",
+        "descriptionEn": "When you roll dice to restore HP, reroll any 1 on those dice.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "lucky",
+    "nameRu": "Везунчик",
+    "nameEn": "Lucky",
+    "descriptionRu": "У вас сверхъестественная удача в критические моменты.",
+    "descriptionEn": "You have inexplicable luck that kicks in at just the right moment.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "У вас есть очки удачи равные бонусу мастерства. Вы можете потратить очко, чтобы получить преимущество на бросок d20 или наложить помеху на бросок атаки по вам.",
+        "descriptionEn": "You have Luck Points equal to your Proficiency Bonus. Spend a point to gain Advantage on a d20 roll or impose Disadvantage on an attack roll against you.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "magic_initiate_cleric",
+    "nameRu": "Посвящённый в магию (Жрец)",
+    "nameEn": "Magic Initiate (Cleric)",
+    "descriptionRu": "Вы изучили основы божественной магии жреца.",
+    "descriptionEn": "You have learned the basics of divine Cleric magic.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы изучаете два заговора и одно заклинание 1-го уровня из списка жреца. Заклинание 1-го уровня можно использовать раз в длинный отдых без ячейки.",
+        "descriptionEn": "You learn two cantrips and one 1st-level spell from the Cleric spell list. You can cast the 1st-level spell once per Long Rest without a spell slot.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "magic_initiate_druid",
+    "nameRu": "Посвящённый в магию (Друид)",
+    "nameEn": "Magic Initiate (Druid)",
+    "descriptionRu": "Вы изучили основы природной магии друида.",
+    "descriptionEn": "You have learned the basics of primal Druid magic.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы изучаете два заговора и одно заклинание 1-го уровня из списка друида. Заклинание 1-го уровня можно использовать раз в длинный отдых без ячейки.",
+        "descriptionEn": "You learn two cantrips and one 1st-level spell from the Druid spell list. You can cast the 1st-level spell once per Long Rest without a spell slot.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "magic_initiate_wizard",
+    "nameRu": "Посвящённый в магию (Волшебник)",
+    "nameEn": "Magic Initiate (Wizard)",
+    "descriptionRu": "Вы изучили основы тайной магии волшебника.",
+    "descriptionEn": "You have learned the basics of arcane Wizard magic.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы изучаете два заговора и одно заклинание 1-го уровня из списка волшебника. Заклинание 1-го уровня можно использовать раз в длинный отдых без ячейки.",
+        "descriptionEn": "You learn two cantrips and one 1st-level spell from the Wizard spell list. You can cast the 1st-level spell once per Long Rest without a spell slot.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "musician",
+    "nameRu": "Музыкант",
+    "nameEn": "Musician",
+    "descriptionRu": "Вы талантливый музыкант, вдохновляющий союзников.",
+    "descriptionEn": "You are a talented musician who can inspire allies.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы владеете тремя музыкальными инструментами на выбор.",
+        "descriptionEn": "You gain proficiency with three Musical Instruments of your choice.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "После короткого или длинного отдыха вы можете сыграть музыку, дав союзникам Вдохновение.",
+        "descriptionEn": "After a Short or Long Rest, you can play music to give allies Heroic Inspiration.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "savage_attacker",
+    "nameRu": "Дикий атакующий",
+    "nameEn": "Savage Attacker",
+    "descriptionRu": "Вы наносите невероятно мощные удары оружием.",
+    "descriptionEn": "You deal devastatingly powerful weapon strikes.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Раз в ход при броске урона оружием вы можете перебросить кости урона и использовать любой из результатов.",
+        "descriptionEn": "Once per turn when you deal damage with a weapon, you can reroll the damage dice and use either result.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "skilled",
+    "nameRu": "Умелый",
+    "nameEn": "Skilled",
+    "descriptionRu": "Вы обладаете широким набором навыков.",
+    "descriptionEn": "You have a broad range of skills.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете владение любой комбинацией трёх навыков или инструментов на выбор.",
+        "descriptionEn": "You gain proficiency in any combination of three skills or tools of your choice.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "tavern_brawler",
+    "nameRu": "Кабацкий боец",
+    "nameEn": "Tavern Brawler",
+    "descriptionRu": "Вы привыкли к дракам без правил.",
+    "descriptionEn": "You are accustomed to brawling with no rules.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Урон безоружных ударов увеличивается до 1d4. При попадании безоружным ударом можно толкнуть существо на 5 футов.",
+        "descriptionEn": "Unarmed strikes deal 1d4 damage. On a hit with an Unarmed Strike, you can push the target 5 feet.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "При совершении безоружного удара вы можете перебросить бросок урона и использовать любой результат.",
+        "descriptionEn": "When you hit with an Unarmed Strike, you can reroll the damage die and use either roll.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "tough",
+    "nameRu": "Крепкий",
+    "nameEn": "Tough",
+    "descriptionRu": "Вы невероятно выносливы.",
+    "descriptionEn": "You are exceptionally hardy.",
+    "category": "origin",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Максимум хитов увеличивается на 2 за каждый уровень (текущий и будущий).",
+        "descriptionEn": "Your Hit Point maximum increases by 2 per level (current and future).",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "ability_score_improvement",
+    "nameRu": "Увеличение характеристик",
+    "nameEn": "Ability Score Improvement",
+    "descriptionRu": "Вы развиваете свои основные характеристики.",
+    "descriptionEn": "You improve your fundamental abilities.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con", "int", "wis", "cha"],
+    "abilityScoreAmount": 2,
+    "repeatable": true,
+    "benefits": [
+      {
+        "descriptionRu": "Увеличьте одну характеристику на 2 или две характеристики на 1 (максимум 20).",
+        "descriptionEn": "Increase one ability score by 2, or two ability scores by 1 (max 20).",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "actor",
+    "nameRu": "Актёр",
+    "nameEn": "Actor",
+    "descriptionRu": "Вы мастер перевоплощения и имитации.",
+    "descriptionEn": "You are a master of disguise and mimicry.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете преимущество на проверки Обмана при попытке выдать себя за другого.",
+        "descriptionEn": "You have Advantage on Deception checks to pass yourself off as someone else.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы можете имитировать речь и звуки других существ, которых слышали хотя бы 1 минуту.",
+        "descriptionEn": "You can mimic the speech and sounds of creatures you have heard for at least 1 minute.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "athlete",
+    "nameRu": "Атлет",
+    "nameEn": "Athlete",
+    "descriptionRu": "Вы обладаете превосходной физической подготовкой.",
+    "descriptionEn": "You have superior physical training.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Подъём из положения лёжа не тратит дополнительное передвижение. Дальность прыжка увеличена.",
+        "descriptionEn": "Standing up from Prone costs no extra movement. Your jump distance is increased.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы получаете скорость лазания равную скорости ходьбы.",
+        "descriptionEn": "You gain a Climb speed equal to your walking speed.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "charger",
+    "nameRu": "Атакующий с разбега",
+    "nameEn": "Charger",
+    "descriptionRu": "Вы умеете использовать набранную скорость для мощных атак.",
+    "descriptionEn": "You can use your momentum to empower your attacks.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Если вы перемещаетесь минимум на 10 футов по прямой, вы получаете +1d8 к урону следующей атаки оружием в этом ходу.",
+        "descriptionEn": "If you move at least 10 feet in a straight line, you gain +1d8 damage on your next weapon attack this turn.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "chef",
+    "nameRu": "Повар",
+    "nameEn": "Chef",
+    "descriptionRu": "Вы искусный повар, чья еда обладает целительными свойствами.",
+    "descriptionEn": "You are a skilled cook whose food has restorative properties.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["con", "wis"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Владение поварскими принадлежностями. Во время короткого отдыха вы можете приготовить еду, лечащую 1d8 хитов.",
+        "descriptionEn": "Proficiency with Cook's Utensils. During a Short Rest you can cook food that heals 1d8 HP.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Во время длинного отдыха вы можете приготовить угощения (бонус мастерства шт.), дающие временные хиты.",
+        "descriptionEn": "During a Long Rest you can prepare treats (Proficiency Bonus number) that grant Temporary HP.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "crossbow_expert",
+    "nameRu": "Эксперт по арбалетам",
+    "nameEn": "Crossbow Expert",
+    "descriptionRu": "Вы мастерски обращаетесь с арбалетами.",
+    "descriptionEn": "You are an expert at handling crossbows.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "dex:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы игнорируете свойство Зарядка арбалетов.",
+        "descriptionEn": "You ignore the Loading property of crossbows.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Атаки дальнобойным оружием не получают помеху, если враг в пределах 5 футов от вас.",
+        "descriptionEn": "Ranged attacks don't have Disadvantage when an enemy is within 5 feet of you.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "При атаке действием Атака с одноручным оружием вы можете бонусным действием атаковать ручным арбалетом.",
+        "descriptionEn": "When you use the Attack action with a one-handed weapon, you can use a Bonus Action to attack with a Hand Crossbow.",
+        "type": "bonus_action"
+      }
+    ]
+  },
+  {
+    "id": "crusher",
+    "nameRu": "Дробящий удар",
+    "nameEn": "Crusher",
+    "descriptionRu": "Вы наносите сокрушительные удары дробящим оружием.",
+    "descriptionEn": "You are practiced in crushing blows with bludgeoning weapons.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Раз в ход при нанесении дробящего урона оружием вы можете передвинуть цель на 5 футов.",
+        "descriptionEn": "Once per turn when you deal Bludgeoning damage with a weapon, you can move the target 5 feet.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "При критическом попадании дробящим оружием все атаки по цели имеют преимущество до начала вашего следующего хода.",
+        "descriptionEn": "When you score a Critical Hit with Bludgeoning damage, attacks against the target have Advantage until your next turn.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "defensive_duelist",
+    "nameRu": "Оборонительный дуэлянт",
+    "nameEn": "Defensive Duelist",
+    "descriptionRu": "Вы умеете парировать атаки фехтовальным оружием.",
+    "descriptionEn": "You can parry attacks with a Finesse weapon.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "dex:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Когда вас атакуют в ближнем бою и вы держите фехтовальное оружие, вы можете реакцией добавить бонус мастерства к КД против этой атаки.",
+        "descriptionEn": "When hit by a melee attack while holding a Finesse weapon, you can use a Reaction to add your Proficiency Bonus to AC against that attack.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "dual_wielder",
+    "nameRu": "Двуоружный боец",
+    "nameEn": "Dual Wielder",
+    "descriptionRu": "Вы мастерски сражаетесь двумя оружиями.",
+    "descriptionEn": "You are a master of fighting with two weapons.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "str:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы можете сражаться двумя оружиями, даже если они не имеют свойство Лёгкое.",
+        "descriptionEn": "You can engage in Two-Weapon Fighting even when the weapons you wield aren't Light.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы можете доставать или убирать два оружия вместо одного при взаимодействии с объектом.",
+        "descriptionEn": "You can draw or stow two weapons instead of one when you interact with an object.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "durable",
+    "nameRu": "Живучий",
+    "nameEn": "Durable",
+    "descriptionRu": "Вы быстро восстанавливаетесь от ран.",
+    "descriptionEn": "You recover from injuries quickly.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При использовании Кости Хитов для восстановления вы можете использовать Помощь: минимальный результат равен удвоенному модификатору Телосложения.",
+        "descriptionEn": "When using Hit Dice to regain HP, the minimum restored equals twice your Constitution modifier.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Действие Помощь восстанавливает вам хиты равные 1d10 + бонус мастерства.",
+        "descriptionEn": "The Help action restores HP to you equal to 1d10 + Proficiency Bonus.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "elemental_adept",
+    "nameRu": "Адепт стихий",
+    "nameEn": "Elemental Adept",
+    "descriptionRu": "Ваша магия стихий особенно мощна.",
+    "descriptionEn": "Your elemental spells are especially potent.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Spellcasting or Pact Magic feature",
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": true,
+    "benefits": [
+      {
+        "descriptionRu": "Выберите тип урона: Огонь, Холод, Молния, Кислота или Гром. Заклинания этого типа игнорируют сопротивление, а результат 1 на кости урона считается за 2.",
+        "descriptionEn": "Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder. Spells of that type ignore Resistance, and treat 1s on damage dice as 2s.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fey_touched",
+    "nameRu": "Дар фей",
+    "nameEn": "Fey Touched",
+    "descriptionRu": "Контакт с феями наделил вас магическими способностями.",
+    "descriptionEn": "Your exposure to the Feywild has given you magical abilities.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы изучаете заклинания Туманный шаг и одно заклинание 1-го уровня школы Очарование или Прорицание. Каждое можно использовать раз в длинный отдых без ячейки.",
+        "descriptionEn": "You learn Misty Step and one 1st-level Divination or Enchantment spell. You can cast each once per Long Rest without a spell slot.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "gift_of_the_chromatic_dragon",
+    "nameRu": "Дар хроматического дракона",
+    "nameEn": "Gift of the Chromatic Dragon",
+    "descriptionRu": "Дар дракона наделил вас стихийной силой.",
+    "descriptionEn": "You have been gifted with draconic elemental power.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Бонусным действием вы можете наделить оружие стихийным уроном (+1d4 Кислота/Холод/Огонь/Молния/Яд) на 1 минуту. Бонус мастерства использований в длинный отдых.",
+        "descriptionEn": "As a Bonus Action, infuse a weapon with elemental damage (+1d4 Acid/Cold/Fire/Lightning/Poison) for 1 minute. Proficiency Bonus uses per Long Rest.",
+        "type": "bonus_action"
+      },
+      {
+        "descriptionRu": "Реакцией при получении стихийного урона (Кислота/Холод/Огонь/Молния/Яд) вы получаете сопротивление этому типу до начала следующего хода.",
+        "descriptionEn": "As a Reaction when you take Acid, Cold, Fire, Lightning, or Poison damage, gain Resistance to that type until your next turn.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "great_weapon_master",
+    "nameRu": "Мастер большого оружия",
+    "nameEn": "Great Weapon Master",
+    "descriptionRu": "Вы наносите сокрушительные удары тяжёлым оружием.",
+    "descriptionEn": "You deal devastating blows with Heavy weapons.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "str:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При попадании тяжёлым оружием вы можете добавить бонус мастерства к урону.",
+        "descriptionEn": "When you hit with a Heavy weapon, you can add your Proficiency Bonus to the damage.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "При критическом попадании оружием ближнего боя или снижении хитов существа до 0 вы можете бонусным действием совершить ещё одну атаку.",
+        "descriptionEn": "When you score a Critical Hit or reduce a creature to 0 HP with a melee weapon, you can make one extra attack as a Bonus Action.",
+        "type": "bonus_action"
+      }
+    ]
+  },
+  {
+    "id": "heavily_armored",
+    "nameRu": "Тяжелобронированный",
+    "nameEn": "Heavily Armored",
+    "descriptionRu": "Вы научились носить тяжёлые доспехи.",
+    "descriptionEn": "You have trained to wear Heavy armor.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Medium Armor proficiency",
+    "abilityScoreIncrease": ["str", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете владение тяжёлыми доспехами.",
+        "descriptionEn": "You gain proficiency with Heavy armor.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "heavy_armor_master",
+    "nameRu": "Мастер тяжёлых доспехов",
+    "nameEn": "Heavy Armor Master",
+    "descriptionRu": "Ваши доспехи лучше поглощают удары.",
+    "descriptionEn": "Your Heavy armor absorbs hits better.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Heavy Armor proficiency",
+    "abilityScoreIncrease": ["str", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "В тяжёлых доспехах вы снижаете получаемый Дробящий, Колющий и Рубящий урон на бонус мастерства.",
+        "descriptionEn": "While wearing Heavy armor, reduce incoming Bludgeoning, Piercing, and Slashing damage by your Proficiency Bonus.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "inspiring_leader",
+    "nameRu": "Вдохновляющий лидер",
+    "nameEn": "Inspiring Leader",
+    "descriptionRu": "Вы умеете вдохновлять союзников перед боем.",
+    "descriptionEn": "You can inspire allies before battle.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "cha:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "После короткого или длинного отдыха вы можете провести 10-минутную вдохновляющую речь. До 6 союзников получают временные хиты равные вашему уровню + модификатор Харизмы.",
+        "descriptionEn": "After a Short or Long Rest, you can give a 10-minute inspiring speech. Up to 6 allies gain Temporary HP equal to your level + Charisma modifier.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "keen_mind",
+    "nameRu": "Острый ум",
+    "nameEn": "Keen Mind",
+    "descriptionRu": "У вас феноменальная память и острый интеллект.",
+    "descriptionEn": "You have a phenomenal memory and keen intellect.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы всегда знаете, в каком направлении север, и сколько часов до рассвета или заката. Вы можете точно вспомнить всё, что видели или слышали за последний месяц.",
+        "descriptionEn": "You always know which direction is north and how many hours until sunrise or sunset. You can accurately recall anything you have seen or heard within the past month.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы получаете владение навыком по выбору из: Магия, История, Природа или Религия. Можно заменить на Компетентность.",
+        "descriptionEn": "You gain proficiency in one skill: Arcana, History, Nature, or Religion. Or Expertise if already proficient.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "lightly_armored",
+    "nameRu": "Легкобронированный",
+    "nameEn": "Lightly Armored",
+    "descriptionRu": "Вы научились носить лёгкие доспехи.",
+    "descriptionEn": "You have trained to wear Light armor.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете владение лёгкими доспехами и щитами.",
+        "descriptionEn": "You gain proficiency with Light armor and Shields.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "mage_slayer",
+    "nameRu": "Убийца магов",
+    "nameEn": "Mage Slayer",
+    "descriptionRu": "Вы специализируетесь на борьбе с заклинателями.",
+    "descriptionEn": "You specialize in fighting spellcasters.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При успешном спасброске от заклинания вы можете реакцией атаковать заклинателя оружием ближнего боя.",
+        "descriptionEn": "When you succeed on a saving throw against a spell, you can use a Reaction to make a melee weapon attack against the caster.",
+        "type": "reaction"
+      },
+      {
+        "descriptionRu": "При нанесении урона концентрирующемуся существу оно получает помеху на спасбросок Телосложения для сохранения концентрации.",
+        "descriptionEn": "When you damage a concentrating creature, it has Disadvantage on the Constitution save to maintain Concentration.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "medium_armor_master",
+    "nameRu": "Мастер средних доспехов",
+    "nameEn": "Medium Armor Master",
+    "descriptionRu": "Вы научились использовать средние доспехи наиболее эффективно.",
+    "descriptionEn": "You have learned to maximize Medium armor effectiveness.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Medium Armor proficiency",
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Средние доспехи не накладывают помеху на проверки Скрытности. Максимальный бонус Ловкости в средних доспехах увеличивается до +3.",
+        "descriptionEn": "Medium armor doesn't impose Disadvantage on Stealth checks. The maximum Dexterity bonus in Medium armor increases to +3.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "moderately_armored",
+    "nameRu": "Среднебронированный",
+    "nameEn": "Moderately Armored",
+    "descriptionRu": "Вы научились носить средние доспехи.",
+    "descriptionEn": "You have trained to wear Medium armor.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Light Armor proficiency",
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете владение средними доспехами и щитами.",
+        "descriptionEn": "You gain proficiency with Medium armor and Shields.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "mounted_combatant",
+    "nameRu": "Конный боец",
+    "nameEn": "Mounted Combatant",
+    "descriptionRu": "Вы грозный противник верхом на скакуне.",
+    "descriptionEn": "You are a fearsome foe while mounted.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "wis"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете преимущество на атаки ближнего боя против немонтированных существ меньше вашего скакуна.",
+        "descriptionEn": "You have Advantage on melee attacks against unmounted creatures smaller than your mount.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы можете перенаправить атаку по вашему скакуну на себя.",
+        "descriptionEn": "You can redirect an attack targeting your mount to yourself.",
+        "type": "reaction"
+      },
+      {
+        "descriptionRu": "Если ваш скакун попадает под эффект, требующий спасброска Ловкости для половины урона, при успехе он не получает урон, при провале — половину.",
+        "descriptionEn": "When your mount makes a Dex save for half damage, it takes no damage on success and half on failure.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "observant",
+    "nameRu": "Наблюдательный",
+    "nameEn": "Observant",
+    "descriptionRu": "Вы замечаете детали, которые другие упускают.",
+    "descriptionEn": "You notice details others miss.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int", "wis"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете +5 к пассивной Внимательности и пассивному Расследованию.",
+        "descriptionEn": "You gain +5 to Passive Perception and Passive Investigation.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы можете читать по губам, если видите рот говорящего и знаете его язык.",
+        "descriptionEn": "You can read lips if you can see a speaker's mouth and know the language.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "polearm_master",
+    "nameRu": "Мастер древкового оружия",
+    "nameEn": "Polearm Master",
+    "descriptionRu": "Вы виртуозно владеете древковым оружием.",
+    "descriptionEn": "You are an expert with polearm weapons.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "str:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При атаке действием Атака с глефой, алебардой, боевым посохом или копьём, вы можете бонусным действием нанести удар другим концом (1d4 Дробящий).",
+        "descriptionEn": "When you take the Attack action with a Glaive, Halberd, Quarterstaff, or Spear, you can make a Bonus Action attack with the other end (1d4 Bludgeoning).",
+        "type": "bonus_action"
+      },
+      {
+        "descriptionRu": "Существа провоцируют провоцированную атаку, когда входят в вашу зону досягаемости.",
+        "descriptionEn": "Creatures provoke an Opportunity Attack when they enter your reach.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "resilient",
+    "nameRu": "Устойчивый",
+    "nameEn": "Resilient",
+    "descriptionRu": "Вы развили стойкость к определённым эффектам.",
+    "descriptionEn": "You have developed resilience against certain effects.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con", "int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Выберите характеристику. Вы получаете владение спасбросками этой характеристики.",
+        "descriptionEn": "Choose an ability score. You gain proficiency in saving throws of that ability.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "ritual_caster",
+    "nameRu": "Ритуальный заклинатель",
+    "nameEn": "Ritual Caster",
+    "descriptionRu": "Вы можете проводить магические ритуалы.",
+    "descriptionEn": "You can cast spells as rituals.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Spellcasting or Pact Magic feature",
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы изучаете два ритуальных заклинания 1-го уровня на выбор. Вы всегда можете накладывать их как ритуалы. При повышении уровня можете добавлять новые ритуальные заклинания.",
+        "descriptionEn": "You learn two 1st-level ritual spells. You can always cast them as rituals. You can add more ritual spells as you gain levels.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "sentinel",
+    "nameRu": "Страж",
+    "nameEn": "Sentinel",
+    "descriptionRu": "Вы мастер защиты союзников в ближнем бою.",
+    "descriptionEn": "You are a master at guarding allies in melee.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При попадании провоцированной атакой скорость цели становится 0 до конца текущего хода.",
+        "descriptionEn": "When you hit with an Opportunity Attack, the target's speed becomes 0 for the rest of the turn.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Существа провоцируют провоцированную атаку, даже если совершают Отход. Когда существо в пределах 5 футов от вас атакует другую цель, вы можете реакцией атаковать его.",
+        "descriptionEn": "Creatures provoke Opportunity Attacks even if they Disengage. When a creature within 5 feet attacks another target, you can use a Reaction to attack it.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "shadow_touched",
+    "nameRu": "Дар тени",
+    "nameEn": "Shadow Touched",
+    "descriptionRu": "Контакт с Царством Теней наделил вас тёмной магией.",
+    "descriptionEn": "Your exposure to the Shadowfell has given you shadow magic.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы изучаете Невидимость и одно заклинание 1-го уровня школы Иллюзия или Некромантия. Каждое можно использовать раз в длинный отдых без ячейки.",
+        "descriptionEn": "You learn Invisibility and one 1st-level Illusion or Necromancy spell. You can cast each once per Long Rest without a spell slot.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "sharpshooter",
+    "nameRu": "Меткий стрелок",
+    "nameEn": "Sharpshooter",
+    "descriptionRu": "Вы мастерски стреляете на дальние дистанции.",
+    "descriptionEn": "You are a master of ranged combat at any distance.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "dex:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Атаки на дальней дистанции не получают помеху. При попадании дальнобойной атакой оружием вы можете добавить бонус мастерства к урону.",
+        "descriptionEn": "Attacks at long range don't have Disadvantage. When you hit with a ranged weapon attack, you can add your Proficiency Bonus to the damage.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы игнорируете укрытие на половину и три четверти при дальнобойных атаках.",
+        "descriptionEn": "You ignore Half Cover and Three-Quarters Cover for ranged attacks.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "shield_master",
+    "nameRu": "Мастер щита",
+    "nameEn": "Shield Master",
+    "descriptionRu": "Вы используете щит как наступательное и оборонительное оружие.",
+    "descriptionEn": "You use your shield for offense and defense.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Shield proficiency",
+    "abilityScoreIncrease": ["str"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Бонусным действием после атаки вы можете толкнуть существо щитом (Athletics vs. Athletics/Acrobatics).",
+        "descriptionEn": "As a Bonus Action after an attack, you can shove a creature with your shield (Athletics vs. Athletics/Acrobatics).",
+        "type": "bonus_action"
+      },
+      {
+        "descriptionRu": "Если эффект требует спасбросок Ловкости для половины урона, вы можете реакцией использовать щит: при успехе — без урона.",
+        "descriptionEn": "When a Dex save would deal half damage, you can use a Reaction to take no damage on success.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "skill_expert",
+    "nameRu": "Эксперт навыков",
+    "nameEn": "Skill Expert",
+    "descriptionRu": "Вы развили исключительное мастерство в определённом навыке.",
+    "descriptionEn": "You have developed exceptional mastery in a specific skill.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con", "int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете владение одним навыком на выбор и Компетентность в одном навыке, которым уже владеете.",
+        "descriptionEn": "You gain proficiency in one skill and Expertise in one skill you are already proficient in.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "skulker",
+    "nameRu": "Ловкач",
+    "nameEn": "Skulker",
+    "descriptionRu": "Вы мастер скрытности и засад.",
+    "descriptionEn": "You are a master of stealth and ambush.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": "dex:13",
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы можете пытаться спрятаться, когда слегка скрыты. Промах дальнобойной атакой не выдаёт вашу позицию. Тусклый свет не мешает вашей Внимательности.",
+        "descriptionEn": "You can try to hide when lightly obscured. Missing a ranged attack doesn't reveal your position. Dim light doesn't impose Disadvantage on Perception.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "slasher",
+    "nameRu": "Режущий удар",
+    "nameEn": "Slasher",
+    "descriptionRu": "Вы наносите калечащие удары рубящим оружием.",
+    "descriptionEn": "You deal crippling wounds with slashing weapons.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Раз в ход при нанесении рубящего урона оружием вы снижаете скорость цели на 10 футов до начала вашего следующего хода.",
+        "descriptionEn": "Once per turn when you deal Slashing damage with a weapon, reduce the target's speed by 10 feet until your next turn.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "При критическом попадании рубящим оружием цель получает помеху на броски атаки до начала вашего следующего хода.",
+        "descriptionEn": "When you score a Critical Hit with Slashing damage, the target has Disadvantage on attack rolls until your next turn.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "speedy",
+    "nameRu": "Быстрый",
+    "nameEn": "Speedy",
+    "descriptionRu": "Вы необычайно быстры и проворны.",
+    "descriptionEn": "You are exceptionally fast and agile.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["dex", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Ваша скорость ходьбы увеличивается на 10 футов.",
+        "descriptionEn": "Your walking speed increases by 10 feet.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Провоцированные атаки по вам получают помеху. Вы не теряете скорость от сложной местности при использовании Рывка.",
+        "descriptionEn": "Opportunity Attacks against you have Disadvantage. Difficult terrain doesn't reduce your speed when you Dash.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "spell_sniper",
+    "nameRu": "Меткий заклинатель",
+    "nameEn": "Spell Sniper",
+    "descriptionRu": "Вы научились точно наводить атакующие заклинания.",
+    "descriptionEn": "You have learned to aim attack spells with precision.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Spellcasting or Pact Magic feature",
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Дистанция атакующих заклинаний удваивается. Атакующие заклинания игнорируют укрытие на половину и три четверти. Вы изучаете один атакующий заговор.",
+        "descriptionEn": "The range of your attack spells doubles. Your spell attacks ignore Half and Three-Quarters Cover. You learn one attack cantrip.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "telepathic",
+    "nameRu": "Телепатический",
+    "nameEn": "Telepathic",
+    "descriptionRu": "Вы можете мысленно общаться с другими существами.",
+    "descriptionEn": "You can communicate mentally with other creatures.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы можете телепатически говорить с существом в пределах 60 футов. Вы изучаете заклинание Обнаружение мыслей и можете использовать его раз в длинный отдых без ячейки.",
+        "descriptionEn": "You can telepathically speak to a creature within 60 feet. You learn Detect Thoughts and can cast it once per Long Rest without a spell slot.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "telekinetic",
+    "nameRu": "Телекинетический",
+    "nameEn": "Telekinetic",
+    "descriptionRu": "Вы можете перемещать предметы и существ силой мысли.",
+    "descriptionEn": "You can move objects and creatures with your mind.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы изучаете заговор Магическая рука (невидимая). Бонусным действием вы можете телекинетически толкнуть существо на 5 футов (Спасбросок Силы).",
+        "descriptionEn": "You learn Mage Hand (invisible). As a Bonus Action you can telekinetically shove a creature 5 feet (Strength save).",
+        "type": "bonus_action"
+      }
+    ]
+  },
+  {
+    "id": "war_caster",
+    "nameRu": "Боевой заклинатель",
+    "nameEn": "War Caster",
+    "descriptionRu": "Вы можете эффективно использовать магию в бою.",
+    "descriptionEn": "You can use magic effectively in combat.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Spellcasting or Pact Magic feature",
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете преимущество на спасброски Телосложения для сохранения концентрации.",
+        "descriptionEn": "You have Advantage on Constitution saves to maintain Concentration.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Вы можете выполнять соматические компоненты заклинаний, даже если обе руки заняты. Вы можете использовать заклинание вместо провоцированной атаки.",
+        "descriptionEn": "You can perform somatic components with hands full. You can cast a spell instead of making an Opportunity Attack.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "weapon_master",
+    "nameRu": "Мастер оружия",
+    "nameEn": "Weapon Master",
+    "descriptionRu": "Вы изучили владение разнообразным оружием.",
+    "descriptionEn": "You have practiced with a variety of weapons.",
+    "category": "general",
+    "prerequisiteLevel": "4",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете владение воинским оружием. Вы можете использовать свойство Мастерства этого оружия.",
+        "descriptionEn": "You gain proficiency with Martial weapons. You can use the Mastery property of those weapons.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_archery",
+    "nameRu": "Боевой стиль: Стрельба",
+    "nameEn": "Fighting Style: Archery",
+    "descriptionRu": "Вы получаете бонус к атакам дальнобойным оружием.",
+    "descriptionEn": "You gain a bonus to ranged weapon attacks.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "+2 к броскам атаки дальнобойным оружием.",
+        "descriptionEn": "+2 to attack rolls with ranged weapons.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_blind_fighting",
+    "nameRu": "Боевой стиль: Слепой бой",
+    "nameEn": "Fighting Style: Blind Fighting",
+    "descriptionRu": "Вы можете сражаться, не полагаясь на зрение.",
+    "descriptionEn": "You can fight without relying on sight.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете Слепое зрение на 10 футов.",
+        "descriptionEn": "You gain Blindsight with a range of 10 feet.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_defense",
+    "nameRu": "Боевой стиль: Оборона",
+    "nameEn": "Fighting Style: Defense",
+    "descriptionRu": "Вы эффективнее используете доспехи для защиты.",
+    "descriptionEn": "You use armor more effectively for protection.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "+1 к КД, когда вы носите доспехи.",
+        "descriptionEn": "+1 to AC while wearing armor.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_dueling",
+    "nameRu": "Боевой стиль: Дуэлянт",
+    "nameEn": "Fighting Style: Dueling",
+    "descriptionRu": "Вы наносите более мощные удары одноручным оружием.",
+    "descriptionEn": "You deal stronger blows with a one-handed weapon.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "+2 к урону оружием ближнего боя, когда вы держите его в одной руке и не используете другое оружие.",
+        "descriptionEn": "+2 to damage with a melee weapon held in one hand with no other weapon.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_great_weapon_fighting",
+    "nameRu": "Боевой стиль: Бой большим оружием",
+    "nameEn": "Fighting Style: Great Weapon Fighting",
+    "descriptionRu": "Вы наносите более стабильный урон двуручным оружием.",
+    "descriptionEn": "You deal more consistent damage with two-handed weapons.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При броске 1 или 2 на кости урона двуручным или универсальным оружием, вы можете перебросить эту кость.",
+        "descriptionEn": "When you roll a 1 or 2 on a damage die with a Two-Handed or Versatile weapon, you can reroll that die.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_interception",
+    "nameRu": "Боевой стиль: Перехват",
+    "nameEn": "Fighting Style: Interception",
+    "descriptionRu": "Вы можете защитить союзников от атак.",
+    "descriptionEn": "You can protect allies from attacks.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Реакцией при попадании по союзнику в пределах 5 футов вы снижаете урон на 1d10 + бонус мастерства (нужен щит или оружие).",
+        "descriptionEn": "As a Reaction when an ally within 5 feet is hit, reduce damage by 1d10 + Proficiency Bonus (requires shield or weapon).",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_protection",
+    "nameRu": "Боевой стиль: Защита",
+    "nameEn": "Fighting Style: Protection",
+    "descriptionRu": "Вы используете щит для защиты союзников.",
+    "descriptionEn": "You use your shield to protect allies.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class, Shield proficiency",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Реакцией при атаке по союзнику в пределах 5 футов вы можете наложить помеху на бросок атаки (нужен щит).",
+        "descriptionEn": "As a Reaction when an ally within 5 feet is attacked, you can impose Disadvantage on the attack roll (requires shield).",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_thrown_weapon",
+    "nameRu": "Боевой стиль: Бой метательным оружием",
+    "nameEn": "Fighting Style: Thrown Weapon Fighting",
+    "descriptionRu": "Вы мастерски метаете оружие.",
+    "descriptionEn": "You are a master at throwing weapons.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "+2 к урону при атаке метательным оружием. Вы можете доставать метательное оружие как часть атаки.",
+        "descriptionEn": "+2 to damage with thrown weapons. You can draw a thrown weapon as part of the attack.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_two_weapon",
+    "nameRu": "Боевой стиль: Бой двумя оружиями",
+    "nameEn": "Fighting Style: Two-Weapon Fighting",
+    "descriptionRu": "Вы добавляете модификатор характеристики к урону второго оружия.",
+    "descriptionEn": "You add your ability modifier to the damage of the second weapon.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При сражении двумя оружиями вы добавляете модификатор характеристики к урону бонусной атаки.",
+        "descriptionEn": "When engaging in Two-Weapon Fighting, you add your ability modifier to the damage of the Bonus Action attack.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "fighting_style_unarmed",
+    "nameRu": "Боевой стиль: Рукопашный бой",
+    "nameEn": "Fighting Style: Unarmed Fighting",
+    "descriptionRu": "Ваши безоружные удары наносят повышенный урон.",
+    "descriptionEn": "Your unarmed strikes deal increased damage.",
+    "category": "fighting_style",
+    "prerequisiteLevel": null,
+    "prerequisiteAbility": null,
+    "prerequisiteOther": "Warrior class",
+    "abilityScoreIncrease": null,
+    "abilityScoreAmount": null,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Безоружные удары наносят 1d6 Дробящего урона (1d8, если обе руки свободны). В начале хода вы наносите 1d4 урона существу в захвате.",
+        "descriptionEn": "Unarmed strikes deal 1d6 Bludgeoning (1d8 if both hands are free). At the start of your turn, deal 1d4 damage to a grappled creature.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_combat_prowess",
+    "nameRu": "Благо боевого мастерства",
+    "nameEn": "Boon of Combat Prowess",
+    "descriptionRu": "Ваше боевое мастерство достигло эпического уровня.",
+    "descriptionEn": "Your combat mastery has reached epic proportions.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "При промахе атакой оружием вы можете превратить промах в попадание. Бонус мастерства использований в длинный отдых.",
+        "descriptionEn": "When you miss with a weapon attack, you can turn the miss into a hit. Proficiency Bonus uses per Long Rest.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_dimensional_travel",
+    "nameRu": "Благо пространственного путешествия",
+    "nameEn": "Boon of Dimensional Travel",
+    "descriptionRu": "Вы можете мгновенно перемещаться на короткие расстояния.",
+    "descriptionEn": "You can teleport short distances instantly.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "В качестве бонусного действия вы можете телепортироваться на расстояние до 30 футов в видимое незанятое место. Бонус мастерства использований в длинный отдых.",
+        "descriptionEn": "As a Bonus Action, teleport up to 30 feet to an unoccupied space you can see. Proficiency Bonus uses per Long Rest.",
+        "type": "bonus_action"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_energy_resistance",
+    "nameRu": "Благо сопротивления стихиям",
+    "nameEn": "Boon of Energy Resistance",
+    "descriptionRu": "Вы получили сверхъестественную устойчивость к стихийному урону.",
+    "descriptionEn": "You have gained supernatural resistance to elemental damage.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете сопротивление двум типам урона на выбор: Кислота, Холод, Огонь, Молния, Некротический, Яд, Психический, Излучение или Гром.",
+        "descriptionEn": "You gain Resistance to two damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder.",
+        "type": "passive"
+      },
+      {
+        "descriptionRu": "Реакцией при получении урона типа, к которому у вас сопротивление, вы можете получить иммунитет к нему до начала следующего хода. Раз в длинный отдых.",
+        "descriptionEn": "As a Reaction when you take damage of a type you have Resistance to, gain Immunity to it until your next turn. Once per Long Rest.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_fate",
+    "nameRu": "Благо судьбы",
+    "nameEn": "Boon of Fate",
+    "descriptionRu": "Вы можете влиять на судьбу существ вокруг вас.",
+    "descriptionEn": "You can influence the fate of creatures around you.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Когда вы или существо в пределах 60 футов совершает бросок d20, вы можете реакцией добавить или вычесть 2d4 из результата. Бонус мастерства использований в длинный отдых.",
+        "descriptionEn": "When you or a creature within 60 feet makes a d20 roll, you can use a Reaction to add or subtract 2d4 from the result. Proficiency Bonus uses per Long Rest.",
+        "type": "reaction"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_fortitude",
+    "nameRu": "Благо стойкости",
+    "nameEn": "Boon of Fortitude",
+    "descriptionRu": "Ваша выносливость достигла сверхчеловеческого уровня.",
+    "descriptionEn": "Your endurance has reached superhuman levels.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Максимум хитов увеличивается на 40.",
+        "descriptionEn": "Your Hit Point maximum increases by 40.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_irresistible_offense",
+    "nameRu": "Благо неотразимой атаки",
+    "nameEn": "Boon of Irresistible Offense",
+    "descriptionRu": "Ваши атаки преодолевают любую защиту.",
+    "descriptionEn": "Your attacks overcome any defense.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Урон ваших атак оружием и безоружных ударов игнорирует сопротивление. При броске 20 на атаку оружием вы наносите дополнительный урон равный бонусу мастерства.",
+        "descriptionEn": "Your weapon and Unarmed Strike damage ignores Resistance. When you roll a 20 on a weapon attack, deal extra damage equal to your Proficiency Bonus.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_recovery",
+    "nameRu": "Благо восстановления",
+    "nameEn": "Boon of Recovery",
+    "descriptionRu": "Вы восстанавливаетесь от ран с невероятной скоростью.",
+    "descriptionEn": "You recover from injuries with incredible speed.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["con", "wis"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Бонусным действием вы можете восстановить хиты равные половине максимума хитов. Раз в длинный отдых. Кроме того, при провале спасброска от смерти вы можете превратить его в успех (раз в длинный отдых).",
+        "descriptionEn": "As a Bonus Action, regain HP equal to half your HP max. Once per Long Rest. Also, when you fail a death save, you can turn it into a success (once per Long Rest).",
+        "type": "bonus_action"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_skill",
+    "nameRu": "Благо мастерства",
+    "nameEn": "Boon of Skill",
+    "descriptionRu": "Ваши навыки достигли легендарного уровня.",
+    "descriptionEn": "Your skills have reached legendary levels.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["str", "dex", "con", "int", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете владение всеми навыками. Для навыков, которыми вы уже владели, вы получаете Компетентность.",
+        "descriptionEn": "You gain proficiency in all skills. For skills you were already proficient in, you gain Expertise.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_speed",
+    "nameRu": "Благо скорости",
+    "nameEn": "Boon of Speed",
+    "descriptionRu": "Вы двигаетесь со сверхъестественной скоростью.",
+    "descriptionEn": "You move with supernatural speed.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["dex", "con"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Скорость ходьбы увеличивается на 30 футов. Провоцированные атаки по вам получают помеху.",
+        "descriptionEn": "Walking speed increases by 30 feet. Opportunity Attacks against you have Disadvantage.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_the_night_spirit",
+    "nameRu": "Благо ночного духа",
+    "nameEn": "Boon of the Night Spirit",
+    "descriptionRu": "Вы можете сливаться с тенями и становиться невидимым.",
+    "descriptionEn": "You can merge with shadows and become invisible.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["dex", "wis", "cha"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "В тусклом свете или темноте вы можете действием стать Невидимым до конца хода или пока не атакуете/сотворите заклинание. Вы получаете Тёмное зрение 120 футов.",
+        "descriptionEn": "In dim light or darkness, you can take the Magic action to become Invisible until end of turn or until you attack/cast. You gain Darkvision 120 feet.",
+        "type": "action"
+      }
+    ]
+  },
+  {
+    "id": "boon_of_truesight",
+    "nameRu": "Благо истинного зрения",
+    "nameEn": "Boon of Truesight",
+    "descriptionRu": "Вы видите истинную природу всего вокруг.",
+    "descriptionEn": "You see the true nature of everything around you.",
+    "category": "epic_boon",
+    "prerequisiteLevel": "19",
+    "prerequisiteAbility": null,
+    "prerequisiteOther": null,
+    "abilityScoreIncrease": ["con", "int", "wis"],
+    "abilityScoreAmount": 1,
+    "repeatable": false,
+    "benefits": [
+      {
+        "descriptionRu": "Вы получаете Истинное зрение на 60 футов.",
+        "descriptionEn": "You gain Truesight with a range of 60 feet.",
+        "type": "passive"
+      }
+    ]
+  }
+]

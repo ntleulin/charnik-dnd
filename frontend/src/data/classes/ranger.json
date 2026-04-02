@@ -1,0 +1,820 @@
+{
+  "id": "ranger",
+  "nameRu": "Следопыт",
+  "nameEn": "Ranger",
+  "descriptionRu": "Воин дикой природы, сочетающий боевое мастерство, природную магию и непревзойдённые навыки выживания. Следопыты — стражи границ цивилизации.",
+  "descriptionEn": "A warrior of the wilderness who combines martial prowess, nature magic, and unparalleled survival skills. Rangers are guardians of civilization's borders.",
+  "hitDie": "d10",
+  "hitDieValue": 10,
+  "primaryAbilities": [
+    "dex",
+    "wis"
+  ],
+  "savingThrows": [
+    "str",
+    "dex"
+  ],
+  "armorProficiencies": [
+    "light",
+    "medium",
+    "shields"
+  ],
+  "weaponProficiencies": [
+    "simple",
+    "martial"
+  ],
+  "toolProficiencies": null,
+  "skillChoice": {
+    "count": 3,
+    "from": [
+      "animal_handling",
+      "athletics",
+      "insight",
+      "investigation",
+      "nature",
+      "perception",
+      "stealth",
+      "survival"
+    ]
+  },
+  "multiclassRequirement": {
+    "minimumScores": {
+      "dex": 13,
+      "wis": 13
+    },
+    "requireAll": true
+  },
+  "multiclassProficiencies": [
+    "light",
+    "medium",
+    "shields",
+    "simple",
+    "martial"
+  ],
+  "spellcastingAbility": "wis",
+  "spellcastingType": "half",
+  "subclassLevel": 3,
+  "levels": {
+    "1": {
+      "features": [
+        "favored_enemy",
+        "deft_explorer",
+        "weapon_mastery"
+      ],
+      "proficiencyBonus": 2
+    },
+    "2": {
+      "features": [
+        "fighting_style",
+        "spellcasting"
+      ],
+      "proficiencyBonus": 2
+    },
+    "3": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 2
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2
+    },
+    "5": {
+      "features": [
+        "extra_attack"
+      ],
+      "proficiencyBonus": 3
+    },
+    "6": {
+      "features": [
+        "roving"
+      ],
+      "proficiencyBonus": 3
+    },
+    "7": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3
+    },
+    "9": {
+      "features": [
+        "expertise"
+      ],
+      "proficiencyBonus": 4
+    },
+    "10": {
+      "features": [
+        "tireless"
+      ],
+      "proficiencyBonus": 4
+    },
+    "11": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 4
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4
+    },
+    "13": {
+      "features": [
+        "relentless_hunter"
+      ],
+      "proficiencyBonus": 5
+    },
+    "14": {
+      "features": [
+        "natures_veil"
+      ],
+      "proficiencyBonus": 5
+    },
+    "15": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5
+    },
+    "17": {
+      "features": [
+        "precise_hunter"
+      ],
+      "proficiencyBonus": 6
+    },
+    "18": {
+      "features": [
+        "feral_senses"
+      ],
+      "proficiencyBonus": 6
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6
+    },
+    "20": {
+      "features": [
+        "foe_slayer"
+      ],
+      "proficiencyBonus": 6
+    }
+  },
+  "subclasses": [
+    {
+      "id": "beast_master",
+      "nameRu": "Повелитель зверей",
+      "nameEn": "Beast Master",
+      "descriptionRu": "Повелитель зверей формирует мистическую связь с животным-компаньоном, сражаясь бок о бок с верным спутником.",
+      "descriptionEn": "A Beast Master forms a mystical bond with an animal companion, fighting side by side with a loyal partner.",
+      "features": {
+        "3": [
+          "primal_companion"
+        ],
+        "7": [
+          "exceptional_training"
+        ],
+        "11": [
+          "bestial_fury"
+        ],
+        "15": [
+          "share_spells"
+        ]
+      }
+    },
+    {
+      "id": "fey_wanderer",
+      "nameRu": "Фейский скиталец",
+      "nameEn": "Fey Wanderer",
+      "descriptionRu": "Фейский скиталец наделён магией Страны Фей, используя очарование и обманчивую красоту для защиты союзников и поражения врагов.",
+      "descriptionEn": "A Fey Wanderer is imbued with the magic of the Feywild, using charm and deceptive beauty to protect allies and defeat enemies.",
+      "features": {
+        "3": [
+          "dreadful_strikes",
+          "otherworldly_glamour",
+          "fey_wanderer_spells"
+        ],
+        "7": [
+          "beguiling_twist"
+        ],
+        "11": [
+          "fey_reinforcements"
+        ],
+        "15": [
+          "misty_wanderer"
+        ]
+      }
+    },
+    {
+      "id": "gloom_stalker",
+      "nameRu": "Сумрачный охотник",
+      "nameEn": "Gloom Stalker",
+      "descriptionRu": "Сумрачный охотник чувствует себя как дома в темноте, используя тьму как оружие против врагов.",
+      "descriptionEn": "A Gloom Stalker is at home in the darkness, using shadow as a weapon against enemies.",
+      "features": {
+        "3": [
+          "dread_ambusher",
+          "umbral_sight",
+          "gloom_stalker_spells"
+        ],
+        "7": [
+          "iron_mind"
+        ],
+        "11": [
+          "stalkers_flurry"
+        ],
+        "15": [
+          "shadowy_dodge"
+        ]
+      }
+    },
+    {
+      "id": "hunter",
+      "nameRu": "Охотник",
+      "nameEn": "Hunter",
+      "descriptionRu": "Охотник принимает на себя роль защитника природы и людей, специализируясь на борьбе с определёнными угрозами.",
+      "descriptionEn": "A Hunter takes on the role of protector of nature and people, specializing in combating specific threats.",
+      "features": {
+        "3": [
+          "hunters_prey",
+          "hunters_lore"
+        ],
+        "7": [
+          "defensive_tactics"
+        ],
+        "11": [
+          "superior_hunters_defense"
+        ],
+        "15": [
+          "multiattack"
+        ]
+      }
+    }
+  ],
+  "spellSlots": {
+    "1": {
+      "slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "2": {
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "3": {
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "4": {
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "5": {
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "6": {
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "7": {
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "8": {
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "9": {
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "10": {
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "11": {
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "12": {
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "13": {
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "14": {
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "15": {
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "16": {
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      "cantripsKnown": 0
+    },
+    "17": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ],
+      "cantripsKnown": 0
+    },
+    "18": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ],
+      "cantripsKnown": 0
+    },
+    "19": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "cantripsKnown": 0
+    },
+    "20": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "cantripsKnown": 0
+    }
+  },
+  "features": {
+    "favored_enemy": {
+      "id": "favored_enemy",
+      "nameRu": "Избранный враг",
+      "nameEn": "Favored Enemy",
+      "descriptionRu": "Вы всегда имеете подготовленное заклинание Охотничья метка, и оно не расходует ячейку заклинания количество раз, равное бонусу мастерства. Все использования восстанавливаются после длительного отдыха.",
+      "descriptionEn": "You always have Hunter's Mark prepared, and you can cast it without expending a spell slot a number of times equal to your proficiency bonus. All expended uses are regained after a Long Rest.",
+      "level": 1,
+      "actionType": "passive",
+      "usesPerRest": "proficiency_bonus",
+      "restType": "long"
+    },
+    "deft_explorer": {
+      "id": "deft_explorer",
+      "nameRu": "Ловкий исследователь",
+      "nameEn": "Deft Explorer",
+      "descriptionRu": "Вы получаете Компетентность в двух навыках по вашему выбору из списка навыков следопыта.",
+      "descriptionEn": "You gain Expertise in two skills of your choice from the Ranger skill list.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "weapon_mastery": {
+      "id": "weapon_mastery",
+      "nameRu": "Мастерство оружия",
+      "nameEn": "Weapon Mastery",
+      "descriptionRu": "Ваша подготовка с оружием позволяет вам использовать свойства мастерства оружия.",
+      "descriptionEn": "Your training with weapons allows you to use the mastery properties of weapons.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "fighting_style": {
+      "id": "fighting_style",
+      "nameRu": "Боевой стиль",
+      "nameEn": "Fighting Style",
+      "descriptionRu": "Вы принимаете определённый стиль боя. Выберите один из вариантов боевого стиля.",
+      "descriptionEn": "You adopt a particular style of fighting as your specialty. Choose one Fighting Style option.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "spellcasting": {
+      "id": "spellcasting",
+      "nameRu": "Использование заклинаний",
+      "nameEn": "Spellcasting",
+      "descriptionRu": "Вы научились использовать магическую сущность природы для сотворения заклинаний. Мудрость — ваша заклинательная характеристика. Вы подготавливаете заклинания из списка следопыта.",
+      "descriptionEn": "You have learned to use the magical essence of nature to cast spells. Wisdom is your spellcasting ability. You prepare spells from the Ranger spell list.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "subclass_feature": {
+      "id": "subclass_feature",
+      "nameRu": "Умение подкласса",
+      "nameEn": "Subclass Feature",
+      "descriptionRu": "Вы получаете умение от выбранного подкласса.",
+      "descriptionEn": "You gain a feature from your chosen subclass.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Характеристика не может превышать 20. Вместо этого вы можете взять черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. An ability score can't exceed 20. Alternatively, you can take a feat.",
+      "level": 4,
+      "actionType": "passive"
+    },
+    "extra_attack": {
+      "id": "extra_attack",
+      "nameRu": "Дополнительная атака",
+      "nameEn": "Extra Attack",
+      "descriptionRu": "Вы можете атаковать дважды, а не один раз, когда совершаете действие Атаки в свой ход.",
+      "descriptionEn": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+      "level": 5,
+      "actionType": "passive"
+    },
+    "roving": {
+      "id": "roving",
+      "nameRu": "Скитание",
+      "nameEn": "Roving",
+      "descriptionRu": "Ваша скорость ходьбы увеличивается на 10 футов. Вы также получаете скорость лазания и скорость плавания, равные вашей скорости ходьбы.",
+      "descriptionEn": "Your walking speed increases by 10 feet. You also gain a climbing speed and a swimming speed equal to your walking speed.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "expertise": {
+      "id": "expertise",
+      "nameRu": "Компетентность",
+      "nameEn": "Expertise",
+      "descriptionRu": "Выберите два навыка, которыми вы владеете. Ваш бонус мастерства удваивается для проверок этих навыков.",
+      "descriptionEn": "Choose two skills in which you have proficiency. Your proficiency bonus is doubled for ability checks using those skills.",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "tireless": {
+      "id": "tireless",
+      "nameRu": "Неутомимый",
+      "nameEn": "Tireless",
+      "descriptionRu": "Действием вы можете дать себе временные хиты, равные 1d8 + модификатор Мудрости. Количество использований равно бонусу мастерства, восстанавливается после длительного отдыха. При завершении короткого отдыха ваш уровень истощения уменьшается на 1.",
+      "descriptionEn": "As an Action, you can give yourself temporary HP equal to 1d8 + your Wisdom modifier. Uses equal your proficiency bonus, regained after a Long Rest. When you finish a Short Rest, your exhaustion level decreases by 1.",
+      "level": 10,
+      "actionType": "action",
+      "usesPerRest": "proficiency_bonus",
+      "restType": "long"
+    },
+    "relentless_hunter": {
+      "id": "relentless_hunter",
+      "nameRu": "Неумолимый охотник",
+      "nameEn": "Relentless Hunter",
+      "descriptionRu": "Ваша Охотничья метка теперь наносит дополнительно 1d10 вместо 1d6.",
+      "descriptionEn": "Your Hunter's Mark now deals an extra 1d10 instead of 1d6.",
+      "level": 13,
+      "actionType": "passive"
+    },
+    "natures_veil": {
+      "id": "natures_veil",
+      "nameRu": "Покров природы",
+      "nameEn": "Nature's Veil",
+      "descriptionRu": "Бонусным действием вы можете стать невидимым до начала вашего следующего хода. Количество использований равно бонусу мастерства, восстанавливается после длительного отдыха.",
+      "descriptionEn": "As a Bonus Action, you can become Invisible until the start of your next turn. Uses equal your proficiency bonus, regained after a Long Rest.",
+      "level": 14,
+      "actionType": "bonus_action",
+      "usesPerRest": "proficiency_bonus",
+      "restType": "long"
+    },
+    "precise_hunter": {
+      "id": "precise_hunter",
+      "nameRu": "Точный охотник",
+      "nameEn": "Precise Hunter",
+      "descriptionRu": "Вы получаете преимущество к броскам атаки по существу, отмеченному вашей Охотничьей меткой.",
+      "descriptionEn": "You have Advantage on attack rolls against the creature marked by your Hunter's Mark.",
+      "level": 17,
+      "actionType": "passive"
+    },
+    "feral_senses": {
+      "id": "feral_senses",
+      "nameRu": "Дикие чувства",
+      "nameEn": "Feral Senses",
+      "descriptionRu": "Вы получаете слепое зрение в радиусе 30 футов.",
+      "descriptionEn": "You gain Blindsight with a range of 30 feet.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "foe_slayer": {
+      "id": "foe_slayer",
+      "nameRu": "Убийца врагов",
+      "nameEn": "Foe Slayer",
+      "descriptionRu": "Ваша Охотничья метка наносит дополнительный урон, равный модификатору Мудрости, каждый раз когда вы попадаете по отмеченному существу. Она также не требует концентрации.",
+      "descriptionEn": "Your Hunter's Mark deals extra damage equal to your Wisdom modifier each time you hit the marked creature. It also no longer requires Concentration.",
+      "level": 20,
+      "actionType": "passive"
+    },
+    "hunters_prey": {
+      "id": "hunters_prey",
+      "nameRu": "Добыча охотника",
+      "nameEn": "Hunter's Prey",
+      "descriptionRu": "Выберите: Убийца колоссов (доп. 1d8 урона по существу с неполными хитами), Убийца великанов (реакция на атаку Большого+ существа), Убийца орд (при промахе — атака по другому существу рядом).",
+      "descriptionEn": "Choose one: Colossus Slayer (extra 1d8 damage to creature not at full HP), Giant Killer (Reaction to attack Large+ creature that hits you), Horde Breaker (on miss, attack another nearby creature).",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "hunters_lore": {
+      "id": "hunters_lore",
+      "nameRu": "Знания охотника",
+      "nameEn": "Hunter's Lore",
+      "descriptionRu": "Действием вы магически узнаёте иммунитеты, сопротивления и уязвимости к урону существа.",
+      "descriptionEn": "As an Action, you magically learn a creature's damage immunities, resistances, and vulnerabilities.",
+      "level": 3,
+      "actionType": "action"
+    },
+    "defensive_tactics": {
+      "id": "defensive_tactics",
+      "nameRu": "Оборонительная тактика",
+      "nameEn": "Defensive Tactics",
+      "descriptionRu": "Выберите: Побег от орды (атаки по возможности с помехой), Мультиатака (+4 КД после промаха), Стальная воля (преимущество против испуга).",
+      "descriptionEn": "Choose one: Escape the Horde (opportunity attacks have Disadvantage), Multiattack Defense (+4 AC after miss), Steel Will (Advantage on saves vs Frightened).",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "superior_hunters_defense": {
+      "id": "superior_hunters_defense",
+      "nameRu": "Превосходная защита охотника",
+      "nameEn": "Superior Hunter's Defense",
+      "descriptionRu": "Выберите: Уклонение (Ловкость спасбросок: успех — 0 урона, провал — половина), Отбиться от орды (реакция, атака по всем в 5 футах), Невероятное уклонение (реакция, урон вдвое).",
+      "descriptionEn": "Choose one: Evasion (Dex save: success = no damage, failure = half), Stand Against the Tide (Reaction, attack all within 5 ft), Uncanny Dodge (Reaction to halve damage).",
+      "level": 11,
+      "actionType": "passive"
+    },
+    "multiattack": {
+      "id": "multiattack",
+      "nameRu": "Мультиатака",
+      "nameEn": "Multiattack",
+      "descriptionRu": "Выберите: Залп (дальнобойная атака по всем в 10 футах от точки) или Вихрь ударов (рукопашная атака по всем в 5 футах).",
+      "descriptionEn": "Choose one: Volley (ranged attack against all within 10 ft of a point) or Whirlwind Attack (melee attack against all within 5 ft).",
+      "level": 15,
+      "actionType": "action"
+    },
+    "primal_companion": {
+      "id": "primal_companion",
+      "nameRu": "Первобытный компаньон",
+      "nameEn": "Primal Companion",
+      "descriptionRu": "Вы магически призываете первобытного зверя-компаньона. Выберите тип: Зверь земли, моря или неба. Зверь действует в вашу Инициативу и атакует по вашей команде бонусным действием.",
+      "descriptionEn": "You magically summon a primal beast companion. Choose: Beast of the Land, Sea, or Sky. The beast acts on your Initiative and attacks when you command it as a Bonus Action.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "exceptional_training": {
+      "id": "exceptional_training",
+      "nameRu": "Исключительная подготовка",
+      "nameEn": "Exceptional Training",
+      "descriptionRu": "Зверь-компаньон может совершать Рывок, Отход или Помощь бонусным действием. Его атаки считаются магическими.",
+      "descriptionEn": "Your companion can Dash, Disengage, or Help as a Bonus Action. Its attacks count as magical.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "bestial_fury": {
+      "id": "bestial_fury",
+      "nameRu": "Звериная ярость",
+      "nameEn": "Bestial Fury",
+      "descriptionRu": "Зверь-компаньон совершает две атаки по команде. Когда вы сотворяете заклинание с временем 1 действие, зверь атакует бонусным действием.",
+      "descriptionEn": "Your companion makes two attacks when commanded. When you cast a spell with a casting time of 1 action, the beast can attack as a Bonus Action.",
+      "level": 11,
+      "actionType": "passive"
+    },
+    "share_spells": {
+      "id": "share_spells",
+      "nameRu": "Разделение заклинаний",
+      "nameEn": "Share Spells",
+      "descriptionRu": "Когда вы сотворяете заклинание на себя, оно также действует на зверя-компаньона в пределах 30 футов.",
+      "descriptionEn": "When you cast a spell targeting yourself, it also affects your beast companion if it is within 30 feet of you.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "dread_ambusher": {
+      "id": "dread_ambusher",
+      "nameRu": "Ужасный засадник",
+      "nameEn": "Dread Ambusher",
+      "descriptionRu": "В первый раунд боя скорость +10 футов. При действии Атаки — одна дополнительная атака с +1d8 урона при попадании.",
+      "descriptionEn": "In the first round of combat, your speed increases by 10 feet. If you take the Attack action, you can make one additional attack that deals an extra 1d8 damage on a hit.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "umbral_sight": {
+      "id": "umbral_sight",
+      "nameRu": "Теневое зрение",
+      "nameEn": "Umbral Sight",
+      "descriptionRu": "Вы получаете тёмное зрение на 60 футов (или +60 если уже есть). Вы невидимы для существ, использующих тёмное зрение в темноте.",
+      "descriptionEn": "You gain darkvision out to 60 feet (or +60 ft if you already have it). You are invisible to creatures that rely on darkvision to see you in darkness.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "gloom_stalker_spells": {
+      "id": "gloom_stalker_spells",
+      "nameRu": "Заклинания Сумрачного охотника",
+      "nameEn": "Gloom Stalker Spells",
+      "descriptionRu": "Дополнительные заклинания: 3-й — Маскировка; 5-й — Верёвочный трюк; 9-й — Притворная смерть; 13-й — Высшая невидимость; 17-й — Видение.",
+      "descriptionEn": "Bonus spells: 3rd — Disguise Self; 5th — Rope Trick; 9th — Feign Death; 13th — Greater Invisibility; 17th — Seeming.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "iron_mind": {
+      "id": "iron_mind",
+      "nameRu": "Железный разум",
+      "nameEn": "Iron Mind",
+      "descriptionRu": "Вы получаете владение спасбросками Мудрости. Если уже владеете — Интеллект или Харизма на выбор.",
+      "descriptionEn": "You gain proficiency in Wisdom saving throws. If you already have it, gain proficiency in Intelligence or Charisma (your choice).",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "stalkers_flurry": {
+      "id": "stalkers_flurry",
+      "nameRu": "Шквал охотника",
+      "nameEn": "Stalker's Flurry",
+      "descriptionRu": "Один раз в ход, при промахе атакой оружием — дополнительная атака по тому же существу.",
+      "descriptionEn": "Once per turn, when you miss with a weapon attack, you can make another weapon attack against that creature.",
+      "level": 11,
+      "actionType": "passive"
+    },
+    "shadowy_dodge": {
+      "id": "shadowy_dodge",
+      "nameRu": "Теневое уклонение",
+      "nameEn": "Shadowy Dodge",
+      "descriptionRu": "Реакцией вы накладываете помеху на бросок атаки по вам (если нет преимущества). При промахе — телепортация до 30 футов.",
+      "descriptionEn": "As a Reaction, impose Disadvantage on an attack roll against you (if no Advantage). If the attack misses, teleport up to 30 feet.",
+      "level": 15,
+      "actionType": "reaction"
+    },
+    "dreadful_strikes": {
+      "id": "dreadful_strikes",
+      "nameRu": "Ужасающие удары",
+      "nameEn": "Dreadful Strikes",
+      "descriptionRu": "При попадании атакой оружием — дополнительный 1d4 психического урона (1d6 на 11-м уровне).",
+      "descriptionEn": "When you hit with a weapon attack, deal an extra 1d4 Psychic damage (1d6 at 11th level).",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "otherworldly_glamour": {
+      "id": "otherworldly_glamour",
+      "nameRu": "Потусторонний шарм",
+      "nameEn": "Otherworldly Glamour",
+      "descriptionRu": "Вы добавляете модификатор Мудрости к проверкам Харизмы и получаете владение одним навыком: Обман, Выступление или Убеждение.",
+      "descriptionEn": "You add your Wisdom modifier to Charisma checks and gain proficiency in one skill: Deception, Performance, or Persuasion.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "fey_wanderer_spells": {
+      "id": "fey_wanderer_spells",
+      "nameRu": "Заклинания Фейского скитальца",
+      "nameEn": "Fey Wanderer Spells",
+      "descriptionRu": "Дополнительные заклинания: 3-й — Очарование личности; 5-й — Туманный шаг; 9-й — Рассеивание магии; 13-й — Мерное око; 17-й — Ошибочное перемещение.",
+      "descriptionEn": "Bonus spells: 3rd — Charm Person; 5th — Misty Step; 9th — Dispel Magic; 13th — Dimension Door; 17th — Mislead.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "beguiling_twist": {
+      "id": "beguiling_twist",
+      "nameRu": "Чарующий поворот",
+      "nameEn": "Beguiling Twist",
+      "descriptionRu": "Преимущество на спасброски от очарования и испуга. Реакцией при успешном спасброске союзника — заставить другое существо совершить спасбросок Мудрости или стать очарованным/испуганным.",
+      "descriptionEn": "Advantage on saves against being charmed or frightened. As a Reaction when an ally succeeds on such a save, force another creature to make a Wisdom save or become charmed/frightened.",
+      "level": 7,
+      "actionType": "reaction"
+    },
+    "fey_reinforcements": {
+      "id": "fey_reinforcements",
+      "nameRu": "Фейское подкрепление",
+      "nameEn": "Fey Reinforcements",
+      "descriptionRu": "Вы можете сотворить Призыв фей без ячейки заклинания. Один раз за длительный отдых. Также можете использовать ячейку 4-го+ уровня.",
+      "descriptionEn": "You can cast Summon Fey without a spell slot once per Long Rest. You can also cast it using a 4th-level or higher slot.",
+      "level": 11,
+      "actionType": "action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "misty_wanderer": {
+      "id": "misty_wanderer",
+      "nameRu": "Туманный скиталец",
+      "nameEn": "Misty Wanderer",
+      "descriptionRu": "Вы сотворяете Туманный шаг без ячейки количество раз, равное бонусу мастерства. При сотворении можете взять одно согласное существо в пределах 5 футов.",
+      "descriptionEn": "You cast Misty Step without a spell slot a number of times equal to your proficiency bonus. When you cast it, you can bring one willing creature within 5 feet.",
+      "level": 15,
+      "actionType": "bonus_action",
+      "usesPerRest": "proficiency_bonus",
+      "restType": "long"
+    }
+  }
+}

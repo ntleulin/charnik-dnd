@@ -1,0 +1,647 @@
+{
+  "id": "warlock",
+  "nameRu": "Колдун",
+  "nameEn": "Warlock",
+  "descriptionRu": "Колдун — заклинатель, получивший магическую силу через договор с могущественным потусторонним существом. Колдуны ищут знания, скрытые в ткани мультивселенной, заключая сделки с таинственными покровителями.",
+  "descriptionEn": "A Warlock is a spellcaster who has gained magical power through a pact with a powerful otherworldly being. Warlocks seek knowledge hidden in the fabric of the multiverse, forging pacts with mysterious patrons.",
+  "hitDie": "d8",
+  "hitDieValue": 8,
+  "primaryAbilities": [
+    "cha"
+  ],
+  "savingThrows": [
+    "wis",
+    "cha"
+  ],
+  "armorProficiencies": [
+    "light"
+  ],
+  "weaponProficiencies": [
+    "simple"
+  ],
+  "toolProficiencies": [],
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "arcana",
+      "deception",
+      "history",
+      "intimidation",
+      "investigation",
+      "nature",
+      "religion"
+    ]
+  },
+  "startingEquipment": [],
+  "multiclassRequirements": {
+    "cha": 13
+  },
+  "spellcastingAbility": "cha",
+  "spellcastingType": "pact",
+  "preparedCaster": false,
+  "ritualCasting": false,
+  "subclassLevel": 1,
+  "subclassNameRu": "Потусторонний Покровитель",
+  "subclassNameEn": "Otherworldly Patron",
+  "levels": {
+    "1": {
+      "features": [
+        "pact_magic",
+        "eldritch_invocations",
+        "subclass"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 2,
+      "spellsKnown": 2,
+      "pactSlots": 1,
+      "pactSlotLevel": 1,
+      "invocationsKnown": 1
+    },
+    "2": {
+      "features": [],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 2,
+      "spellsKnown": 3,
+      "pactSlots": 2,
+      "pactSlotLevel": 1,
+      "invocationsKnown": 3
+    },
+    "3": {
+      "features": [
+        "pact_boon"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 2,
+      "spellsKnown": 4,
+      "pactSlots": 2,
+      "pactSlotLevel": 2,
+      "invocationsKnown": 3
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 3,
+      "spellsKnown": 5,
+      "pactSlots": 2,
+      "pactSlotLevel": 2,
+      "invocationsKnown": 3
+    },
+    "5": {
+      "features": [],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3,
+      "spellsKnown": 6,
+      "pactSlots": 2,
+      "pactSlotLevel": 3,
+      "invocationsKnown": 5
+    },
+    "6": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3,
+      "spellsKnown": 7,
+      "pactSlots": 2,
+      "pactSlotLevel": 3,
+      "invocationsKnown": 5
+    },
+    "7": {
+      "features": [],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3,
+      "spellsKnown": 8,
+      "pactSlots": 2,
+      "pactSlotLevel": 4,
+      "invocationsKnown": 6
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3,
+      "spellsKnown": 9,
+      "pactSlots": 2,
+      "pactSlotLevel": 4,
+      "invocationsKnown": 6
+    },
+    "9": {
+      "features": [
+        "contact_patron"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 3,
+      "spellsKnown": 10,
+      "pactSlots": 2,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 7
+    },
+    "10": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 4,
+      "spellsKnown": 10,
+      "pactSlots": 2,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 7
+    },
+    "11": {
+      "features": [
+        "mystic_arcanum_6"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 4,
+      "spellsKnown": 11,
+      "pactSlots": 3,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 7
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 4,
+      "spellsKnown": 11,
+      "pactSlots": 3,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 8
+    },
+    "13": {
+      "features": [
+        "mystic_arcanum_7"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4,
+      "spellsKnown": 12,
+      "pactSlots": 3,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 8
+    },
+    "14": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4,
+      "spellsKnown": 12,
+      "pactSlots": 3,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 8
+    },
+    "15": {
+      "features": [
+        "mystic_arcanum_8"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4,
+      "spellsKnown": 13,
+      "pactSlots": 3,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 9
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4,
+      "spellsKnown": 13,
+      "pactSlots": 3,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 9
+    },
+    "17": {
+      "features": [
+        "mystic_arcanum_9"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4,
+      "spellsKnown": 14,
+      "pactSlots": 4,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 9
+    },
+    "18": {
+      "features": [],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4,
+      "spellsKnown": 14,
+      "pactSlots": 4,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 10
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4,
+      "spellsKnown": 15,
+      "pactSlots": 4,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 10
+    },
+    "20": {
+      "features": [
+        "eldritch_master"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4,
+      "spellsKnown": 15,
+      "pactSlots": 4,
+      "pactSlotLevel": 5,
+      "invocationsKnown": 10
+    }
+  },
+  "subclasses": [
+    {
+      "id": "archfey",
+      "nameRu": "Архифея",
+      "nameEn": "Archfey Patron",
+      "descriptionRu": "Ваш покровитель — владыка или владычица фей, существо легенд, хранящее секреты, забытые ещё до рождения смертных рас. Мотивы этих существ часто непостижимы и порой причудливы.",
+      "descriptionEn": "Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable and sometimes whimsical.",
+      "features": {
+        "1": [
+          {
+            "id": "fey_presence",
+            "nameRu": "Присутствие Фей",
+            "nameEn": "Fey Presence",
+            "descriptionRu": "Начиная с 1-го уровня, ваш покровитель наделяет вас способностью проецировать притягательное и устрашающее присутствие фей. Действием вы можете заставить каждое существо в кубе с ребром 10 футов, исходящем от вас, совершить спасбросок Мудрости. При провале существо становится очарованным или испуганным (на ваш выбор) до конца вашего следующего хода. Вы восстанавливаете эту способность после короткого или продолжительного отдыха.",
+            "descriptionEn": "Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an Action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw. On a failure, a creature is Charmed or Frightened by you (your choice) until the end of your next turn. You regain this ability after a Short or Long Rest."
+          }
+        ],
+        "6": [
+          {
+            "id": "misty_escape",
+            "nameRu": "Туманный Побег",
+            "nameEn": "Misty Escape",
+            "descriptionRu": "Начиная с 6-го уровня, вы можете исчезнуть в клубах тумана, когда вам наносят урон. Когда вы получаете урон, вы можете реакцией стать невидимым и телепортироваться на расстояние до 60 футов в незанятое пространство, которое видите. Вы остаётесь невидимым до начала вашего следующего хода или пока не атакуете или не наложите заклинание. Вы восстанавливаете эту способность после короткого или продолжительного отдыха.",
+            "descriptionEn": "Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your Reaction to turn Invisible and teleport up to 60 feet to an unoccupied space you can see. You remain Invisible until the start of your next turn or until you attack or cast a spell. You regain this ability after a Short or Long Rest."
+          }
+        ],
+        "10": [
+          {
+            "id": "beguiling_defenses",
+            "nameRu": "Чарующая Защита",
+            "nameEn": "Beguiling Defenses",
+            "descriptionRu": "Начиная с 10-го уровня, ваш покровитель учит вас обращать магию, влияющую на разум, против её пользователей. Вы получаете иммунитет к очарованию. Кроме того, когда другое существо пытается очаровать вас, вы можете реакцией попытаться обратить очарование на это существо. Существо должно преуспеть в спасброске Мудрости, иначе становится очарованным вами на 1 минуту.",
+            "descriptionEn": "Starting at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being Charmed. Additionally, when another creature attempts to charm you, you can use your Reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw or be Charmed by you for 1 minute."
+          }
+        ],
+        "14": [
+          {
+            "id": "dark_delirium",
+            "nameRu": "Тёмный Бред",
+            "nameEn": "Dark Delirium",
+            "descriptionRu": "Начиная с 14-го уровня, вы можете действием погрузить существо в иллюзорное царство. Выберите существо, которое вы видите в пределах 60 футов. Оно должно совершить спасбросок Мудрости. При провале оно становится очарованным или испуганным (на ваш выбор) на 1 минуту. Этот эффект прекращается досрочно, если существо получает урон. Вы восстанавливаете эту способность после короткого или продолжительного отдыха.",
+            "descriptionEn": "Starting at 14th level, you can plunge a creature into an illusory realm as an Action. Choose a creature that you can see within 60 feet. It must make a Wisdom saving throw. On a failure, it becomes Charmed or Frightened by you (your choice) for 1 minute. This effect ends early if the creature takes damage. You regain this ability after a Short or Long Rest."
+          }
+        ]
+      }
+    },
+    {
+      "id": "celestial",
+      "nameRu": "Небожитель",
+      "nameEn": "Celestial Patron",
+      "descriptionRu": "Ваш покровитель — могущественное существо Верхних Планов. Вы заключили договор с существом из сфер вечного блаженства. Ваша связь с таким существом позволяет вам ощутить прикосновение святой силы.",
+      "descriptionEn": "Your patron is a powerful being of the Upper Planes. You have bound yourself to a being from the realms of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light.",
+      "features": {
+        "1": [
+          {
+            "id": "healing_light",
+            "nameRu": "Исцеляющий Свет",
+            "nameEn": "Healing Light",
+            "descriptionRu": "На 1-м уровне вы получаете способность направлять небесную энергию для исцеления ран. У вас есть пул костей d6, которые вы тратите для исцеления. Количество костей в пуле равно 1 + ваш уровень колдуна. Бонусным действием вы можете исцелить одно существо, которое видите в пределах 60 футов, потратив кости из этого пула. Максимальное количество костей за один раз равно вашему модификатору Харизмы (минимум 1). Пул восстанавливается после продолжительного отдыха.",
+            "descriptionEn": "At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your Warlock level. As a Bonus Action, you can heal one creature you can see within 60 feet by spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum 1). You regain all spent dice after a Long Rest."
+          },
+          {
+            "id": "celestial_expanded_spells",
+            "nameRu": "Расширенный Список Заклинаний",
+            "nameEn": "Expanded Spell List",
+            "descriptionRu": "Небожитель позволяет вам выбирать из расширенного списка заклинаний при изучении заклинания колдуна. В этот список входят заклинания лечения и огня, отражающие связь с небесным покровителем.",
+            "descriptionEn": "The Celestial lets you choose from an expanded list of spells when you learn a Warlock spell. Healing and fire spells are added to your list, reflecting the connection to your celestial patron."
+          }
+        ],
+        "6": [
+          {
+            "id": "radiant_soul",
+            "nameRu": "Лучезарная Душа",
+            "nameEn": "Radiant Soul",
+            "descriptionRu": "Начиная с 6-го уровня, ваша связь с Небожителем позволяет вам служить проводником лучистой энергии. Вы получаете сопротивление к урону излучением. Когда вы накладываете заклинание, наносящее урон излучением или огнём, вы можете добавить свой модификатор Харизмы к одному броску урона этого заклинания.",
+            "descriptionEn": "Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You gain Resistance to Radiant damage. When you cast a spell that deals Radiant or Fire damage, you can add your Charisma modifier to one damage roll of that spell."
+          }
+        ],
+        "10": [
+          {
+            "id": "celestial_resilience",
+            "nameRu": "Небесная Стойкость",
+            "nameEn": "Celestial Resilience",
+            "descriptionRu": "Начиная с 10-го уровня, вы получаете временные хиты, когда завершаете короткий или продолжительный отдых. Эти временные хиты равны вашему уровню колдуна + вашему модификатору Харизмы. Кроме того, выберите до пяти существ, которых видите в конце отдыха. Каждое из них получает временные хиты, равные половине вашего уровня колдуна + вашему модификатору Харизмы.",
+            "descriptionEn": "Starting at 10th level, you gain Temporary Hit Points whenever you finish a Short or Long Rest. These equal your Warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. They each gain Temporary Hit Points equal to half your Warlock level + your Charisma modifier."
+          }
+        ],
+        "14": [
+          {
+            "id": "searing_vengeance",
+            "nameRu": "Испепеляющая Месть",
+            "nameEn": "Searing Vengeance",
+            "descriptionRu": "Начиная с 14-го уровня, лучистая энергия, которой вы управляете, сжигает тех, кто осмеливается сразить вас. Когда вы совершаете спасбросок от смерти в начале вашего хода, вы можете вместо этого вскочить на ноги со вспышкой лучистой энергии. Вы восстанавливаете хиты, равные половине вашего максимума хитов, и каждое существо по вашему выбору в пределах 30 футов получает 2d8 + модификатор Харизмы урона излучением и ослепляется до конца текущего хода. Вы восстанавливаете эту способность после продолжительного отдыха.",
+            "descriptionEn": "Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and each creature of your choice within 30 feet takes 2d8 + Charisma modifier Radiant damage and is Blinded until the end of the current turn. You regain this ability after a Long Rest."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fiend",
+      "nameRu": "Исчадие",
+      "nameEn": "Fiend Patron",
+      "descriptionRu": "Вы заключили договор с исчадием из Нижних Планов бытия — существом, чьи цели — зло, даже если вы стараетесь противостоять этим целям. Такие существа жаждут разложения или уничтожения всего живого.",
+      "descriptionEn": "You have made a pact with a fiend from the Lower Planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things.",
+      "features": {
+        "1": [
+          {
+            "id": "dark_ones_blessing",
+            "nameRu": "Благословение Тёмных Сил",
+            "nameEn": "Dark One's Blessing",
+            "descriptionRu": "Начиная с 1-го уровня, когда вы снижаете хиты враждебного существа до 0, вы получаете временные хиты, равные вашему модификатору Харизмы + ваш уровень колдуна (минимум 1).",
+            "descriptionEn": "Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain Temporary Hit Points equal to your Charisma modifier + your Warlock level (minimum of 1)."
+          }
+        ],
+        "6": [
+          {
+            "id": "dark_ones_own_luck",
+            "nameRu": "Удача Тёмных Сил",
+            "nameEn": "Dark One's Own Luck",
+            "descriptionRu": "Начиная с 6-го уровня, вы можете обратиться к своему покровителю, чтобы изменить судьбу в свою пользу. Когда вы совершаете проверку характеристики или спасбросок, вы можете добавить d10 к своему броску. Вы можете сделать это после броска, но до того, как станут известны последствия. Вы восстанавливаете эту способность после короткого или продолжительного отдыха.",
+            "descriptionEn": "Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can add a d10 to your roll. You can do so after seeing the initial roll but before any effects occur. You regain this ability after a Short or Long Rest."
+          }
+        ],
+        "10": [
+          {
+            "id": "fiendish_resilience",
+            "nameRu": "Дьявольская Стойкость",
+            "nameEn": "Fiendish Resilience",
+            "descriptionRu": "Начиная с 10-го уровня, вы можете выбрать один тип урона, когда завершаете короткий или продолжительный отдых. Вы получаете сопротивление к этому типу урона до тех пор, пока не выберете другой тип на следующем отдыхе. Урон от магического или серебряного оружия игнорирует это сопротивление.",
+            "descriptionEn": "Starting at 10th level, you can choose one damage type when you finish a Short or Long Rest. You gain Resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this Resistance."
+          }
+        ],
+        "14": [
+          {
+            "id": "hurl_through_hell",
+            "nameRu": "Низвержение в Ад",
+            "nameEn": "Hurl Through Hell",
+            "descriptionRu": "Начиная с 14-го уровня, когда вы попадаете по существу атакой, вы можете использовать эту способность, чтобы мгновенно перенести цель через Нижние Планы. Существо исчезает и проносится через кошмарный ландшафт. В конце вашего следующего хода цель возвращается в пространство, которое ранее занимала, или ближайшее незанятое пространство. Если цель не является исчадием, она получает 10d10 урона психической энергией. Вы восстанавливаете эту способность после продолжительного отдыха.",
+            "descriptionEn": "Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the Lower Planes. The creature disappears and hurtles through a nightmare landscape. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a Fiend, it takes 10d10 Psychic damage. You regain this ability after a Long Rest."
+          }
+        ]
+      }
+    },
+    {
+      "id": "great_old_one",
+      "nameRu": "Великий Древний",
+      "nameEn": "Great Old One Patron",
+      "descriptionRu": "Ваш покровитель — таинственная сущность, чья природа совершенно чужда ткани реальности. Оно может происходить из Дальнего Предела — пространства за пределами реальности — или быть одним из древних богов, известных лишь по легендам.",
+      "descriptionEn": "Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends.",
+      "features": {
+        "1": [
+          {
+            "id": "awakened_mind",
+            "nameRu": "Пробуждённый Разум",
+            "nameEn": "Awakened Mind",
+            "descriptionRu": "Начиная с 1-го уровня, ваше чуждое знание даёт вам возможность касаться разумов других существ. Вы можете телепатически общаться с любым существом, которое видите в пределах 30 футов. Вам не нужно говорить на одном языке с существом, чтобы оно поняло ваши телепатические послания, но существо должно понимать хотя бы один язык.",
+            "descriptionEn": "Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can telepathically speak to any creature you can see within 30 feet. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language."
+          }
+        ],
+        "6": [
+          {
+            "id": "entropic_ward",
+            "nameRu": "Энтропийный Оберег",
+            "nameEn": "Entropic Ward",
+            "descriptionRu": "Начиная с 6-го уровня, вы учитесь магически защищаться от атак и обращать неудачу врага в свою удачу. Когда существо совершает по вам бросок атаки, вы можете реакцией наложить помеху на этот бросок. Если атака промахивается, ваш следующий бросок атаки по этому существу имеет преимущество, если вы совершите его до конца вашего следующего хода. Вы восстанавливаете эту способность после короткого или продолжительного отдыха.",
+            "descriptionEn": "Starting at 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your Reaction to impose Disadvantage on that roll. If the attack misses, your next attack roll against the creature has Advantage if you make it before the end of your next turn. You regain this ability after a Short or Long Rest."
+          }
+        ],
+        "10": [
+          {
+            "id": "thought_shield",
+            "nameRu": "Щит Мыслей",
+            "nameEn": "Thought Shield",
+            "descriptionRu": "Начиная с 10-го уровня, ваши мысли невозможно прочитать телепатией или другими средствами, если вы этого не позволите. Вы также получаете сопротивление к урону психической энергией, и когда существо наносит вам урон психической энергией, это существо получает такой же урон.",
+            "descriptionEn": "Starting at 10th level, your thoughts can't be read by telepathy or other means unless you allow it. You also gain Resistance to Psychic damage, and whenever a creature deals Psychic damage to you, that creature takes the same amount of damage."
+          }
+        ],
+        "14": [
+          {
+            "id": "create_thrall",
+            "nameRu": "Создание Прислужника",
+            "nameEn": "Create Thrall",
+            "descriptionRu": "На 14-м уровне вы получаете способность поработить разум другого существа. Вы можете действием коснуться недееспособного существа. Это существо становится очарованным вами до тех пор, пока на него не будет наложено заклинание Снятие Проклятия. Вы можете телепатически общаться с очарованным существом, пока вы оба находитесь на одном плане существования.",
+            "descriptionEn": "At 14th level, you gain the ability to infect a creature's mind. You can use an Action to touch an Incapacitated creature. That creature is then Charmed by you until a Remove Curse spell is cast on it. You can communicate telepathically with the Charmed creature as long as the two of you are on the same plane of existence."
+          }
+        ]
+      }
+    }
+  ],
+  "pactSlots": {
+    "1": {
+      "slots": 1,
+      "slotLevel": 1,
+      "cantripsKnown": 2
+    },
+    "2": {
+      "slots": 2,
+      "slotLevel": 1,
+      "cantripsKnown": 2
+    },
+    "3": {
+      "slots": 2,
+      "slotLevel": 2,
+      "cantripsKnown": 2
+    },
+    "4": {
+      "slots": 2,
+      "slotLevel": 2,
+      "cantripsKnown": 3
+    },
+    "5": {
+      "slots": 2,
+      "slotLevel": 3,
+      "cantripsKnown": 3
+    },
+    "6": {
+      "slots": 2,
+      "slotLevel": 3,
+      "cantripsKnown": 3
+    },
+    "7": {
+      "slots": 2,
+      "slotLevel": 4,
+      "cantripsKnown": 3
+    },
+    "8": {
+      "slots": 2,
+      "slotLevel": 4,
+      "cantripsKnown": 3
+    },
+    "9": {
+      "slots": 2,
+      "slotLevel": 5,
+      "cantripsKnown": 3
+    },
+    "10": {
+      "slots": 2,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "11": {
+      "slots": 3,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "12": {
+      "slots": 3,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "13": {
+      "slots": 3,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "14": {
+      "slots": 3,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "15": {
+      "slots": 3,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "16": {
+      "slots": 3,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "17": {
+      "slots": 4,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "18": {
+      "slots": 4,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "19": {
+      "slots": 4,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    },
+    "20": {
+      "slots": 4,
+      "slotLevel": 5,
+      "cantripsKnown": 4
+    }
+  },
+  "features": {
+    "pact_magic": {
+      "id": "pact_magic",
+      "nameRu": "Магия Договора",
+      "nameEn": "Pact Magic",
+      "level": 1,
+      "descriptionRu": "Ваши тайные исследования и магия, дарованная покровителем, наделяют вас способностью накладывать заклинания. Харизма — ваша базовая характеристика для заклинаний. Вы восстанавливаете все потраченные ячейки заклинаний после короткого или продолжительного отдыха. Все ваши ячейки заклинаний имеют одинаковый уровень.",
+      "descriptionEn": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells. Charisma is your spellcasting ability. You regain all expended spell slots when you finish a Short or Long Rest. All your spell slots are the same level."
+    },
+    "eldritch_invocations": {
+      "id": "eldritch_invocations",
+      "nameRu": "Мистические Воззвания",
+      "nameEn": "Eldritch Invocations",
+      "level": 1,
+      "descriptionRu": "В ходе изучения оккультных знаний вы открыли для себя мистические воззвания — фрагменты запретного знания, наделяющие вас постоянными магическими способностями. На 1-м уровне вы получаете одно воззвание. Вы получаете дополнительные воззвания на более высоких уровнях. Когда вы получаете уровень в этом классе, вы можете заменить одно из известных вам воззваний другим.",
+      "descriptionEn": "In your study of occult lore, you have unearthed Eldritch Invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability. At 1st level you gain one invocation. You gain additional invocations at higher levels. When you gain a level in this class, you can replace one invocation you know with another."
+    },
+    "pact_boon": {
+      "id": "pact_boon",
+      "nameRu": "Дар Договора",
+      "nameEn": "Pact Boon",
+      "level": 3,
+      "descriptionRu": "На 3-м уровне ваш потусторонний покровитель дарует вам подарок за верную службу. Вы получаете одну из следующих способностей на ваш выбор: Договор Клинка, Договор Цепи или Договор Гримуара.",
+      "descriptionEn": "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice: Pact of the Blade, Pact of the Chain, or Pact of the Tome."
+    },
+    "contact_patron": {
+      "id": "contact_patron",
+      "nameRu": "Связь с Покровителем",
+      "nameEn": "Contact Patron",
+      "level": 9,
+      "descriptionRu": "На 9-м уровне вы получаете заклинание Контакт с Иным Планом как заклинание колдуна. Вы можете наложить его без траты ячейки заклинания. Когда вы делаете это, вы автоматически связываетесь с вашим покровителем. Вы восстанавливаете эту способность после продолжительного отдыха.",
+      "descriptionEn": "At 9th level, you gain the Contact Other Plane spell as a Warlock spell. You can cast it without expending a spell slot. When you do so, you automatically contact your patron. You regain this ability after a Long Rest.",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "mystic_arcanum_6": {
+      "id": "mystic_arcanum_6",
+      "nameRu": "Мистический Арканум (6-й уровень)",
+      "nameEn": "Mystic Arcanum (6th level)",
+      "level": 11,
+      "descriptionRu": "На 11-м уровне ваш покровитель дарует вам магический секрет, называемый Мистическим Арканумом. Выберите одно заклинание колдуна 6-го уровня в качестве этого арканума. Вы можете наложить это заклинание один раз без траты ячейки заклинания. Вы восстанавливаете эту способность после продолжительного отдыха.",
+      "descriptionEn": "At 11th level, your patron bestows upon you a magical secret called a Mystic Arcanum. Choose one 6th-level Warlock spell as this arcanum. You can cast the arcanum spell once without expending a spell slot. You regain the ability to do so after a Long Rest.",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "mystic_arcanum_7": {
+      "id": "mystic_arcanum_7",
+      "nameRu": "Мистический Арканум (7-й уровень)",
+      "nameEn": "Mystic Arcanum (7th level)",
+      "level": 13,
+      "descriptionRu": "На 13-м уровне вы получаете Мистический Арканум 7-го уровня. Выберите одно заклинание колдуна 7-го уровня. Вы можете наложить его один раз без траты ячейки заклинания. Вы восстанавливаете эту способность после продолжительного отдыха.",
+      "descriptionEn": "At 13th level, you gain a 7th-level Mystic Arcanum. Choose one 7th-level Warlock spell. You can cast it once without expending a spell slot. You regain the ability to do so after a Long Rest.",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "mystic_arcanum_8": {
+      "id": "mystic_arcanum_8",
+      "nameRu": "Мистический Арканум (8-й уровень)",
+      "nameEn": "Mystic Arcanum (8th level)",
+      "level": 15,
+      "descriptionRu": "На 15-м уровне вы получаете Мистический Арканум 8-го уровня. Выберите одно заклинание колдуна 8-го уровня. Вы можете наложить его один раз без траты ячейки заклинания. Вы восстанавливаете эту способность после продолжительного отдыха.",
+      "descriptionEn": "At 15th level, you gain an 8th-level Mystic Arcanum. Choose one 8th-level Warlock spell. You can cast it once without expending a spell slot. You regain the ability to do so after a Long Rest.",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "mystic_arcanum_9": {
+      "id": "mystic_arcanum_9",
+      "nameRu": "Мистический Арканум (9-й уровень)",
+      "nameEn": "Mystic Arcanum (9th level)",
+      "level": 17,
+      "descriptionRu": "На 17-м уровне вы получаете Мистический Арканум 9-го уровня. Выберите одно заклинание колдуна 9-го уровня. Вы можете наложить его один раз без траты ячейки заклинания. Вы восстанавливаете эту способность после продолжительного отдыха.",
+      "descriptionEn": "At 17th level, you gain a 9th-level Mystic Arcanum. Choose one 9th-level Warlock spell. You can cast it once without expending a spell slot. You regain the ability to do so after a Long Rest.",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение Характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 4,
+      "descriptionRu": "Когда вы достигаете 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях, вы можете увеличить одну из ваших характеристик на 2 или две характеристики на 1. Как обычно, вы не можете увеличить характеристику выше 20. Вместо этого вы можете взять черту.",
+      "descriptionEn": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score by 2, or two ability scores by 1. As normal, you can't increase an ability score above 20. You can instead take a feat."
+    },
+    "eldritch_master": {
+      "id": "eldritch_master",
+      "nameRu": "Мистический Мастер",
+      "nameEn": "Eldritch Master",
+      "level": 20,
+      "descriptionRu": "На 20-м уровне вы можете обратиться к внутреннему резерву мистической силы, моля покровителя о восстановлении потраченных ячеек заклинаний. Вы тратите 1 минуту, умоляя покровителя о помощи, и восстанавливаете все потраченные ячейки заклинаний из Магии Договора. Вы восстанавливаете эту способность после продолжительного отдыха.",
+      "descriptionEn": "At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You spend 1 minute entreating your patron for aid to regain all your expended Pact Magic spell slots. You regain this ability after a Long Rest.",
+      "usesPerRest": 1,
+      "restType": "long"
+    }
+  }
+}

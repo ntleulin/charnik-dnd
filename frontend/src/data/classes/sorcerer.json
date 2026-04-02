@@ -1,0 +1,793 @@
+{
+  "id": "sorcerer",
+  "nameRu": "Чародей",
+  "nameEn": "Sorcerer",
+  "descriptionRu": "Чародей — заклинатель, черпающий магию из врождённого дара. В отличие от волшебников, чародеи не нуждаются в книгах заклинаний — магия течёт в их крови, порождённая экзотической родословной, потусторонним влиянием или воздействием неведомых космических сил.",
+  "descriptionEn": "A Sorcerer is a spellcaster who draws on inherent magic from a gift or bloodline. Unlike Wizards, Sorcerers do not need spellbooks — magic flows through their blood, born of an exotic bloodline, otherworldly influence, or exposure to unknown cosmic forces.",
+  "hitDie": "d6",
+  "hitDieValue": 6,
+  "primaryAbilities": [
+    "cha"
+  ],
+  "savingThrows": [
+    "con",
+    "cha"
+  ],
+  "armorProficiencies": [],
+  "weaponProficiencies": [
+    "simple"
+  ],
+  "toolProficiencies": [],
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "arcana",
+      "deception",
+      "insight",
+      "intimidation",
+      "persuasion",
+      "religion"
+    ]
+  },
+  "startingEquipment": [],
+  "multiclassRequirements": {
+    "cha": 13
+  },
+  "spellcastingAbility": "cha",
+  "spellcastingType": "full",
+  "preparedCaster": false,
+  "ritualCasting": false,
+  "subclassLevel": 1,
+  "subclassNameRu": "Магическое Происхождение",
+  "subclassNameEn": "Sorcerous Origin",
+  "levels": {
+    "1": {
+      "features": [
+        "spellcasting",
+        "subclass"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 4,
+      "spellsKnown": 2
+    },
+    "2": {
+      "features": [
+        "font_of_magic",
+        "metamagic"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 4,
+      "spellsKnown": 3,
+      "sorceryPoints": 2,
+      "metamagicKnown": 2
+    },
+    "3": {
+      "features": [],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 4,
+      "spellsKnown": 4,
+      "sorceryPoints": 3,
+      "metamagicKnown": 2
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 5,
+      "spellsKnown": 5,
+      "sorceryPoints": 4,
+      "metamagicKnown": 2
+    },
+    "5": {
+      "features": [
+        "sorcerous_restoration"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 5,
+      "spellsKnown": 6,
+      "sorceryPoints": 5,
+      "metamagicKnown": 2
+    },
+    "6": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 5,
+      "spellsKnown": 7,
+      "sorceryPoints": 6,
+      "metamagicKnown": 2
+    },
+    "7": {
+      "features": [],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 5,
+      "spellsKnown": 8,
+      "sorceryPoints": 7,
+      "metamagicKnown": 2
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 5,
+      "spellsKnown": 9,
+      "sorceryPoints": 8,
+      "metamagicKnown": 2
+    },
+    "9": {
+      "features": [],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 5,
+      "spellsKnown": 10,
+      "sorceryPoints": 9,
+      "metamagicKnown": 2
+    },
+    "10": {
+      "features": [
+        "metamagic_option"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 6,
+      "spellsKnown": 11,
+      "sorceryPoints": 10,
+      "metamagicKnown": 3
+    },
+    "11": {
+      "features": [],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 6,
+      "spellsKnown": 12,
+      "sorceryPoints": 11,
+      "metamagicKnown": 3
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 6,
+      "spellsKnown": 12,
+      "sorceryPoints": 12,
+      "metamagicKnown": 3
+    },
+    "13": {
+      "features": [],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 6,
+      "spellsKnown": 13,
+      "sorceryPoints": 13,
+      "metamagicKnown": 3
+    },
+    "14": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 6,
+      "spellsKnown": 13,
+      "sorceryPoints": 14,
+      "metamagicKnown": 3
+    },
+    "15": {
+      "features": [],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 6,
+      "spellsKnown": 14,
+      "sorceryPoints": 15,
+      "metamagicKnown": 3
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 6,
+      "spellsKnown": 14,
+      "sorceryPoints": 16,
+      "metamagicKnown": 3
+    },
+    "17": {
+      "features": [
+        "metamagic_option"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 6,
+      "spellsKnown": 15,
+      "sorceryPoints": 17,
+      "metamagicKnown": 4
+    },
+    "18": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 6,
+      "spellsKnown": 15,
+      "sorceryPoints": 18,
+      "metamagicKnown": 4
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 6,
+      "spellsKnown": 15,
+      "sorceryPoints": 19,
+      "metamagicKnown": 4
+    },
+    "20": {
+      "features": [
+        "sorcerous_perfection"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 6,
+      "spellsKnown": 15,
+      "sorceryPoints": 20,
+      "metamagicKnown": 4
+    }
+  },
+  "subclasses": [
+    {
+      "id": "aberrant_mind",
+      "nameRu": "Аберрантный Разум",
+      "nameEn": "Aberrant Mind",
+      "descriptionRu": "Инородная сила проникла в ваш разум, наделив вас псионической магией. Источник этой силы может быть связан с Дальним Пределом, существом из Дальнего Предела или контактом с их непостижимой психикой.",
+      "descriptionEn": "An alien influence has wrapped its tendrils around your mind, giving you psionic power. The source of this power could be tied to the Far Realm, a creature from the Far Realm, or contact with their unfathomable psyche.",
+      "features": {
+        "1": [
+          {
+            "id": "psionic_spells",
+            "nameRu": "Псионические Заклинания",
+            "nameEn": "Psionic Spells",
+            "descriptionRu": "Вы изучаете дополнительные заклинания, когда достигаете определённых уровней чародея. Каждое из этих заклинаний считается для вас заклинанием чародея и не учитывается при определении количества известных заклинаний.",
+            "descriptionEn": "You learn additional spells when you reach certain levels in this class. Each of these spells counts as a Sorcerer spell for you and doesn't count against the number of spells you know."
+          },
+          {
+            "id": "telepathic_speech",
+            "nameRu": "Телепатическая Речь",
+            "nameEn": "Telepathic Speech",
+            "descriptionRu": "Вы можете бонусным действием установить телепатическую связь с одним существом, которое вы видите в пределах 30 футов. Вы и цель можете общаться телепатически, пока находитесь на расстоянии не более числа миль, равного вашему модификатору Харизмы (минимум 1 миля). Связь длится количество минут, равное вашему уровню чародея.",
+            "descriptionEn": "You can form a telepathic connection between your mind and the mind of another creature as a Bonus Action, targeting one creature you can see within 30 feet. You and the target can speak telepathically while you are within a number of miles equal to your Charisma modifier (minimum 1 mile). The connection lasts for a number of minutes equal to your Sorcerer level."
+          }
+        ],
+        "6": [
+          {
+            "id": "psionic_sorcery",
+            "nameRu": "Псионическое Чародейство",
+            "nameEn": "Psionic Sorcery",
+            "descriptionRu": "Начиная с 6-го уровня, когда вы накладываете заклинание из списка Псионических Заклинаний, вы можете потратить количество очков чародейства, равное уровню заклинания, вместо траты ячейки заклинания. При таком наложении заклинание не требует вербальных или соматических компонентов, а также материальных компонентов, не имеющих стоимости.",
+            "descriptionEn": "Starting at 6th level, when you cast any spell from your Psionic Spells feature, you can cast it by expending a number of Sorcery Points equal to the spell's level instead of expending a spell slot. If you cast the spell this way, it requires no Verbal or Somatic components, and it requires no Material components unless they are consumed by the spell."
+          },
+          {
+            "id": "psychic_defenses",
+            "nameRu": "Психическая Защита",
+            "nameEn": "Psychic Defenses",
+            "descriptionRu": "Начиная с 6-го уровня, вы получаете сопротивление к психическому урону и имеете преимущество на спасброски от состояния очарования или испуга.",
+            "descriptionEn": "Starting at 6th level, you gain Resistance to Psychic damage, and you have Advantage on saving throws against being Charmed or Frightened."
+          }
+        ],
+        "14": [
+          {
+            "id": "revelation_in_flesh",
+            "nameRu": "Откровение во Плоти",
+            "nameEn": "Revelation in Flesh",
+            "descriptionRu": "Начиная с 14-го уровня, вы можете бонусным действием потратить 1 или более очков чародейства, чтобы трансформировать своё тело на 10 минут. За каждое потраченное очко выберите одно из преимуществ: скорость плавания равна скорости ходьбы и возможность дышать под водой; способность видеть невидимых существ в пределах 60 футов; скорость полёта равна скорости ходьбы; способность проходить сквозь пространства шириной от 1 дюйма.",
+            "descriptionEn": "Starting at 14th level, you can use a Bonus Action to spend 1 or more Sorcery Points to transform your body for 10 minutes. For each Sorcery Point spent, choose one benefit: swim speed equal to walking speed and water breathing; ability to see invisible creatures within 60 feet; flying speed equal to walking speed; ability to move through spaces as narrow as 1 inch."
+          }
+        ],
+        "18": [
+          {
+            "id": "warping_implosion",
+            "nameRu": "Деформирующая Имплозия",
+            "nameEn": "Warping Implosion",
+            "descriptionRu": "На 18-м уровне вы можете действием телепортироваться в незанятое пространство, которое видите в пределах 120 футов. Сразу после исчезновения каждое существо в пределах 30 футов от покинутого вами пространства должно совершить спасбросок Телосложения. При провале существо получает 3d10 урона силовым полем и притягивается к покинутому вами пространству. При успехе существо получает половину урона и не притягивается. Вы можете использовать это один раз бесплатно и далее за 5 очков чародейства.",
+            "descriptionEn": "At 18th level, you can use an Action to teleport to an unoccupied space you can see within 120 feet. Immediately after you disappear, each creature within 30 feet of the space you left must make a Constitution saving throw. On a failure, a creature takes 3d10 Force damage and is pulled to the space you left. On a success, a creature takes half damage and isn't pulled. You can use this once for free and then for 5 Sorcery Points."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clockwork_soul",
+      "nameRu": "Заводная Душа",
+      "nameEn": "Clockwork Soul",
+      "descriptionRu": "Космические силы порядка наделили вас магией. Эта сила исходит из плана Механус или иной силы, воплощающей дисциплину и порядок. Вы стремитесь к совершенству формы, ища закономерности и порядок во всём.",
+      "descriptionEn": "The cosmic force of order has suffused you with magic. That power arises from Mechanus or a force that embodies discipline and order. You strive for perfection in form, seeking patterns and order in everything.",
+      "features": {
+        "1": [
+          {
+            "id": "clockwork_magic",
+            "nameRu": "Заводная Магия",
+            "nameEn": "Clockwork Magic",
+            "descriptionRu": "Вы изучаете дополнительные заклинания, когда достигаете определённых уровней чародея. Каждое из этих заклинаний считается для вас заклинанием чародея и не учитывается при определении количества известных заклинаний. Когда вы получаете уровень чародея, вы можете заменить одно из этих заклинаний другим заклинанием того же уровня из списков Волшебника или Чародея.",
+            "descriptionEn": "You learn additional spells when you reach certain levels in this class. Each counts as a Sorcerer spell for you and doesn't count against spells known. Whenever you gain a Sorcerer level, you can replace one of these spells with another spell of the same level from the Wizard or Sorcerer spell list."
+          },
+          {
+            "id": "restore_balance",
+            "nameRu": "Восстановление Баланса",
+            "nameEn": "Restore Balance",
+            "descriptionRu": "Начиная с 1-го уровня, ваша связь с силами порядка позволяет вам выравнивать хаотические моменты. Когда существо, которое вы видите в пределах 60 футов, собирается совершить бросок d20 с преимуществом или помехой, вы можете реакцией отменить преимущество или помеху. Вы можете использовать эту способность количество раз, равное вашему бонусу мастерства, и восстанавливаете все использования после продолжительного отдыха.",
+            "descriptionEn": "Starting at 1st level, your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet is about to make a d20 roll with Advantage or Disadvantage, you can use your Reaction to prevent the roll from being affected by Advantage or Disadvantage. You can use this a number of times equal to your proficiency bonus, regaining all uses after a Long Rest."
+          }
+        ],
+        "6": [
+          {
+            "id": "bastion_of_law",
+            "nameRu": "Бастион Закона",
+            "nameEn": "Bastion of Law",
+            "descriptionRu": "Начиная с 6-го уровня, вы можете действием потратить от 1 до 5 очков чародейства, чтобы создать оберег из переплетающейся магии вокруг себя или другого существа, которое вы видите в пределах 30 футов. Оберег длится до вашего следующего продолжительного отдыха. Оберег представлен количеством d8, равным потраченным очкам. Когда защищённое существо получает урон, оно может потратить любое количество этих костей, бросить их и уменьшить полученный урон на сумму выпавших значений.",
+            "descriptionEn": "Starting at 6th level, you can use an Action to spend 1 to 5 Sorcery Points to create a ward of interlocking magic around yourself or another creature you can see within 30 feet. The ward lasts until your next Long Rest. The ward is represented by a number of d8s equal to the Sorcery Points spent. When the warded creature takes damage, it can spend any number of those dice, roll them, and reduce the damage taken by the total rolled."
+          }
+        ],
+        "14": [
+          {
+            "id": "trance_of_order",
+            "nameRu": "Транс Порядка",
+            "nameEn": "Trance of Order",
+            "descriptionRu": "Начиная с 14-го уровня, вы можете бонусным действием войти в состояние абсолютного порядка на 1 минуту, потратив 7 очков чародейства. В течение этого времени броски атаки по вам не могут иметь преимущество, и каждый раз, когда вы совершаете бросок атаки, проверку характеристики или спасбросок, вы можете считать результат d20 равным 10 вместо фактического броска.",
+            "descriptionEn": "Starting at 14th level, you can use a Bonus Action to enter a state of absolute order for 1 minute by spending 7 Sorcery Points. For the duration, attack rolls against you can't benefit from Advantage, and whenever you make an attack roll, ability check, or saving throw, you can treat the d20 as a 10 instead of rolling."
+          }
+        ],
+        "18": [
+          {
+            "id": "clockwork_cavalcade",
+            "nameRu": "Заводная Кавалькада",
+            "nameEn": "Clockwork Cavalcade",
+            "descriptionRu": "На 18-м уровне вы можете действием призвать духов порядка, которые восстанавливают разрушения вокруг вас. Выберите до 6 существ в пределах 30 футов. Каждое из них получает одно из следующих преимуществ: восстановление 100 хитов, починка повреждённых предметов или завершение всех заклинаний 6-го уровня или ниже на существе. Вы можете использовать это один раз бесплатно и далее за 7 очков чародейства.",
+            "descriptionEn": "At 18th level, you can use an Action to summon spirits of order that restore devastation around you. Choose up to 6 creatures within 30 feet. Each gains one of the following: restore 100 hit points, repair damaged objects, or end all spells of 6th level or lower on the creature. You can use this once for free and then for 7 Sorcery Points."
+          }
+        ]
+      }
+    },
+    {
+      "id": "draconic_bloodline",
+      "nameRu": "Драконья Родословная",
+      "nameEn": "Draconic Bloodline",
+      "descriptionRu": "Ваша врождённая магия происходит от драконьей магии, смешавшейся с вашей кровью или кровью ваших предков. Чаще всего чародеи с таким происхождением ведут свой род от могущественного чародея древности, заключившего сделку с драконом.",
+      "descriptionEn": "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, Sorcerers with this origin trace their descent to a mighty sorcerer of ancient times who made a bargain with a dragon.",
+      "features": {
+        "1": [
+          {
+            "id": "dragon_ancestor",
+            "nameRu": "Предок-Дракон",
+            "nameEn": "Dragon Ancestor",
+            "descriptionRu": "На 1-м уровне вы выбираете один тип дракона в качестве вашего предка. Тип урона, связанный с каждым драконом, используется другими способностями, которые вы получите позже. Вы можете говорить, читать и писать на Драконьем языке. Кроме того, когда вы совершаете проверку Харизмы при взаимодействии с драконами, ваш бонус мастерства удваивается.",
+            "descriptionEn": "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later. You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled."
+          },
+          {
+            "id": "draconic_resilience",
+            "nameRu": "Драконья Устойчивость",
+            "nameEn": "Draconic Resilience",
+            "descriptionRu": "Магия, текущая в вашем теле, усиливает физические проявления вашего драконьего предка. Ваш максимум хитов увеличивается на 1, и увеличивается ещё на 1 с каждым уровнем чародея. Кроме того, когда вы не носите доспехи, ваш КД равен 13 + ваш модификатор Ловкости.",
+            "descriptionEn": "As magic flows through your body, it causes physical traits of your dragon ancestor to emerge. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class. Additionally, when you aren't wearing armor, your AC equals 13 + your Dexterity modifier."
+          }
+        ],
+        "6": [
+          {
+            "id": "elemental_affinity",
+            "nameRu": "Стихийное Сродство",
+            "nameEn": "Elemental Affinity",
+            "descriptionRu": "Начиная с 6-го уровня, когда вы накладываете заклинание, наносящее урон типа, связанного с вашим предком-драконом, вы можете добавить ваш модификатор Харизмы к одному броску урона этого заклинания. Также вы можете потратить 1 очко чародейства, чтобы получить сопротивление к этому типу урона на 1 час.",
+            "descriptionEn": "Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. Additionally, you can spend 1 Sorcery Point to gain Resistance to that damage type for 1 hour."
+          }
+        ],
+        "14": [
+          {
+            "id": "dragon_wings",
+            "nameRu": "Крылья Дракона",
+            "nameEn": "Dragon Wings",
+            "descriptionRu": "На 14-м уровне вы получаете возможность бонусным действием отрастить пару драконьих крыльев из спины, получая скорость полёта, равную вашей текущей скорости. Крылья существуют, пока вы их не уберёте бонусным действием. Крылья не работают, если вы носите доспехи, не предназначенные для них.",
+            "descriptionEn": "At 14th level, you gain the ability to sprout a pair of dragon wings from your back as a Bonus Action, gaining a flying speed equal to your current speed. The wings last until you dismiss them as a Bonus Action. You can't manifest your wings while wearing armor unless the armor is made to accommodate them."
+          }
+        ],
+        "18": [
+          {
+            "id": "draconic_presence",
+            "nameRu": "Драконье Присутствие",
+            "nameEn": "Draconic Presence",
+            "descriptionRu": "На 18-м уровне вы можете действием потратить 5 очков чародейства, чтобы направить устрашающее присутствие вашего предка-дракона. Каждое существо по вашему выбору в пределах 60 футов должно совершить спасбросок Мудрости. При провале существо становится очарованным или испуганным (на ваш выбор) на 1 минуту. Существо может повторять спасбросок в конце каждого своего хода.",
+            "descriptionEn": "At 18th level, you can use an Action to spend 5 Sorcery Points to channel the dread presence of your dragon ancestor. Each creature of your choice within 60 feet must make a Wisdom saving throw. On a failure, a creature is Charmed or Frightened (your choice) for 1 minute. A creature can repeat the saving throw at the end of each of its turns."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wild_magic",
+      "nameRu": "Дикая Магия",
+      "nameEn": "Wild Magic",
+      "descriptionRu": "Ваша врождённая магия проистекает из диких сил хаоса, лежащих в основе мироздания. Вы можете быть благословлены могущественным существом фей или отмечены демоном. Или ваша магия может быть случайностью рождения без видимой причины.",
+      "descriptionEn": "Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have been blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of birth, with no apparent cause.",
+      "features": {
+        "1": [
+          {
+            "id": "wild_magic_surge",
+            "nameRu": "Всплеск Дикой Магии",
+            "nameEn": "Wild Magic Surge",
+            "descriptionRu": "Начиная с 1-го уровня, ваше заклинание может вызвать непредсказуемый всплеск магии. Сразу после наложения заклинания чародея 1-го уровня или выше Мастер может попросить вас бросить d20. Если выпадает 1, бросьте по таблице Всплесков Дикой Магии, чтобы определить случайный магический эффект.",
+            "descriptionEn": "Starting at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a Sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect."
+          },
+          {
+            "id": "tides_of_chaos",
+            "nameRu": "Приливы Хаоса",
+            "nameEn": "Tides of Chaos",
+            "descriptionRu": "Начиная с 1-го уровня, вы можете управлять силами хаоса в свою пользу. Один раз между продолжительными отдыхами вы можете получить преимущество на один бросок атаки, проверку характеристики или спасбросок. После этого, пока вы не восстановите эту способность, Мастер может вызвать всплеск Дикой Магии после наложения вами заклинания чародея 1-го уровня или выше без броска.",
+            "descriptionEn": "Starting at 1st level, you can manipulate the forces of chance and chaos to gain Advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a Long Rest before you can do so again. Any time before that, the DM can have you roll on the Wild Magic Surge table immediately after you cast a Sorcerer spell of 1st level or higher."
+          }
+        ],
+        "6": [
+          {
+            "id": "bend_luck",
+            "nameRu": "Искривление Удачи",
+            "nameEn": "Bend Luck",
+            "descriptionRu": "Начиная с 6-го уровня, вы можете изменить судьбу с помощью дикой магии. Когда другое существо, которое вы видите, совершает бросок атаки, проверку характеристики или спасбросок, вы можете реакцией потратить 2 очка чародейства и бросить 1d4. Вы выбираете, добавить или вычесть результат из броска существа.",
+            "descriptionEn": "Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, ability check, or saving throw, you can use your Reaction and spend 2 Sorcery Points to roll 1d4 and apply the number as a bonus or penalty to the creature's roll."
+          }
+        ],
+        "14": [
+          {
+            "id": "controlled_chaos",
+            "nameRu": "Контролируемый Хаос",
+            "nameEn": "Controlled Chaos",
+            "descriptionRu": "На 14-м уровне вы получаете некоторый контроль над всплесками дикой магии. Каждый раз, когда вы бросаете по таблице Всплесков Дикой Магии, вы можете бросить дважды и использовать любой из двух результатов.",
+            "descriptionEn": "At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number."
+          }
+        ],
+        "18": [
+          {
+            "id": "spell_bombardment",
+            "nameRu": "Магическая Бомбардировка",
+            "nameEn": "Spell Bombardment",
+            "descriptionRu": "На 18-м уровне, разрушительная энергия ваших заклинаний усиливается. Когда вы бросаете урон от заклинания и на одной из костей урона выпадает максимальное значение, вы можете бросить эту кость ещё раз и добавить результат к урону. Вы можете использовать эту способность один раз за ход.",
+            "descriptionEn": "At 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, you can roll that die again and add it to the damage. You can use this feature only once per turn."
+          }
+        ]
+      }
+    }
+  ],
+  "spellSlots": {
+    "1": {
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "2": {
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "3": {
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "4": {
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "5": {
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "6": {
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "7": {
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "8": {
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "9": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "10": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 6
+    },
+    "11": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 6
+    },
+    "12": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 6
+    },
+    "13": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cantripsKnown": 6
+    },
+    "14": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cantripsKnown": 6
+    },
+    "15": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cantripsKnown": 6
+    },
+    "16": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cantripsKnown": 6
+    },
+    "17": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 6
+    },
+    "18": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 6
+    },
+    "19": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 6
+    },
+    "20": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "cantripsKnown": 6
+    }
+  },
+  "features": {
+    "spellcasting": {
+      "id": "spellcasting",
+      "nameRu": "Использование Заклинаний",
+      "nameEn": "Spellcasting",
+      "level": 1,
+      "descriptionRu": "Событие в вашем прошлом или в жизни одного из ваших родителей или предков оставило в вас неизгладимый отпечаток, наделив врождённой магией. Харизма — ваша базовая характеристика для заклинаний. Вы знаете определённое количество заклинаний чародея и можете заменять одно заклинание при получении нового уровня.",
+      "descriptionEn": "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with innate magic. Charisma is your spellcasting ability. You know a certain number of Sorcerer spells and can replace one spell when you gain a new level."
+    },
+    "font_of_magic": {
+      "id": "font_of_magic",
+      "nameRu": "Источник Магии",
+      "nameEn": "Font of Magic",
+      "level": 2,
+      "descriptionRu": "На 2-м уровне вы получаете доступ к глубинному источнику магии внутри себя. Этот источник представлен очками чародейства, которые позволяют вам создавать различные магические эффекты. Количество очков чародейства равно вашему уровню чародея. Вы можете конвертировать ячейки заклинаний в очки чародейства и наоборот.",
+      "descriptionEn": "At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects. You have a number of Sorcery Points equal to your Sorcerer level. You can convert spell slots into Sorcery Points and vice versa.",
+      "usesPerRest": "class_level",
+      "restType": "long",
+      "poolFormula": "sorcerer_level"
+    },
+    "metamagic": {
+      "id": "metamagic",
+      "nameRu": "Метамагия",
+      "nameEn": "Metamagic",
+      "level": 2,
+      "descriptionRu": "На 2-м уровне вы получаете способность изменять свои заклинания в соответствии с вашими потребностями. Вы получаете два варианта Метамагии на ваш выбор. Вы получаете ещё один вариант на 10-м и 17-м уровнях. Вы можете использовать только один вариант Метамагии при наложении заклинания, если не указано иное.",
+      "descriptionEn": "At 2nd level, you gain the ability to twist your spells to suit your needs. You gain two Metamagic options of your choice. You gain another one at 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
+    },
+    "metamagic_option": {
+      "id": "metamagic_option",
+      "nameRu": "Дополнительная Метамагия",
+      "nameEn": "Additional Metamagic",
+      "level": 10,
+      "descriptionRu": "На 10-м и 17-м уровнях вы изучаете дополнительный вариант Метамагии на ваш выбор.",
+      "descriptionEn": "At 10th and 17th level, you learn an additional Metamagic option of your choice."
+    },
+    "sorcerous_restoration": {
+      "id": "sorcerous_restoration",
+      "nameRu": "Чародейское Восстановление",
+      "nameEn": "Sorcerous Restoration",
+      "level": 5,
+      "descriptionRu": "На 5-м уровне вы восстанавливаете потраченные очки чародейства, когда завершаете короткий отдых. Количество восстановленных очков равно половине вашего уровня чародея (округлённой вверх).",
+      "descriptionEn": "At 5th level, you regain expended Sorcery Points whenever you finish a Short Rest. The number of Sorcery Points regained equals half your Sorcerer level (rounded up)."
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение Характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 4,
+      "descriptionRu": "Когда вы достигаете 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях, вы можете увеличить одну из ваших характеристик на 2 или две характеристики на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этой способности. Вместо этого вы можете взять черту.",
+      "descriptionEn": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores by 1. As normal, you can't increase an ability score above 20 using this feature. You can instead take a feat."
+    },
+    "sorcerous_perfection": {
+      "id": "sorcerous_perfection",
+      "nameRu": "Чародейское Совершенство",
+      "nameEn": "Sorcerous Perfection",
+      "level": 20,
+      "descriptionRu": "На 20-м уровне ваше владение чародейской магией достигает совершенства. Когда вы используете вариант Метамагии для заклинания, вы можете использовать второй вариант Метамагии для того же заклинания. Кроме того, вы восстанавливаете 4 потраченных очка чародейства, когда завершаете короткий отдых.",
+      "descriptionEn": "At 20th level, your mastery of sorcerous magic is complete. When you use a Metamagic option on a spell, you can use a second Metamagic option on the same spell. Additionally, you regain 4 expended Sorcery Points whenever you finish a Short Rest."
+    }
+  }
+}

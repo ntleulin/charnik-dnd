@@ -1,0 +1,741 @@
+{
+  "id": "druid",
+  "nameRu": "Друид",
+  "nameEn": "Druid",
+  "hitDie": "d8",
+  "hitDieValue": 8,
+  "primaryAbilities": [
+    "wis"
+  ],
+  "savingThrows": [
+    "int",
+    "wis"
+  ],
+  "armorProficiencies": [
+    "light",
+    "medium",
+    "shields"
+  ],
+  "weaponProficiencies": [
+    "simple"
+  ],
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "arcana",
+      "animal_handling",
+      "insight",
+      "medicine",
+      "nature",
+      "perception",
+      "religion",
+      "survival"
+    ]
+  },
+  "spellcastingAbility": "wis",
+  "spellcastingType": "full",
+  "preparedCaster": true,
+  "subclassLevel": 3,
+  "subclassNameRu": "Круг друидов",
+  "subclassNameEn": "Druid Circle",
+  "multiclassRequirements": {
+    "wis": 13
+  },
+  "multiclassProficiencies": {
+    "armor": [
+      "light",
+      "medium",
+      "shields"
+    ],
+    "weapons": []
+  },
+  "levels": {
+    "1": {
+      "proficiencyBonus": 2,
+      "features": [
+        "druidic",
+        "spellcasting"
+      ]
+    },
+    "2": {
+      "proficiencyBonus": 2,
+      "features": [
+        "wild_shape",
+        "wild_companion"
+      ]
+    },
+    "3": {
+      "proficiencyBonus": 2,
+      "features": [
+        "druid_circle"
+      ]
+    },
+    "4": {
+      "proficiencyBonus": 2,
+      "features": [
+        "asi_4",
+        "wild_shape_improvement_4"
+      ]
+    },
+    "5": {
+      "proficiencyBonus": 3,
+      "features": []
+    },
+    "6": {
+      "proficiencyBonus": 3,
+      "features": [
+        "subclass_feature_6"
+      ]
+    },
+    "7": {
+      "proficiencyBonus": 3,
+      "features": []
+    },
+    "8": {
+      "proficiencyBonus": 3,
+      "features": [
+        "asi_8",
+        "wild_shape_improvement_8"
+      ]
+    },
+    "9": {
+      "proficiencyBonus": 4,
+      "features": []
+    },
+    "10": {
+      "proficiencyBonus": 4,
+      "features": [
+        "subclass_feature_10"
+      ]
+    },
+    "11": {
+      "proficiencyBonus": 4,
+      "features": []
+    },
+    "12": {
+      "proficiencyBonus": 4,
+      "features": [
+        "asi_12"
+      ]
+    },
+    "13": {
+      "proficiencyBonus": 5,
+      "features": []
+    },
+    "14": {
+      "proficiencyBonus": 5,
+      "features": [
+        "subclass_feature_14"
+      ]
+    },
+    "15": {
+      "proficiencyBonus": 5,
+      "features": [
+        "improved_wild_shape"
+      ]
+    },
+    "16": {
+      "proficiencyBonus": 5,
+      "features": [
+        "asi_16"
+      ]
+    },
+    "17": {
+      "proficiencyBonus": 6,
+      "features": []
+    },
+    "18": {
+      "proficiencyBonus": 6,
+      "features": [
+        "beast_spells",
+        "timeless_body"
+      ]
+    },
+    "19": {
+      "proficiencyBonus": 6,
+      "features": [
+        "asi_19"
+      ]
+    },
+    "20": {
+      "proficiencyBonus": 6,
+      "features": [
+        "archdruid"
+      ]
+    }
+  },
+  "spellSlots": {
+    "1": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "3": [
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "4": [
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      4,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "13": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    "14": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    "15": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "16": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "17": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "18": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "19": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+    ],
+    "20": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "cantripsKnown": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 3,
+    "5": 3,
+    "6": 3,
+    "7": 3,
+    "8": 3,
+    "9": 3,
+    "10": 4,
+    "11": 4,
+    "12": 4,
+    "13": 4,
+    "14": 4,
+    "15": 4,
+    "16": 4,
+    "17": 4,
+    "18": 4,
+    "19": 4,
+    "20": 4
+  },
+  "wildShapeUses": "proficiency_bonus_per_long_rest",
+  "features": {
+    "druidic": {
+      "id": "druidic",
+      "nameRu": "Друидический язык",
+      "nameEn": "Druidic",
+      "level": 1,
+      "descriptionRu": "Вы знаете друидический, тайный язык друидов. Вы можете говорить на нём и использовать его для оставления скрытых посланий. Вы и все, кто знают этот язык, автоматически замечаете такие послания. Другие замечают послания при успешной проверке Мудрости (Восприятие) со Сл 15, но не могут расшифровать их без магии.",
+      "descriptionEn": "You know Druidic, the secret language of druids. You can speak it and use it to leave hidden messages. You and others who know this language automatically spot such messages. Others spot the messages with a successful DC 15 Wisdom (Perception) check but can't decipher them without magic."
+    },
+    "spellcasting": {
+      "id": "spellcasting",
+      "nameRu": "Использование заклинаний",
+      "nameEn": "Spellcasting",
+      "level": 1,
+      "descriptionRu": "Черпая божественную сущность самой природы, вы можете использовать заклинания для формирования этой сущности по вашей воле. Мудрость -- ваша базовая характеристика для заклинаний. Вы готовите список заклинаний друида из общего списка заклинаний класса. Количество подготовленных заклинаний равно модификатору Мудрости + уровень друида (минимум одно).",
+      "descriptionEn": "Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. Wisdom is your spellcasting ability. You prepare your list of druid spells from the full druid spell list. The number of spells you can prepare equals your Wisdom modifier + your druid level (minimum of one)."
+    },
+    "wild_shape": {
+      "id": "wild_shape",
+      "nameRu": "Дикий облик",
+      "nameEn": "Wild Shape",
+      "level": 2,
+      "descriptionRu": "Вы можете действием магически принять облик зверя, которого видели ранее. Вы можете использовать эту способность количество раз, равное вашему бонусу мастерства, и все использования восстанавливаются после длинного отдыха. Ваш уровень друида определяет зверей, облик которых вы можете принять. На 2-м уровне максимальный КО 1/4 (без скорости полёта и плавания). На 4-м уровне КО 1/2 (без скорости полёта). На 8-м уровне КО 1.",
+      "descriptionEn": "You can use your action to magically assume the shape of a beast you have seen before. You can use this feature a number of times equal to your proficiency bonus, and all uses recharge after a long rest. Your druid level determines the beasts you can transform into. At 2nd level, max CR 1/4 (no flying or swimming speed). At 4th level, CR 1/2 (no flying speed). At 8th level, CR 1.",
+      "usesPerRest": "proficiency_bonus",
+      "restType": "long"
+    },
+    "wild_companion": {
+      "id": "wild_companion",
+      "nameRu": "Дикий спутник",
+      "nameEn": "Wild Companion",
+      "level": 2,
+      "descriptionRu": "Вы можете потратить одно использование Дикого облика, чтобы сотворить заклинание Поиск фамильяра без материальных компонентов. Фамильяр, вызванный таким образом, является духом-феей и исчезает через количество часов, равное половине вашего уровня друида.",
+      "descriptionEn": "You can expend a use of Wild Shape to cast Find Familiar without material components. The familiar summoned this way is a fey spirit and disappears after a number of hours equal to half your druid level.",
+      "usesPerRest": "wild_shape_use",
+      "restType": "long"
+    },
+    "druid_circle": {
+      "id": "druid_circle",
+      "nameRu": "Круг друидов",
+      "nameEn": "Druid Circle",
+      "level": 3,
+      "descriptionRu": "Вы выбираете, к какому кругу друидов принадлежите: Круг Земли, Круг Луны, Круг Моря или Круг Звёзд. Ваш выбор предоставляет вам способности на 3-м, 6-м, 10-м и 14-м уровнях.",
+      "descriptionEn": "You choose which druid circle you belong to: Circle of the Land, Circle of the Moon, Circle of the Sea, or Circle of the Stars. Your choice grants you features at 3rd, 6th, 10th, and 14th level."
+    },
+    "wild_shape_improvement_4": {
+      "id": "wild_shape_improvement_4",
+      "nameRu": "Улучшение дикого облика (КО 1/2)",
+      "nameEn": "Wild Shape Improvement (CR 1/2)",
+      "level": 4,
+      "descriptionRu": "Теперь вы можете превращаться в зверей с показателем опасности 1/2 или ниже. Вы также можете принимать облик зверей со скоростью плавания.",
+      "descriptionEn": "You can now transform into beasts with a challenge rating of 1/2 or lower. You can also assume beast forms with a swimming speed."
+    },
+    "wild_shape_improvement_8": {
+      "id": "wild_shape_improvement_8",
+      "nameRu": "Улучшение дикого облика (КО 1)",
+      "nameEn": "Wild Shape Improvement (CR 1)",
+      "level": 8,
+      "descriptionRu": "Теперь вы можете превращаться в зверей с показателем опасности 1 или ниже. Вы также можете принимать облик зверей со скоростью полёта.",
+      "descriptionEn": "You can now transform into beasts with a challenge rating of 1 or lower. You can also assume beast forms with a flying speed."
+    },
+    "improved_wild_shape": {
+      "id": "improved_wild_shape",
+      "nameRu": "Улучшенный дикий облик",
+      "nameEn": "Improved Wild Shape",
+      "level": 15,
+      "descriptionRu": "Вы можете тратить ячейки заклинаний, находясь в диком облике, чтобы восстановить 1d8 хитов за каждый уровень потраченной ячейки.",
+      "descriptionEn": "You can expend spell slots while in wild shape to regain 1d8 hit points per level of the spell slot expended."
+    },
+    "beast_spells": {
+      "id": "beast_spells",
+      "nameRu": "Звериные заклинания",
+      "nameEn": "Beast Spells",
+      "level": 18,
+      "descriptionRu": "Вы можете сотворять многие свои заклинания друида в любом облике, принятом через Дикий облик. Вы можете выполнять соматические и вербальные компоненты заклинаний, находясь в облике зверя, но не можете предоставлять материальные компоненты.",
+      "descriptionEn": "You can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in beast form, but you aren't able to provide material components."
+    },
+    "timeless_body": {
+      "id": "timeless_body",
+      "nameRu": "Вневременное тело",
+      "nameEn": "Timeless Body",
+      "level": 18,
+      "descriptionRu": "Первозданная магия, которой вы владеете, замедляет ваше старение. За каждые 10 прожитых лет ваше тело стареет только на 1 год.",
+      "descriptionEn": "The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+    },
+    "archdruid": {
+      "id": "archdruid",
+      "nameRu": "Верховный друид",
+      "nameEn": "Archdruid",
+      "level": 20,
+      "descriptionRu": "Вы можете использовать Дикий облик неограниченное количество раз. Кроме того, вы можете игнорировать вербальные и соматические компоненты заклинаний друида, а также материальные компоненты без указанной стоимости и не поглощаемые заклинанием.",
+      "descriptionEn": "You can use Wild Shape an unlimited number of times. Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell."
+    },
+    "asi_4": {
+      "id": "asi_4",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 4,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_8": {
+      "id": "asi_8",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 8,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_12": {
+      "id": "asi_12",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 12,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_16": {
+      "id": "asi_16",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 16,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_19": {
+      "id": "asi_19",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 19,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "subclass_feature_6": {
+      "id": "subclass_feature_6",
+      "nameRu": "Способность круга (6-й уровень)",
+      "nameEn": "Circle Feature (6th level)",
+      "level": 6,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашим кругом друидов.",
+      "descriptionEn": "You gain a feature granted by your Druid Circle."
+    },
+    "subclass_feature_10": {
+      "id": "subclass_feature_10",
+      "nameRu": "Способность круга (10-й уровень)",
+      "nameEn": "Circle Feature (10th level)",
+      "level": 10,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашим кругом друидов.",
+      "descriptionEn": "You gain a feature granted by your Druid Circle."
+    },
+    "subclass_feature_14": {
+      "id": "subclass_feature_14",
+      "nameRu": "Способность круга (14-й уровень)",
+      "nameEn": "Circle Feature (14th level)",
+      "level": 14,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашим кругом друидов.",
+      "descriptionEn": "You gain a feature granted by your Druid Circle."
+    }
+  },
+  "subclasses": [
+    {
+      "id": "land",
+      "nameRu": "Круг Земли",
+      "nameEn": "Circle of the Land",
+      "descriptionRu": "Круг Земли состоит из мистиков и мудрецов, которые хранят древние знания и обряды через обширную устную традицию. Эти друиды встречаются в священных кругах деревьев или стоячих камней, чтобы шёпотом делиться первозданными тайнами на друидическом языке.",
+      "descriptionEn": "The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic.",
+      "features": {
+        "3": {
+          "id": "bonus_cantrip_land",
+          "nameRu": "Дополнительный заговор",
+          "nameEn": "Bonus Cantrip",
+          "descriptionRu": "Вы изучаете один дополнительный заговор друида по вашему выбору. Кроме того, вы выбираете тип местности (арктика, побережье, пустыня, лес, луга, горы, болото или Подземье), который определяет ваши дополнительные заклинания круга.",
+          "descriptionEn": "You learn one additional druid cantrip of your choice. Additionally, you choose a type of terrain (arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark) which determines your bonus circle spells."
+        },
+        "3b": {
+          "id": "circle_spells_land",
+          "nameRu": "Заклинания круга",
+          "nameEn": "Circle Spells",
+          "descriptionRu": "Ваша мистическая связь с землёй наделяет вас способностью использовать определённые заклинания. На 3-м, 5-м, 7-м и 9-м уровнях вы получаете доступ к заклинаниям круга, связанным с выбранной вами местностью. Они считаются всегда подготовленными и не учитываются в лимите.",
+          "descriptionEn": "Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to your chosen terrain. These spells are always prepared and don't count against your limit."
+        },
+        "6": {
+          "id": "lands_stride",
+          "nameRu": "Тропа по земле",
+          "nameEn": "Land's Stride",
+          "descriptionRu": "Перемещение по немагической труднопроходимой местности не требует от вас дополнительного перемещения. Вы также можете проходить через немагические растения без замедления и без получения урона от шипов и подобных опасностей. Кроме того, вы имеете преимущество на спасброски против магически созданных или изменённых растений, которые затрудняют движение.",
+          "descriptionEn": "Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from thorns and similar hazards. Additionally, you have advantage on saving throws against plants that are magically created or manipulated to impede movement."
+        },
+        "10": {
+          "id": "natures_ward",
+          "nameRu": "Защита природы",
+          "nameEn": "Nature's Ward",
+          "descriptionRu": "Вы не можете быть очарованы или испуганы элементалями или феями, и вы невосприимчивы к яду и болезням.",
+          "descriptionEn": "You can't be charmed or frightened by elementals or fey, and you are immune to poison and disease."
+        },
+        "14": {
+          "id": "natures_sanctuary",
+          "nameRu": "Святилище природы",
+          "nameEn": "Nature's Sanctuary",
+          "descriptionRu": "Существа природного мира чувствуют вашу связь с природой и не решаются атаковать вас. Когда зверь или растение атакует вас, существо должно совершить спасбросок Мудрости против Сл ваших заклинаний. При провале существо должно выбрать другую цель или атака автоматически промахивается. При успехе существо невосприимчиво к этому эффекту в течение 24 часов.",
+          "descriptionEn": "Creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant attacks you, the creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature must choose a different target, or the attack automatically misses. On a success, the creature is immune to this effect for 24 hours."
+        }
+      }
+    },
+    {
+      "id": "moon",
+      "nameRu": "Круг Луны",
+      "nameEn": "Circle of the Moon",
+      "descriptionRu": "Друиды Круга Луны -- свирепые хранители дикой природы. Их орден собирается при полной луне, чтобы поделиться новостями и обменяться предупреждениями. Они обитают в глубинах диких земель, вдали от городов.",
+      "descriptionEn": "Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, far from cities.",
+      "features": {
+        "3": {
+          "id": "combat_wild_shape",
+          "nameRu": "Боевой дикий облик",
+          "nameEn": "Combat Wild Shape",
+          "descriptionRu": "Вы можете использовать Дикий облик бонусным действием вместо действия. Кроме того, находясь в диком облике, вы можете бонусным действием потратить одну ячейку заклинания, чтобы восстановить 1d8 хитов за каждый уровень потраченной ячейки.",
+          "descriptionEn": "You can use Wild Shape as a bonus action rather than an action. Additionally, while in wild shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended."
+        },
+        "3b": {
+          "id": "circle_forms",
+          "nameRu": "Формы круга",
+          "nameEn": "Circle Forms",
+          "descriptionRu": "Ваш Дикий облик становится мощнее. Вы можете принимать облик зверей с показателем опасности до 1. Начиная с 6-го уровня, максимальный КО равен вашему уровню друида, разделённому на 3 (округлённому вниз).",
+          "descriptionEn": "Your Wild Shape becomes more powerful. You can transform into beasts with a challenge rating as high as 1. Starting at 6th level, the maximum CR equals your druid level divided by 3 (rounded down)."
+        },
+        "6": {
+          "id": "primal_strike",
+          "nameRu": "Первобытный удар",
+          "nameEn": "Primal Strike",
+          "descriptionRu": "Ваши атаки в облике зверя считаются магическими для преодоления сопротивления и иммунитета к немагическим атакам и урону.",
+          "descriptionEn": "Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+        },
+        "10": {
+          "id": "elemental_wild_shape",
+          "nameRu": "Элементальный дикий облик",
+          "nameEn": "Elemental Wild Shape",
+          "descriptionRu": "Вы можете потратить два использования Дикого облика одновременно, чтобы принять облик воздушного, земляного, водного или огненного элементаля.",
+          "descriptionEn": "You can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental."
+        },
+        "14": {
+          "id": "thousand_forms",
+          "nameRu": "Тысяча обликов",
+          "nameEn": "Thousand Forms",
+          "descriptionRu": "Вы изучаете заклинание Изменение облика, которое вы можете сотворять по желанию без затраты ячейки заклинания. Оно не требует концентрации и не считается подготовленным при подсчёте лимита.",
+          "descriptionEn": "You learn the Alter Self spell, which you can cast at will without expending a spell slot. It doesn't require concentration and doesn't count against your prepared spells limit."
+        }
+      }
+    },
+    {
+      "id": "sea",
+      "nameRu": "Круг Моря",
+      "nameEn": "Circle of the Sea",
+      "descriptionRu": "Друиды Круга Моря черпают силу из первозданных духов воды и бури. Они охраняют береговые линии, коралловые рифы, глубины океанов и все водные просторы мира.",
+      "descriptionEn": "Druids of the Circle of the Sea draw power from the primal spirits of water and storms. They guard coastlines, coral reefs, ocean depths, and all the watery expanses of the world.",
+      "features": {
+        "3": {
+          "id": "wrath_of_the_sea",
+          "nameRu": "Гнев моря",
+          "nameEn": "Wrath of the Sea",
+          "descriptionRu": "Вы получаете заклинания круга: Грозовая волна и Туманное облако. Они всегда подготовлены. Кроме того, когда вы используете Дикий облик, вы можете вызвать потоки воды, наносящие урон ближайшим врагам.",
+          "descriptionEn": "You gain circle spells: Thunderwave and Fog Cloud. They are always prepared. Additionally, when you use Wild Shape, you can call forth torrents of water that deal damage to nearby enemies."
+        },
+        "6": {
+          "id": "aquatic_affinity",
+          "nameRu": "Водное родство",
+          "nameEn": "Aquatic Affinity",
+          "descriptionRu": "Вы получаете скорость плавания, равную вашей скорости ходьбы, и можете дышать под водой. Кроме того, ваши заклинания, наносящие урон холодом или громом, получают бонус к урону, равный вашему модификатору Мудрости.",
+          "descriptionEn": "You gain a swimming speed equal to your walking speed and can breathe underwater. Additionally, your spells that deal cold or thunder damage gain a bonus to damage equal to your Wisdom modifier."
+        },
+        "10": {
+          "id": "stormborn",
+          "nameRu": "Дитя бури",
+          "nameEn": "Stormborn",
+          "descriptionRu": "Вы получаете сопротивление урону холодом и урону громом. Кроме того, вы можете сотворять заклинание Вызов молнии без затраты ячейки заклинания один раз за длинный отдых.",
+          "descriptionEn": "You gain resistance to cold and thunder damage. Additionally, you can cast Call Lightning once without expending a spell slot, and you regain the ability to do so after a long rest."
+        },
+        "14": {
+          "id": "oceanic_gift",
+          "nameRu": "Дар океана",
+          "nameEn": "Oceanic Gift",
+          "descriptionRu": "Вы можете призвать мощь океана, создавая вокруг себя водоворот. Действием вы создаёте водоворот в радиусе 30 футов, который длится 1 минуту. Враждебные существа, входящие в зону или начинающие в ней ход, получают урон холодом и их скорость уменьшается вдвое.",
+          "descriptionEn": "You can call upon the might of the ocean, creating a maelstrom around you. As an action, you create a whirlpool in a 30-foot radius that lasts for 1 minute. Hostile creatures entering or starting their turn in the area take cold damage and have their speed halved."
+        }
+      }
+    },
+    {
+      "id": "stars",
+      "nameRu": "Круг Звёзд",
+      "nameEn": "Circle of the Stars",
+      "descriptionRu": "Друиды Круга Звёзд наблюдают за небесными светилами, чтобы раскрыть тайны природного мира. Они отслеживают звёзды, луны и кометы, стремясь понять циклы мироздания и свою роль в космосе.",
+      "descriptionEn": "Druids of the Circle of the Stars watch the heavenly bodies to uncover the secrets of the natural world. They track stars, moons, and comets, seeking to understand the cycles of the multiverse and their role in the cosmos.",
+      "features": {
+        "3": {
+          "id": "star_map",
+          "nameRu": "Звёздная карта",
+          "nameEn": "Star Map",
+          "descriptionRu": "Вы создаёте звёздную карту -- крошечный предмет, служащий фокусировкой для ваших заклинаний. Пока карта у вас, вы знаете заговор Руководство и заклинание Путеводный огонёк, и они не учитываются в лимите. Вы можете сотворять Путеводный огонёк без затраты ячейки количество раз, равное вашему бонусу мастерства.",
+          "descriptionEn": "You create a star map -- a tiny object that serves as a spellcasting focus. While holding the map, you know the Guidance cantrip and Guiding Bolt spell, which don't count against your limit. You can cast Guiding Bolt without expending a spell slot a number of times equal to your proficiency bonus."
+        },
+        "3b": {
+          "id": "starry_form",
+          "nameRu": "Звёздный облик",
+          "nameEn": "Starry Form",
+          "descriptionRu": "Вы можете потратить использование Дикого облика, чтобы принять звёздный облик вместо облика зверя. Выберите одно из созвездий: Лучник (бонусное действие для дальней атаки заклинанием 1d8+WIS излучением), Чаша (при восстановлении хитов заклинанием 1-го уровня или выше -- восстановить 1d8+WIS себе или другому в пределах 30 футов) или Дракон (минимум 10 на проверках концентрации и Интеллекта/Мудрости).",
+          "descriptionEn": "You can expend a use of Wild Shape to take on a starry form rather than a beast form. Choose a constellation: Archer (bonus action ranged spell attack 1d8+WIS radiant), Chalice (when restoring HP with a 1st level+ spell, restore 1d8+WIS to self or another within 30 ft), or Dragon (minimum 10 on concentration and Intelligence/Wisdom checks)."
+        },
+        "6": {
+          "id": "cosmic_omen",
+          "nameRu": "Космическое знамение",
+          "nameEn": "Cosmic Omen",
+          "descriptionRu": "Вы можете использовать реакцию, чтобы добавить или вычесть d6 из броска атаки, спасброска или проверки характеристики существа, которое вы видите в пределах 30 футов. Тип (бонус или штраф) определяется бросоком в конце длинного отдыха. Количество использований равно бонусу мастерства за длинный отдых.",
+          "descriptionEn": "You can use a reaction to add or subtract a d6 from an attack roll, saving throw, or ability check of a creature you can see within 30 feet. The type (bonus or penalty) is determined by a roll at the end of a long rest. Number of uses equals proficiency bonus per long rest."
+        },
+        "10": {
+          "id": "twinkling_constellations",
+          "nameRu": "Мерцающие созвездия",
+          "nameEn": "Twinkling Constellations",
+          "descriptionRu": "Ваши созвездия усиливаются: Лучник и Чаша наносят/восстанавливают 2d8 вместо 1d8. Кроме того, в начале каждого вашего хода в звёздном облике вы можете сменить созвездие.",
+          "descriptionEn": "Your constellations are empowered: Archer and Chalice deal/restore 2d8 instead of 1d8. Additionally, at the start of each of your turns while in starry form, you can change your constellation."
+        },
+        "14": {
+          "id": "full_of_stars",
+          "nameRu": "Полон звёзд",
+          "nameEn": "Full of Stars",
+          "descriptionRu": "Находясь в звёздном облике, вы частично становитесь звёздным светом. Вы получаете сопротивление дробящему, колющему и рубящему урону.",
+          "descriptionEn": "While in your starry form, you become partially starlight. You gain resistance to bludgeoning, piercing, and slashing damage."
+        }
+      }
+    }
+  ]
+}

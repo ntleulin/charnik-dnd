@@ -1,0 +1,602 @@
+{
+  "id": "rogue",
+  "nameRu": "Плут",
+  "nameEn": "Rogue",
+  "descriptionRu": "Плут — мастер скрытности, ловкости и хитрости. Плуты полагаются на умения, уловки и уязвимости противников, чтобы одерживать верх в любой ситуации.",
+  "descriptionEn": "A Rogue is a master of stealth, agility, and cunning. Rogues rely on skill, trickery, and their foes' vulnerabilities to get the upper hand in any situation.",
+  "hitDie": "d8",
+  "hitDieValue": 8,
+  "primaryAbilities": [
+    "dex"
+  ],
+  "savingThrows": [
+    "dex",
+    "int"
+  ],
+  "armorProficiencies": [
+    "light"
+  ],
+  "weaponProficiencies": [
+    "simple",
+    "hand_crossbows",
+    "longswords",
+    "rapiers",
+    "shortswords"
+  ],
+  "toolProficiencies": [
+    "thieves_tools"
+  ],
+  "skillChoice": {
+    "count": 4,
+    "from": [
+      "acrobatics",
+      "athletics",
+      "deception",
+      "insight",
+      "intimidation",
+      "investigation",
+      "perception",
+      "performance",
+      "persuasion",
+      "sleight_of_hand",
+      "stealth"
+    ]
+  },
+  "multiclassRequirement": {
+    "minimumScores": {
+      "dex": 13
+    },
+    "requireAll": true
+  },
+  "multiclassProficiencies": [
+    "light",
+    "thieves_tools"
+  ],
+  "spellcastingAbility": null,
+  "spellcastingType": null,
+  "subclassLevel": 3,
+  "levels": {
+    "1": {
+      "features": [
+        "expertise",
+        "sneak_attack",
+        "thieves_cant"
+      ],
+      "proficiencyBonus": 2
+    },
+    "2": {
+      "features": [
+        "cunning_action"
+      ],
+      "proficiencyBonus": 2
+    },
+    "3": {
+      "features": [
+        "subclass_feature",
+        "steady_aim"
+      ],
+      "proficiencyBonus": 2
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2
+    },
+    "5": {
+      "features": [
+        "uncanny_dodge"
+      ],
+      "proficiencyBonus": 3
+    },
+    "6": {
+      "features": [
+        "expertise_2"
+      ],
+      "proficiencyBonus": 3
+    },
+    "7": {
+      "features": [
+        "evasion",
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3
+    },
+    "9": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 4
+    },
+    "10": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4
+    },
+    "11": {
+      "features": [
+        "reliable_talent"
+      ],
+      "proficiencyBonus": 4
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4
+    },
+    "13": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5
+    },
+    "14": {
+      "features": [
+        "blindsense"
+      ],
+      "proficiencyBonus": 5
+    },
+    "15": {
+      "features": [
+        "slippery_mind"
+      ],
+      "proficiencyBonus": 5
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5
+    },
+    "17": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 6
+    },
+    "18": {
+      "features": [
+        "elusive"
+      ],
+      "proficiencyBonus": 6
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6
+    },
+    "20": {
+      "features": [
+        "stroke_of_luck"
+      ],
+      "proficiencyBonus": 6
+    }
+  },
+  "subclasses": [
+    {
+      "id": "arcane_trickster",
+      "nameRu": "Мистический ловкач",
+      "nameEn": "Arcane Trickster",
+      "descriptionRu": "Некоторые плуты дополняют навыки ловкости и скрытности магией, изучая заклинания школ Очарования и Иллюзии.",
+      "descriptionEn": "Some rogues enhance their finely honed skills of stealth and agility with magic, learning spells of enchantment and illusion.",
+      "features": {
+        "3": [
+          "at_spellcasting",
+          "mage_hand_legerdemain"
+        ],
+        "9": [
+          "magical_ambush"
+        ],
+        "13": [
+          "versatile_trickster"
+        ],
+        "17": [
+          "spell_thief"
+        ]
+      }
+    },
+    {
+      "id": "assassin",
+      "nameRu": "Убийца",
+      "nameEn": "Assassin",
+      "descriptionRu": "Вы сосредотачиваете тренировки на мрачном искусстве смерти. Наёмные убийцы, шпионы и охотники за головами следуют этому архетипу.",
+      "descriptionEn": "You focus your training on the grim art of death. Hired killers, spies, bounty hunters, and specially anointed priests follow this archetype.",
+      "features": {
+        "3": [
+          "assassinate",
+          "assassin_tools"
+        ],
+        "9": [
+          "infiltration_expertise"
+        ],
+        "13": [
+          "impostor"
+        ],
+        "17": [
+          "death_strike"
+        ]
+      }
+    },
+    {
+      "id": "soulknife",
+      "nameRu": "Нож разума",
+      "nameEn": "Soulknife",
+      "descriptionRu": "Нож разума вошёл в контакт с псионической силой внутри себя, создавая лезвия из психической энергии усилием воли.",
+      "descriptionEn": "A Soulknife has tapped into psionic power within, manifesting blades of psychic energy created through sheer will.",
+      "features": {
+        "3": [
+          "psionic_power_rogue",
+          "psychic_blades"
+        ],
+        "9": [
+          "soul_blades"
+        ],
+        "13": [
+          "psychic_veil"
+        ],
+        "17": [
+          "rend_mind"
+        ]
+      }
+    },
+    {
+      "id": "thief",
+      "nameRu": "Вор",
+      "nameEn": "Thief",
+      "descriptionRu": "Вы оттачиваете навыки в воровском искусстве. Взломщики, бандиты, карманники и искатели сокровищ следуют этому архетипу.",
+      "descriptionEn": "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and professional treasure seekers follow this archetype.",
+      "features": {
+        "3": [
+          "fast_hands",
+          "second_story_work"
+        ],
+        "9": [
+          "supreme_sneak"
+        ],
+        "13": [
+          "use_magic_device"
+        ],
+        "17": [
+          "thiefs_reflexes"
+        ]
+      }
+    }
+  ],
+  "spellSlots": null,
+  "features": {
+    "expertise": {
+      "id": "expertise",
+      "nameRu": "Компетентность",
+      "nameEn": "Expertise",
+      "descriptionRu": "Выберите два навыка, которыми вы владеете, или один навык и воровские инструменты. Ваш бонус мастерства удваивается для проверок с выбранными владениями.",
+      "descriptionEn": "Choose two of your skill proficiencies, or one skill proficiency and thieves' tools. Your proficiency bonus is doubled for any ability check using the chosen proficiencies.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "sneak_attack": {
+      "id": "sneak_attack",
+      "nameRu": "Скрытая атака",
+      "nameEn": "Sneak Attack",
+      "descriptionRu": "Один раз за ход вы наносите дополнительный урон при попадании, если есть преимущество на бросок атаки. Атака должна использовать фехтовальное или дальнобойное оружие. Преимущество не нужно, если враг цели в пределах 5 футов и вы без помехи. Урон: 1d6 на 1-м уровне, +1d6 каждые два уровня плута.",
+      "descriptionEn": "Once per turn, you deal extra damage on a hit if you have Advantage on the attack roll. The attack must use a finesse or ranged weapon. You don't need Advantage if an enemy of the target is within 5 feet and you don't have Disadvantage. Damage: 1d6 at 1st level, +1d6 every two Rogue levels.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "thieves_cant": {
+      "id": "thieves_cant",
+      "nameRu": "Воровской жаргон",
+      "nameEn": "Thieves' Cant",
+      "descriptionRu": "Вы знаете воровской жаргон — тайную смесь диалектов, жаргонизмов и кодов для скрытых сообщений в обычном разговоре. Вы также понимаете набор тайных знаков и символов.",
+      "descriptionEn": "You know thieves' cant, a secret mix of dialect, jargon, and code allowing hidden messages in normal conversation. You also understand a set of secret signs and symbols.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "cunning_action": {
+      "id": "cunning_action",
+      "nameRu": "Хитрое действие",
+      "nameEn": "Cunning Action",
+      "descriptionRu": "В каждый свой ход вы можете бонусным действием совершить Рывок, Отход или Засаду (Скрытность).",
+      "descriptionEn": "You can take a Bonus Action on each of your turns to Dash, Disengage, or Hide.",
+      "level": 2,
+      "actionType": "bonus_action"
+    },
+    "subclass_feature": {
+      "id": "subclass_feature",
+      "nameRu": "Умение подкласса",
+      "nameEn": "Subclass Feature",
+      "descriptionRu": "Вы получаете умение от выбранного подкласса.",
+      "descriptionEn": "You gain a feature from your chosen subclass.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "steady_aim": {
+      "id": "steady_aim",
+      "nameRu": "Твёрдый прицел",
+      "nameEn": "Steady Aim",
+      "descriptionRu": "Бонусным действием вы получаете преимущество на следующий бросок атаки в этом ходу. Работает только если вы не перемещались, и после использования скорость = 0 до конца хода.",
+      "descriptionEn": "As a Bonus Action, gain Advantage on your next attack roll this turn. Only if you haven't moved, and your speed becomes 0 until end of turn.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Характеристика не может превышать 20. Вместо этого вы можете взять черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. An ability score can't exceed 20. Alternatively, you can take a feat.",
+      "level": 4,
+      "actionType": "passive"
+    },
+    "uncanny_dodge": {
+      "id": "uncanny_dodge",
+      "nameRu": "Невероятное уклонение",
+      "nameEn": "Uncanny Dodge",
+      "descriptionRu": "Реакцией вы уменьшаете вдвое урон от атаки, которую видите.",
+      "descriptionEn": "As a Reaction, you halve the damage from an attack you can see.",
+      "level": 5,
+      "actionType": "reaction"
+    },
+    "expertise_2": {
+      "id": "expertise_2",
+      "nameRu": "Компетентность (доп.)",
+      "nameEn": "Expertise (Additional)",
+      "descriptionRu": "Выберите ещё два навыка, которыми владеете. Ваш бонус мастерства удваивается для проверок с ними.",
+      "descriptionEn": "Choose two more of your skill proficiencies. Your proficiency bonus is doubled for ability checks using them.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "evasion": {
+      "id": "evasion",
+      "nameRu": "Уклонение",
+      "nameEn": "Evasion",
+      "descriptionRu": "При спасброске Ловкости для половины урона: успех — 0 урона, провал — половина урона.",
+      "descriptionEn": "When a Dexterity save would halve damage: on success you take no damage, on failure you take half.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "reliable_talent": {
+      "id": "reliable_talent",
+      "nameRu": "Надёжный талант",
+      "nameEn": "Reliable Talent",
+      "descriptionRu": "При проверке характеристики с бонусом мастерства результат на кости 9 или ниже считается за 10.",
+      "descriptionEn": "When you make an ability check that adds your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.",
+      "level": 11,
+      "actionType": "passive"
+    },
+    "blindsense": {
+      "id": "blindsense",
+      "nameRu": "Слепое чувство",
+      "nameEn": "Blindsense",
+      "descriptionRu": "Если вы можете слышать, вы знаете местоположение любого скрытого или невидимого существа в пределах 10 футов.",
+      "descriptionEn": "If you can hear, you know the location of any hidden or invisible creature within 10 feet of you.",
+      "level": 14,
+      "actionType": "passive"
+    },
+    "slippery_mind": {
+      "id": "slippery_mind",
+      "nameRu": "Скользкий ум",
+      "nameEn": "Slippery Mind",
+      "descriptionRu": "Вы получаете владение спасбросками Мудрости.",
+      "descriptionEn": "You gain proficiency in Wisdom saving throws.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "elusive": {
+      "id": "elusive",
+      "nameRu": "Неуловимый",
+      "nameEn": "Elusive",
+      "descriptionRu": "Ни один бросок атаки не может иметь преимущество против вас, пока вы не недееспособны.",
+      "descriptionEn": "No attack roll has Advantage against you while you aren't incapacitated.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "stroke_of_luck": {
+      "id": "stroke_of_luck",
+      "nameRu": "Удача",
+      "nameEn": "Stroke of Luck",
+      "descriptionRu": "Промах атакой по цели в досягаемости можно превратить в попадание. Или провал проверки характеристики — считать d20 за 20. Восстанавливается после короткого или длительного отдыха.",
+      "descriptionEn": "Turn a missed attack into a hit, or treat a failed ability check as a 20 on the d20. Recharges after a Short or Long Rest.",
+      "level": 20,
+      "actionType": "passive",
+      "usesPerRest": 1,
+      "restType": "short"
+    },
+    "fast_hands": {
+      "id": "fast_hands",
+      "nameRu": "Быстрые руки",
+      "nameEn": "Fast Hands",
+      "descriptionRu": "Хитрым действием вы можете: совершить проверку Ловкости (Ловкость рук), использовать воровские инструменты для вскрытия или совершить действие Использование предмета.",
+      "descriptionEn": "With Cunning Action you can: make a Sleight of Hand check, use thieves' tools to disarm a trap or pick a lock, or take the Use an Object action.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "second_story_work": {
+      "id": "second_story_work",
+      "nameRu": "Верхолаз",
+      "nameEn": "Second-Story Work",
+      "descriptionRu": "Вы получаете скорость лазания, равную скорости ходьбы. При прыжке с разбега — дополнительные футы, равные модификатору Ловкости.",
+      "descriptionEn": "You gain a climbing speed equal to your walking speed. When making a running jump, the distance increases by feet equal to your Dexterity modifier.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "supreme_sneak": {
+      "id": "supreme_sneak",
+      "nameRu": "Превосходная скрытность",
+      "nameEn": "Supreme Sneak",
+      "descriptionRu": "Преимущество на проверки Ловкости (Скрытность), если вы перемещаетесь не более чем на половину скорости.",
+      "descriptionEn": "You have Advantage on Dexterity (Stealth) checks if you move no more than half your speed on the same turn.",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "use_magic_device": {
+      "id": "use_magic_device",
+      "nameRu": "Использование магических устройств",
+      "nameEn": "Use Magic Device",
+      "descriptionRu": "Вы игнорируете все требования класса, расы и уровня при использовании магических предметов.",
+      "descriptionEn": "You ignore all class, race, and level requirements on the use of magic items.",
+      "level": 13,
+      "actionType": "passive"
+    },
+    "thiefs_reflexes": {
+      "id": "thiefs_reflexes",
+      "nameRu": "Рефлексы вора",
+      "nameEn": "Thief's Reflexes",
+      "descriptionRu": "Вы можете совершить два хода в первом раунде боя: первый — по нормальной инициативе, второй — по инициативе минус 10. Не работает при внезапности.",
+      "descriptionEn": "You can take two turns in the first round of combat: first at normal initiative, second at initiative minus 10. Not usable when surprised.",
+      "level": 17,
+      "actionType": "passive"
+    },
+    "assassinate": {
+      "id": "assassinate",
+      "nameRu": "Ликвидация",
+      "nameEn": "Assassinate",
+      "descriptionRu": "Преимущество на броски атаки по существам, которые ещё не ходили в бою. Попадание по удивлённому существу — критический удар.",
+      "descriptionEn": "Advantage on attack rolls against creatures that haven't taken a turn yet. Hits against surprised creatures are critical hits.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "assassin_tools": {
+      "id": "assassin_tools",
+      "nameRu": "Инструменты убийцы",
+      "nameEn": "Assassin's Tools",
+      "descriptionRu": "Вы получаете владение набором для маскировки и набором отравителя.",
+      "descriptionEn": "You gain proficiency with the disguise kit and the poisoner's kit.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "infiltration_expertise": {
+      "id": "infiltration_expertise",
+      "nameRu": "Мастерство проникновения",
+      "nameEn": "Infiltration Expertise",
+      "descriptionRu": "Вы можете создавать ложные личности (7 дней, 25 зм). После этого — преимущество на проверки Обмана для поддержания личности.",
+      "descriptionEn": "You can create false identities (7 days, 25 gp). After that, Advantage on Deception checks to maintain the identity.",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "impostor": {
+      "id": "impostor",
+      "nameRu": "Самозванец",
+      "nameEn": "Impostor",
+      "descriptionRu": "Вы безошибочно имитируете речь, письмо и поведение другого человека после 3 часов изучения. Другие получают помеху на распознание обмана.",
+      "descriptionEn": "You unerringly mimic another person's speech, writing, and behavior after 3 hours of study. Others have Disadvantage to detect the deception.",
+      "level": 13,
+      "actionType": "passive"
+    },
+    "death_strike": {
+      "id": "death_strike",
+      "nameRu": "Смертельный удар",
+      "nameEn": "Death Strike",
+      "descriptionRu": "При попадании по удивлённому существу — спасбросок Телосложения (Сл 8 + мод. Ловкости + бонус мастерства). При провале урон удваивается.",
+      "descriptionEn": "When you hit a surprised creature, it must make a Constitution save (DC 8 + Dex mod + proficiency). On failure, damage is doubled.",
+      "level": 17,
+      "actionType": "passive"
+    },
+    "at_spellcasting": {
+      "id": "at_spellcasting",
+      "nameRu": "Использование заклинаний (Мистический ловкач)",
+      "nameEn": "Spellcasting (Arcane Trickster)",
+      "descriptionRu": "Вы получаете возможность творить заклинания волшебника. Интеллект — заклинательная характеристика. Вы изучаете Волшебную руку и два других заговора, а также три заклинания 1-го уровня (два из школ Очарования или Иллюзии).",
+      "descriptionEn": "You gain the ability to cast Wizard spells. Intelligence is your spellcasting ability. You learn Mage Hand and two other cantrips, plus three 1st-level spells (two from Enchantment or Illusion).",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "mage_hand_legerdemain": {
+      "id": "mage_hand_legerdemain",
+      "nameRu": "Волшебная рука ловкача",
+      "nameEn": "Mage Hand Legerdemain",
+      "descriptionRu": "Волшебная рука становится невидимой. Вы можете: класть/забирать предметы из контейнеров на существах; использовать воровские инструменты на расстоянии.",
+      "descriptionEn": "Your Mage Hand becomes invisible. You can: stow/retrieve objects from containers on creatures; use thieves' tools at range.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "magical_ambush": {
+      "id": "magical_ambush",
+      "nameRu": "Магическая засада",
+      "nameEn": "Magical Ambush",
+      "descriptionRu": "Если вы скрыты от существа при сотворении заклинания — существо получает помеху на спасбросок.",
+      "descriptionEn": "If you are hidden from a creature when you cast a spell on it, it has Disadvantage on the saving throw.",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "versatile_trickster": {
+      "id": "versatile_trickster",
+      "nameRu": "Разносторонний ловкач",
+      "nameEn": "Versatile Trickster",
+      "descriptionRu": "Бонусным действием направьте Волшебную руку к существу в 5 футах от руки — преимущество на броски атаки по нему до конца хода.",
+      "descriptionEn": "As a Bonus Action, designate a creature within 5 feet of your Mage Hand. You gain Advantage on attack rolls against it until end of turn.",
+      "level": 13,
+      "actionType": "bonus_action"
+    },
+    "spell_thief": {
+      "id": "spell_thief",
+      "nameRu": "Похититель заклинаний",
+      "nameEn": "Spell Thief",
+      "descriptionRu": "Реакцией после заклинания, нацеленного на вас: существо совершает спасбросок Интеллекта. При провале — эффект отменяется и вы крадёте знание заклинания на 8 часов. Раз за длительный отдых.",
+      "descriptionEn": "As a Reaction after a spell targets you: the caster makes an Intelligence save. On failure, negate the effect and steal the spell knowledge for 8 hours. Once per Long Rest.",
+      "level": 17,
+      "actionType": "reaction",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "psionic_power_rogue": {
+      "id": "psionic_power_rogue",
+      "nameRu": "Псионическая сила",
+      "nameEn": "Psionic Power",
+      "descriptionRu": "Вы получаете кубики Псионической энергии (d6, количество = бонус мастерства x2). Используются для способностей. Восстанавливаются после длительного отдыха. Бонусным действием — восстановить один (раз за короткий отдых).",
+      "descriptionEn": "You gain Psionic Energy dice (d6, number = proficiency bonus x2). Used for abilities. Regained after Long Rest. As a Bonus Action, recover one die (once per Short Rest).",
+      "level": 3,
+      "actionType": "varies",
+      "usesPerRest": "proficiency_bonus_x2",
+      "restType": "long"
+    },
+    "psychic_blades": {
+      "id": "psychic_blades",
+      "nameRu": "Психические клинки",
+      "nameEn": "Psychic Blades",
+      "descriptionRu": "При действии Атаки вы создаёте психический клинок (рукопашная, 5 фт., 1d6 + мод. Ловкости психический урон). Клинок исчезает после атаки. Бонусной атакой — второй клинок (1d4 + мод. Ловкости).",
+      "descriptionEn": "When you take the Attack action, create a psychic blade (melee, 5 ft., 1d6 + Dex mod psychic damage). Blade vanishes after attack. Bonus action attack: second blade (1d4 + Dex mod).",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "soul_blades": {
+      "id": "soul_blades",
+      "nameRu": "Клинки души",
+      "nameEn": "Soul Blades",
+      "descriptionRu": "Самонаведение: при промахе — бросьте кубик Псионической энергии и добавьте к атаке. Психическая телепортация: бонусным действием телепортируйтесь на расстояние до 10 x кубик Пси. энергии футов.",
+      "descriptionEn": "Homing Strikes: on a miss, roll a Psionic Energy die and add to the attack. Psychic Teleportation: as a Bonus Action, teleport up to 10 x Psionic Energy die roll feet.",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "psychic_veil": {
+      "id": "psychic_veil",
+      "nameRu": "Психическая завеса",
+      "nameEn": "Psychic Veil",
+      "descriptionRu": "Действием — невидимость со снаряжением на 1 час (или до нанесения урона/принуждения спасброска). Бесплатно раз за длительный отдых или за кубик Пси. энергии.",
+      "descriptionEn": "As an Action, become invisible with equipment for 1 hour (or until you deal damage/force a save). Free once per Long Rest, or spend a Psionic Energy die.",
+      "level": 13,
+      "actionType": "action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "rend_mind": {
+      "id": "rend_mind",
+      "nameRu": "Разрушение разума",
+      "nameEn": "Rend Mind",
+      "descriptionRu": "При Скрытой атаке Психическими клинками: цель совершает спасбросок Мудрости (Сл 8 + бонус мастерства + мод. Ловкости). Провал — ошеломление на 1 минуту (повторные спасброски). Раз за длительный отдых или за кубик Пси. энергии.",
+      "descriptionEn": "When dealing Sneak Attack damage with Psychic Blades: target makes Wisdom save (DC 8 + proficiency + Dex mod). Failure = stunned for 1 minute (repeat saves). Once per Long Rest or spend a Psionic Energy die.",
+      "level": 17,
+      "actionType": "passive",
+      "usesPerRest": 1,
+      "restType": "long"
+    }
+  }
+}

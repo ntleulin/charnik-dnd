@@ -1,0 +1,810 @@
+{
+  "id": "bard",
+  "nameRu": "Бард",
+  "nameEn": "Bard",
+  "descriptionRu": "Бард — мастер песен, речей и магии, которую они пробуждают. Барды черпают силу из музыки, поэзии и ораторского мастерства, вплетая магию в каждое слово и мелодию.",
+  "descriptionEn": "A Bard is a master of song, speech, and the magic they contain. Bards draw power from music, poetry, and oration, weaving magic into every word and melody.",
+  "hitDie": "d8",
+  "hitDieValue": 8,
+  "primaryAbilities": [
+    "cha"
+  ],
+  "savingThrows": [
+    "dex",
+    "cha"
+  ],
+  "armorProficiencies": [
+    "light"
+  ],
+  "weaponProficiencies": [
+    "simple",
+    "hand_crossbows",
+    "longswords",
+    "rapiers",
+    "shortswords"
+  ],
+  "toolProficiencies": [
+    "musical_instrument",
+    "musical_instrument",
+    "musical_instrument"
+  ],
+  "skillChoice": {
+    "count": 3,
+    "from": [
+      "any"
+    ]
+  },
+  "multiclassRequirement": {
+    "minimumScores": {
+      "cha": 13
+    },
+    "requireAll": true
+  },
+  "multiclassProficiencies": [
+    "light",
+    "simple"
+  ],
+  "spellcastingAbility": "cha",
+  "spellcastingType": "full",
+  "subclassLevel": 3,
+  "levels": {
+    "1": {
+      "features": [
+        "spellcasting",
+        "bardic_inspiration"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 2
+    },
+    "2": {
+      "features": [
+        "jack_of_all_trades",
+        "expertise"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 2
+    },
+    "3": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 2
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 3
+    },
+    "5": {
+      "features": [
+        "font_of_inspiration"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3
+    },
+    "6": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3
+    },
+    "7": {
+      "features": [
+        "countercharm"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 3
+    },
+    "9": {
+      "features": [
+        "expertise_2"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 3
+    },
+    "10": {
+      "features": [
+        "magical_secrets"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 4
+    },
+    "11": {
+      "features": [],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 4
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 4
+    },
+    "13": {
+      "features": [],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4
+    },
+    "14": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4
+    },
+    "15": {
+      "features": [],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 4
+    },
+    "17": {
+      "features": [],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4
+    },
+    "18": {
+      "features": [
+        "superior_inspiration"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4
+    },
+    "20": {
+      "features": [
+        "words_of_creation"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 4
+    }
+  },
+  "subclasses": [
+    {
+      "id": "dance",
+      "nameRu": "Коллегия Танца",
+      "nameEn": "College of Dance",
+      "descriptionRu": "Барды Коллегии Танца знают, что движение тела способно нести глубочайшие эмоции и магическую силу. Эти барды оттачивают своё тело как инструмент, сочетая грацию танца с мощью заклинаний.",
+      "descriptionEn": "Bards of the College of Dance know that the body's movement can carry the deepest emotions and magical power. These bards hone their bodies as instruments, combining the grace of dance with the power of spells.",
+      "features": {
+        "3": [
+          "dazzling_footwork",
+          "inspiring_movement"
+        ],
+        "6": [
+          "tandem_footwork"
+        ],
+        "14": [
+          "irresistible_dance"
+        ]
+      }
+    },
+    {
+      "id": "glamour",
+      "nameRu": "Коллегия Очарования",
+      "nameEn": "College of Glamour",
+      "descriptionRu": "Коллегия Очарования является домом для бардов, которые освоили свой дар в чарующих владениях Страны Фей. Их выступления наполнены магией фей, которая очаровывает и восхищает.",
+      "descriptionEn": "The College of Glamour is home to bards who mastered their craft in the beguiling wilds of the Feywild. Their performances are infused with fey magic that charms and delights.",
+      "features": {
+        "3": [
+          "mantle_of_inspiration",
+          "enthralling_performance"
+        ],
+        "6": [
+          "mantle_of_majesty"
+        ],
+        "14": [
+          "unbreakable_majesty"
+        ]
+      }
+    },
+    {
+      "id": "lore",
+      "nameRu": "Коллегия Знаний",
+      "nameEn": "College of Lore",
+      "descriptionRu": "Барды Коллегии Знаний знают понемногу обо всём, собирая обрывки знаний из самых разных источников — от учёных трактатов до крестьянских сказок.",
+      "descriptionEn": "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.",
+      "features": {
+        "3": [
+          "bonus_proficiencies_lore",
+          "cutting_words"
+        ],
+        "6": [
+          "additional_magical_secrets"
+        ],
+        "14": [
+          "peerless_skill"
+        ]
+      }
+    },
+    {
+      "id": "valor",
+      "nameRu": "Коллегия Доблести",
+      "nameEn": "College of Valor",
+      "descriptionRu": "Барды Коллегии Доблести — отважные скальды, чьи сказания поддерживают в живых память о великих героях прошлого, вдохновляя новое поколение героев.",
+      "descriptionEn": "Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.",
+      "features": {
+        "3": [
+          "bonus_proficiencies_valor",
+          "combat_inspiration"
+        ],
+        "6": [
+          "extra_attack_bard"
+        ],
+        "14": [
+          "battle_magic"
+        ]
+      }
+    }
+  ],
+  "spellSlots": {
+    "1": {
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 2
+    },
+    "2": {
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 2
+    },
+    "3": {
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 2
+    },
+    "4": {
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "5": {
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "6": {
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "7": {
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "8": {
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "9": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "10": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "11": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "12": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "13": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "14": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "15": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "16": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "17": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 4
+    },
+    "18": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 4
+    },
+    "19": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 4
+    },
+    "20": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "cantripsKnown": 4
+    }
+  },
+  "features": {
+    "spellcasting": {
+      "id": "spellcasting",
+      "nameRu": "Использование заклинаний",
+      "nameEn": "Spellcasting",
+      "descriptionRu": "Вы научились перестраивать ткань реальности в соответствии с вашими желаниями и музыкой. Харизма — ваша заклинательная характеристика. Вы подготавливаете список заклинаний барда. Количество подготовленных заклинаний равно модификатору Харизмы + уровень барда. Вы можете использовать музыкальный инструмент в качестве фокусировки и накладывать ритуалы.",
+      "descriptionEn": "You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Charisma is your spellcasting ability. You prepare Bard spells. The number you can prepare equals your Charisma modifier + your Bard level. You can use a musical instrument as a spellcasting focus and cast rituals.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "bardic_inspiration": {
+      "id": "bardic_inspiration",
+      "nameRu": "Вдохновение барда",
+      "nameEn": "Bardic Inspiration",
+      "descriptionRu": "Бонусным действием вы даёте одному существу (кроме себя) в пределах 60 футов кость Вдохновения Барда (d6). В течение 10 минут существо может бросить её и добавить результат к одному броску атаки, проверке характеристики или спасброску. Размер кости растёт: d8 на 5-м, d10 на 10-м, d12 на 15-м уровне. Количество использований равно модификатору Харизмы (минимум 1), восстанавливается после длительного отдыха.",
+      "descriptionEn": "As a Bonus Action, you give one creature (other than yourself) within 60 feet a Bardic Inspiration die (d6). For the next 10 minutes, the creature can roll it and add the result to one attack roll, ability check, or saving throw. The die grows: d8 at 5th, d10 at 10th, d12 at 15th level. Uses equal your Charisma modifier (minimum 1), regained after a Long Rest.",
+      "level": 1,
+      "actionType": "bonus_action",
+      "usesPerRest": "charisma_modifier",
+      "restType": "long"
+    },
+    "jack_of_all_trades": {
+      "id": "jack_of_all_trades",
+      "nameRu": "Мастер на все руки",
+      "nameEn": "Jack of All Trades",
+      "descriptionRu": "Вы можете добавлять половину бонуса мастерства, округлённую вниз, к любой проверке характеристики, к которой вы ещё не добавляете бонус мастерства.",
+      "descriptionEn": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "expertise": {
+      "id": "expertise",
+      "nameRu": "Компетентность",
+      "nameEn": "Expertise",
+      "descriptionRu": "Выберите два навыка, которыми вы владеете. Ваш бонус мастерства удваивается для проверок характеристик, использующих любой из выбранных навыков.",
+      "descriptionEn": "Choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "subclass_feature": {
+      "id": "subclass_feature",
+      "nameRu": "Умение подкласса",
+      "nameEn": "Subclass Feature",
+      "descriptionRu": "Вы получаете умение от выбранного подкласса.",
+      "descriptionEn": "You gain a feature from your chosen subclass.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Характеристика не может превышать 20. Вместо этого вы можете взять черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. An ability score can't exceed 20. Alternatively, you can take a feat.",
+      "level": 4,
+      "actionType": "passive"
+    },
+    "font_of_inspiration": {
+      "id": "font_of_inspiration",
+      "nameRu": "Источник вдохновения",
+      "nameEn": "Font of Inspiration",
+      "descriptionRu": "Вы восстанавливаете все потраченные использования Вдохновения Барда, когда завершаете короткий или длительный отдых.",
+      "descriptionEn": "You regain all of your expended uses of Bardic Inspiration when you finish a Short or Long Rest.",
+      "level": 5,
+      "actionType": "passive",
+      "usesPerRest": "charisma_modifier",
+      "restType": "short"
+    },
+    "countercharm": {
+      "id": "countercharm",
+      "nameRu": "Контрочарование",
+      "nameEn": "Countercharm",
+      "descriptionRu": "Действием вы можете начать выступление, которое длится до конца вашего следующего хода. В это время вы и дружественные существа в пределах 30 футов имеют преимущество на спасброски от испуга и очарования. Существо должно слышать вас.",
+      "descriptionEn": "As an Action, you start a performance lasting until the end of your next turn. During that time, you and friendly creatures within 30 feet have Advantage on saving throws against being Frightened or Charmed. A creature must be able to hear you.",
+      "level": 7,
+      "actionType": "action"
+    },
+    "expertise_2": {
+      "id": "expertise_2",
+      "nameRu": "Компетентность (доп.)",
+      "nameEn": "Expertise (Additional)",
+      "descriptionRu": "Вы выбираете ещё два навыка, которыми владеете. Ваш бонус мастерства удваивается для проверок характеристик с этими навыками.",
+      "descriptionEn": "Choose two more of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "magical_secrets": {
+      "id": "magical_secrets",
+      "nameRu": "Магические тайны",
+      "nameEn": "Magical Secrets",
+      "descriptionRu": "Вы можете подготавливать два заклинания из любого класса. Выбранное заклинание должно быть того уровня, который вы можете наложить. Они считаются заклинаниями барда.",
+      "descriptionEn": "You can prepare two spells from any class. A spell you choose must be of a level you can cast. The chosen spells count as Bard spells for you.",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "superior_inspiration": {
+      "id": "superior_inspiration",
+      "nameRu": "Превосходное вдохновение",
+      "nameEn": "Superior Inspiration",
+      "descriptionRu": "Когда вы бросаете инициативу и у вас нет оставшихся использований Вдохновения Барда, вы восстанавливаете два использования.",
+      "descriptionEn": "When you roll Initiative and have no uses of Bardic Inspiration left, you regain two uses.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "words_of_creation": {
+      "id": "words_of_creation",
+      "nameRu": "Слова Творения",
+      "nameEn": "Words of Creation",
+      "descriptionRu": "Ваше Вдохновение Барда теперь даёт существу 20 временных хитов при получении кости. Кроме того, когда существо использует кость и терпит неудачу, кость не расходуется.",
+      "descriptionEn": "Your Bardic Inspiration now grants a creature 20 Temporary Hit Points when it receives the die. Additionally, when a creature uses the die and fails, the die isn't expended.",
+      "level": 20,
+      "actionType": "passive"
+    },
+    "dazzling_footwork": {
+      "id": "dazzling_footwork",
+      "nameRu": "Ослепительная работа ног",
+      "nameEn": "Dazzling Footwork",
+      "descriptionRu": "Ваша скорость ходьбы увеличивается на 10 футов, и вы не провоцируете атак при перемещении. Когда вы даёте Вдохновение другому существу, вы получаете бонус к КД, равный результату кости, до начала следующего хода.",
+      "descriptionEn": "Your walking speed increases by 10 feet, and you don't provoke opportunity attacks when you use part of your walking speed. When you expend a Bardic Inspiration die to give inspiration to another creature, you gain a bonus to AC equal to the number rolled until the start of your next turn.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "inspiring_movement": {
+      "id": "inspiring_movement",
+      "nameRu": "Вдохновляющее движение",
+      "nameEn": "Inspiring Movement",
+      "descriptionRu": "Когда враг заканчивает свой ход в пределах 5 футов от вашего союзника, вы можете реакцией позволить союзнику переместиться на половину его скорости без провоцирования атак.",
+      "descriptionEn": "When an enemy you can see ends its turn within 5 feet of an ally of yours, you can use your Reaction to let that ally move up to half their speed without provoking opportunity attacks.",
+      "level": 3,
+      "actionType": "reaction"
+    },
+    "tandem_footwork": {
+      "id": "tandem_footwork",
+      "nameRu": "Совместная работа ног",
+      "nameEn": "Tandem Footwork",
+      "descriptionRu": "Когда вы бросаете инициативу, вы можете потратить кость Вдохновения Барда и добавить результат к своей инициативе и к инициативе союзников (до модификатора Харизмы), которые вас видят или слышат.",
+      "descriptionEn": "When you roll initiative, you can expend one Bardic Inspiration die. Roll the die and add the result to your initiative roll, as well as to the initiative rolls of allies who can see or hear you, up to your Charisma modifier.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "irresistible_dance": {
+      "id": "irresistible_dance",
+      "nameRu": "Неудержимый танец",
+      "nameEn": "Irresistible Dance",
+      "descriptionRu": "Вы получаете заклинание Пляска Отто как заклинание барда. Вы можете наложить его без ячейки заклинания и без концентрации. Восстанавливается после длительного отдыха.",
+      "descriptionEn": "You gain Otto's Irresistible Dance as a Bard spell. You can cast it without expending a spell slot and without Concentration. You regain this ability after a Long Rest.",
+      "level": 14,
+      "actionType": "action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "mantle_of_inspiration": {
+      "id": "mantle_of_inspiration",
+      "nameRu": "Мантия вдохновения",
+      "nameEn": "Mantle of Inspiration",
+      "descriptionRu": "Бонусным действием вы тратите кость Вдохновения Барда и выбираете существ в пределах 60 футов (до модификатора Харизмы). Каждое получает временные хиты равные результату кости + уровень барда и может реакцией переместиться без провоцирования атак.",
+      "descriptionEn": "As a Bonus Action, you expend a Bardic Inspiration die and choose creatures within 60 feet (up to your Charisma modifier). Each gains Temporary Hit Points equal to the die roll plus your Bard level and can use Reaction to move without provoking opportunity attacks.",
+      "level": 3,
+      "actionType": "bonus_action"
+    },
+    "enthralling_performance": {
+      "id": "enthralling_performance",
+      "nameRu": "Пленительное выступление",
+      "nameEn": "Enthralling Performance",
+      "descriptionRu": "После выступления в течение 10 минут выберите гуманоидов в пределах 60 футов (до модификатора Харизмы). Каждый должен совершить спасбросок Мудрости или стать очарованным на 1 час.",
+      "descriptionEn": "After performing for at least 10 minutes, choose humanoids within 60 feet (up to Charisma modifier). Each must succeed on a Wisdom save or become Charmed for 1 hour.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "mantle_of_majesty": {
+      "id": "mantle_of_majesty",
+      "nameRu": "Мантия величия",
+      "nameEn": "Mantle of Majesty",
+      "descriptionRu": "Бонусным действием вы можете наложить Приказ без ячейки заклинания. В течение 1 минуты вы можете бонусным действием каждый ход накладывать Приказ таким образом. Существо, преуспевшее в спасброске, не замечает попытки очарования. Восстанавливается после длительного отдыха.",
+      "descriptionEn": "As a Bonus Action, you can cast Command without a spell slot. For 1 minute, you can cast Command as a Bonus Action on each turn. A creature that succeeds on its save is unaware of the charm attempt. Recharges after a Long Rest.",
+      "level": 6,
+      "actionType": "bonus_action",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "unbreakable_majesty": {
+      "id": "unbreakable_majesty",
+      "nameRu": "Несокрушимое величие",
+      "nameEn": "Unbreakable Majesty",
+      "descriptionRu": "Бонусным действием вы принимаете величественный облик на 1 минуту. Когда существо атакует вас впервые за ход, оно должно совершить спасбросок Харизмы. При провале — не может атаковать вас в этот ход. При успехе — атакует, но получает помеху на спасброски от ваших заклинаний. Восстанавливается после короткого или длительного отдыха.",
+      "descriptionEn": "As a Bonus Action, assume a majestic presence for 1 minute. When a creature attacks you for the first time on a turn, it must make a Charisma save. On failure, it can't attack you this turn. On success, it can attack but has Disadvantage on saves against your spells. Recharges after a Short or Long Rest.",
+      "level": 14,
+      "actionType": "bonus_action",
+      "usesPerRest": 1,
+      "restType": "short"
+    },
+    "bonus_proficiencies_lore": {
+      "id": "bonus_proficiencies_lore",
+      "nameRu": "Дополнительные владения",
+      "nameEn": "Bonus Proficiencies",
+      "descriptionRu": "Вы получаете владение тремя навыками на ваш выбор.",
+      "descriptionEn": "You gain proficiency with three skills of your choice.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "cutting_words": {
+      "id": "cutting_words",
+      "nameRu": "Острое словцо",
+      "nameEn": "Cutting Words",
+      "descriptionRu": "Реакцией вы тратите кость Вдохновения и вычитаете результат из броска атаки, проверки характеристики или броска урона существа в пределах 60 футов.",
+      "descriptionEn": "As a Reaction, you expend a Bardic Inspiration die and subtract the result from an attack roll, ability check, or damage roll of a creature within 60 feet.",
+      "level": 3,
+      "actionType": "reaction"
+    },
+    "additional_magical_secrets": {
+      "id": "additional_magical_secrets",
+      "nameRu": "Дополнительные магические тайны",
+      "nameEn": "Additional Magical Secrets",
+      "descriptionRu": "Вы изучаете два заклинания на ваш выбор из любого класса. Они считаются заклинаниями барда и не учитываются при определении количества подготовленных заклинаний.",
+      "descriptionEn": "You learn two spells of your choice from any class. They count as Bard spells for you but don't count against the number of spells you have prepared.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "peerless_skill": {
+      "id": "peerless_skill",
+      "nameRu": "Непревзойдённое мастерство",
+      "nameEn": "Peerless Skill",
+      "descriptionRu": "Когда вы совершаете проверку характеристики или провал спасброска, вы можете потратить кость Вдохновения Барда и добавить результат. Вы решаете после броска, но до объявления результата.",
+      "descriptionEn": "When you make an ability check or fail a saving throw, you can expend a Bardic Inspiration die and add the result. You decide after the roll but before the DM announces the result.",
+      "level": 14,
+      "actionType": "passive"
+    },
+    "bonus_proficiencies_valor": {
+      "id": "bonus_proficiencies_valor",
+      "nameRu": "Дополнительные владения",
+      "nameEn": "Bonus Proficiencies",
+      "descriptionRu": "Вы получаете владение средними доспехами, щитами и воинским оружием.",
+      "descriptionEn": "You gain proficiency with Medium Armor, Shields, and Martial Weapons.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "combat_inspiration": {
+      "id": "combat_inspiration",
+      "nameRu": "Боевое вдохновение",
+      "nameEn": "Combat Inspiration",
+      "descriptionRu": "Существо с кость Вдохновения может добавить результат к броску урона оружием. Или реакцией прибавить к КД против одной атаки.",
+      "descriptionEn": "A creature with a Bardic Inspiration die can add the result to a weapon damage roll. Alternatively, as a Reaction, it can add the result to its AC against one attack.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "extra_attack_bard": {
+      "id": "extra_attack_bard",
+      "nameRu": "Дополнительная атака",
+      "nameEn": "Extra Attack",
+      "descriptionRu": "Вы можете атаковать дважды вместо одного раза, когда совершаете действие Атака в свой ход.",
+      "descriptionEn": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+      "level": 6,
+      "actionType": "passive"
+    },
+    "battle_magic": {
+      "id": "battle_magic",
+      "nameRu": "Боевая магия",
+      "nameEn": "Battle Magic",
+      "descriptionRu": "Когда вы действием накладываете заклинание барда, вы можете бонусным действием совершить одну атаку оружием.",
+      "descriptionEn": "When you use your Action to cast a Bard spell, you can make one weapon attack as a Bonus Action.",
+      "level": 14,
+      "actionType": "passive"
+    }
+  }
+}

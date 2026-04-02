@@ -1,0 +1,779 @@
+{
+  "id": "cleric",
+  "nameRu": "Жрец",
+  "nameEn": "Cleric",
+  "hitDie": "d8",
+  "hitDieValue": 8,
+  "primaryAbilities": [
+    "wis"
+  ],
+  "savingThrows": [
+    "wis",
+    "cha"
+  ],
+  "armorProficiencies": [
+    "light",
+    "medium",
+    "shields"
+  ],
+  "weaponProficiencies": [
+    "simple"
+  ],
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "history",
+      "insight",
+      "medicine",
+      "persuasion",
+      "religion"
+    ]
+  },
+  "spellcastingAbility": "wis",
+  "spellcastingType": "full",
+  "preparedCaster": true,
+  "subclassLevel": 1,
+  "subclassNameRu": "Божественный домен",
+  "subclassNameEn": "Divine Domain",
+  "multiclassRequirements": {
+    "wis": 13
+  },
+  "multiclassProficiencies": {
+    "armor": [
+      "light",
+      "medium",
+      "shields"
+    ],
+    "weapons": []
+  },
+  "levels": {
+    "1": {
+      "proficiencyBonus": 2,
+      "features": [
+        "spellcasting",
+        "divine_domain"
+      ]
+    },
+    "2": {
+      "proficiencyBonus": 2,
+      "features": [
+        "channel_divinity"
+      ],
+      "channelDivinityUses": 1
+    },
+    "3": {
+      "proficiencyBonus": 2,
+      "features": []
+    },
+    "4": {
+      "proficiencyBonus": 2,
+      "features": [
+        "asi_4"
+      ]
+    },
+    "5": {
+      "proficiencyBonus": 3,
+      "features": [
+        "destroy_undead_cr_half"
+      ],
+      "destroyUndeadCR": 0.5
+    },
+    "6": {
+      "proficiencyBonus": 3,
+      "features": [
+        "channel_divinity_2",
+        "subclass_feature_6"
+      ],
+      "channelDivinityUses": 2
+    },
+    "7": {
+      "proficiencyBonus": 3,
+      "features": []
+    },
+    "8": {
+      "proficiencyBonus": 3,
+      "features": [
+        "asi_8",
+        "destroy_undead_cr_1"
+      ],
+      "destroyUndeadCR": 1
+    },
+    "9": {
+      "proficiencyBonus": 4,
+      "features": []
+    },
+    "10": {
+      "proficiencyBonus": 4,
+      "features": [
+        "divine_intervention"
+      ]
+    },
+    "11": {
+      "proficiencyBonus": 4,
+      "features": [
+        "destroy_undead_cr_2"
+      ],
+      "destroyUndeadCR": 2
+    },
+    "12": {
+      "proficiencyBonus": 4,
+      "features": [
+        "asi_12"
+      ]
+    },
+    "13": {
+      "proficiencyBonus": 5,
+      "features": []
+    },
+    "14": {
+      "proficiencyBonus": 5,
+      "features": [
+        "destroy_undead_cr_3",
+        "improved_blessed_strikes"
+      ],
+      "destroyUndeadCR": 3
+    },
+    "15": {
+      "proficiencyBonus": 5,
+      "features": []
+    },
+    "16": {
+      "proficiencyBonus": 5,
+      "features": [
+        "asi_16"
+      ]
+    },
+    "17": {
+      "proficiencyBonus": 6,
+      "features": [
+        "destroy_undead_cr_4",
+        "subclass_feature_17"
+      ],
+      "destroyUndeadCR": 4,
+      "channelDivinityUses": 3
+    },
+    "18": {
+      "proficiencyBonus": 6,
+      "features": [
+        "channel_divinity_3"
+      ]
+    },
+    "19": {
+      "proficiencyBonus": 6,
+      "features": [
+        "asi_19"
+      ]
+    },
+    "20": {
+      "proficiencyBonus": 6,
+      "features": [
+        "greater_divine_intervention"
+      ]
+    }
+  },
+  "spellSlots": {
+    "1": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "3": [
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "4": [
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      4,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "13": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    "14": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    "15": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "16": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "17": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "18": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "19": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+    ],
+    "20": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "cantripsKnown": {
+    "1": 3,
+    "2": 3,
+    "3": 3,
+    "4": 4,
+    "5": 4,
+    "6": 4,
+    "7": 4,
+    "8": 4,
+    "9": 4,
+    "10": 5,
+    "11": 5,
+    "12": 5,
+    "13": 5,
+    "14": 5,
+    "15": 5,
+    "16": 5,
+    "17": 5,
+    "18": 5,
+    "19": 5,
+    "20": 5
+  },
+  "features": {
+    "spellcasting": {
+      "id": "spellcasting",
+      "nameRu": "Использование заклинаний",
+      "nameEn": "Spellcasting",
+      "level": 1,
+      "descriptionRu": "Вы научились создавать божественную магию с помощью молитв и медитаций. Мудрость -- ваша базовая характеристика для заклинаний. Вы готовите список заклинаний жреца из общего списка заклинаний класса. Количество заклинаний, которые вы можете подготовить, равно модификатору Мудрости + уровень жреца (минимум одно заклинание). Вы также знаете заговоры.",
+      "descriptionEn": "You have learned to cast divine spells through prayer and meditation. Wisdom is your spellcasting ability. You prepare your list of cleric spells from the full cleric spell list. The number of spells you can prepare equals your Wisdom modifier + your cleric level (minimum of one spell). You also know cantrips."
+    },
+    "divine_domain": {
+      "id": "divine_domain",
+      "nameRu": "Божественный домен",
+      "nameEn": "Divine Domain",
+      "level": 1,
+      "descriptionRu": "Выберите один домен, связанный с вашим божеством: Жизнь, Свет, Обман или Война. Ваш выбор предоставляет вам доменные заклинания и другие способности на 1-м уровне, а также дополнительные способности на 6-м и 17-м уровнях.",
+      "descriptionEn": "Choose one domain related to your deity: Life, Light, Trickery, or War. Your choice grants you domain spells and other features at 1st level, and additional features at 6th and 17th levels."
+    },
+    "channel_divinity": {
+      "id": "channel_divinity",
+      "nameRu": "Божественный канал",
+      "nameEn": "Channel Divinity",
+      "level": 2,
+      "descriptionRu": "Вы получаете возможность направлять божественную энергию напрямую от своего божества, используя эту энергию для подпитки магических эффектов. Вы начинаете с двух таких эффектов: Изгнание нежити и эффект, определяемый вашим доменом. Вы можете использовать Божественный канал 1 раз между отдыхами. Количество использований увеличивается на 6-м и 18-м уровнях.",
+      "descriptionEn": "You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. You can use Channel Divinity once between rests. The number of uses increases at 6th and 18th level.",
+      "usesPerRest": 1,
+      "restType": "short",
+      "usesScaling": {
+        "2": 1,
+        "6": 2,
+        "18": 3
+      }
+    },
+    "turn_undead": {
+      "id": "turn_undead",
+      "nameRu": "Изгнание нежити",
+      "nameEn": "Turn Undead",
+      "level": 2,
+      "descriptionRu": "В качестве действия вы демонстрируете свой священный символ и произносите молитву, изгоняющую нежить. Каждое существо-нежить, которое может видеть или слышать вас в пределах 30 футов, должно совершить спасбросок Мудрости. При провале существо изгнано на 1 минуту или до получения урона. Изгнанное существо должно тратить свои ходы, пытаясь удалиться от вас как можно дальше.",
+      "descriptionEn": "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead creature within 30 feet of you that can see or hear you must make a Wisdom saving throw. On failure, the creature is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as possible."
+    },
+    "channel_divinity_2": {
+      "id": "channel_divinity_2",
+      "nameRu": "Божественный канал (2 использования)",
+      "nameEn": "Channel Divinity (2 uses)",
+      "level": 6,
+      "descriptionRu": "Теперь вы можете использовать Божественный канал 2 раза между отдыхами.",
+      "descriptionEn": "You can now use Channel Divinity twice between rests.",
+      "usesPerRest": 2,
+      "restType": "short"
+    },
+    "channel_divinity_3": {
+      "id": "channel_divinity_3",
+      "nameRu": "Божественный канал (3 использования)",
+      "nameEn": "Channel Divinity (3 uses)",
+      "level": 18,
+      "descriptionRu": "Теперь вы можете использовать Божественный канал 3 раза между отдыхами.",
+      "descriptionEn": "You can now use Channel Divinity three times between rests.",
+      "usesPerRest": 3,
+      "restType": "short"
+    },
+    "destroy_undead_cr_half": {
+      "id": "destroy_undead_cr_half",
+      "nameRu": "Уничтожение нежити (КО 1/2)",
+      "nameEn": "Destroy Undead (CR 1/2)",
+      "level": 5,
+      "descriptionRu": "Когда нежить проваливает спасбросок против Изгнания нежити, существо мгновенно уничтожается, если его показатель опасности равен или ниже 1/2.",
+      "descriptionEn": "When an undead fails its saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 1/2 or lower."
+    },
+    "destroy_undead_cr_1": {
+      "id": "destroy_undead_cr_1",
+      "nameRu": "Уничтожение нежити (КО 1)",
+      "nameEn": "Destroy Undead (CR 1)",
+      "level": 8,
+      "descriptionRu": "Нежить с показателем опасности 1 или ниже уничтожается при провале спасброска против Изгнания нежити.",
+      "descriptionEn": "Undead of CR 1 or lower are destroyed on a failed save against Turn Undead."
+    },
+    "destroy_undead_cr_2": {
+      "id": "destroy_undead_cr_2",
+      "nameRu": "Уничтожение нежити (КО 2)",
+      "nameEn": "Destroy Undead (CR 2)",
+      "level": 11,
+      "descriptionRu": "Нежить с показателем опасности 2 или ниже уничтожается при провале спасброска против Изгнания нежити.",
+      "descriptionEn": "Undead of CR 2 or lower are destroyed on a failed save against Turn Undead."
+    },
+    "destroy_undead_cr_3": {
+      "id": "destroy_undead_cr_3",
+      "nameRu": "Уничтожение нежити (КО 3)",
+      "nameEn": "Destroy Undead (CR 3)",
+      "level": 14,
+      "descriptionRu": "Нежить с показателем опасности 3 или ниже уничтожается при провале спасброска против Изгнания нежити.",
+      "descriptionEn": "Undead of CR 3 or lower are destroyed on a failed save against Turn Undead."
+    },
+    "destroy_undead_cr_4": {
+      "id": "destroy_undead_cr_4",
+      "nameRu": "Уничтожение нежити (КО 4)",
+      "nameEn": "Destroy Undead (CR 4)",
+      "level": 17,
+      "descriptionRu": "Нежить с показателем опасности 4 или ниже уничтожается при провале спасброска против Изгнания нежити.",
+      "descriptionEn": "Undead of CR 4 or lower are destroyed on a failed save against Turn Undead."
+    },
+    "divine_intervention": {
+      "id": "divine_intervention",
+      "nameRu": "Божественное вмешательство",
+      "nameEn": "Divine Intervention",
+      "level": 10,
+      "descriptionRu": "Вы можете воззвать к своему божеству, чтобы оно вмешалось в ваших интересах. Использование этой способности требует действия. Опишите помощь, которую вы ищете, и бросьте процентные кости. Если результат равен или ниже вашего уровня жреца, ваше божество вмешивается. Если вмешательство произошло, вы не можете использовать эту способность снова в течение 7 дней.",
+      "descriptionEn": "You can call on your deity to intervene on your behalf. Using this feature takes an action. Describe the assistance you seek, and roll percentile dice. If the roll is equal to or less than your cleric level, your deity intervenes. If the intervention occurs, you can't use this feature again for 7 days.",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "improved_blessed_strikes": {
+      "id": "improved_blessed_strikes",
+      "nameRu": "Улучшенные благословенные удары",
+      "nameEn": "Improved Blessed Strikes",
+      "level": 14,
+      "descriptionRu": "Урон, наносимый вашими Благословенными ударами, увеличивается до 2d8.",
+      "descriptionEn": "The damage dealt by your Blessed Strikes increases to 2d8."
+    },
+    "greater_divine_intervention": {
+      "id": "greater_divine_intervention",
+      "nameRu": "Великое божественное вмешательство",
+      "nameEn": "Greater Divine Intervention",
+      "level": 20,
+      "descriptionRu": "Ваш призыв к божественному вмешательству срабатывает автоматически -- бросок кости не требуется. Кроме того, вы можете использовать эту способность повторно, если сотворите заклинание 5-го уровня или выше (из ячейки, а не через свиток или магический предмет) прежде чем снова воспользоваться Божественным вмешательством.",
+      "descriptionEn": "Your call for divine intervention succeeds automatically -- no roll required. Additionally, you can use this feature again if you cast a 5th-level or higher spell (from a spell slot, not via a scroll or magic item) before using Divine Intervention again."
+    },
+    "asi_4": {
+      "id": "asi_4",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 4,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_8": {
+      "id": "asi_8",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 8,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_12": {
+      "id": "asi_12",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 12,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_16": {
+      "id": "asi_16",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 16,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "asi_19": {
+      "id": "asi_19",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 19,
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Вы не можете поднять значение характеристики выше 20. Вместо этого вы можете выбрать черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. You can't increase an ability score above 20. Alternatively, you can select a feat."
+    },
+    "subclass_feature_6": {
+      "id": "subclass_feature_6",
+      "nameRu": "Способность домена (6-й уровень)",
+      "nameEn": "Domain Feature (6th level)",
+      "level": 6,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашим доменом.",
+      "descriptionEn": "You gain a feature granted by your domain."
+    },
+    "subclass_feature_17": {
+      "id": "subclass_feature_17",
+      "nameRu": "Способность домена (17-й уровень)",
+      "nameEn": "Domain Feature (17th level)",
+      "level": 17,
+      "descriptionRu": "Вы получаете способность, предоставляемую вашим доменом.",
+      "descriptionEn": "You gain a feature granted by your domain."
+    }
+  },
+  "subclasses": [
+    {
+      "id": "life",
+      "nameRu": "Домен Жизни",
+      "nameEn": "Life Domain",
+      "descriptionRu": "Домен Жизни сосредоточен на позитивной энергии -- одной из фундаментальных сил вселенной -- которая поддерживает всё живое. Боги жизни продвигают жизненную силу и здоровье, исцеляя больных и раненых, заботясь о нуждающихся и изгоняя силы нежити и смерти.",
+      "descriptionEn": "The Life Domain focuses on the vibrant positive energy -- one of the fundamental forces of the universe -- that sustains all life. Gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of undeath and death.",
+      "features": {
+        "1": {
+          "id": "life_domain_spells",
+          "nameRu": "Заклинания домена Жизни",
+          "nameEn": "Life Domain Spells",
+          "descriptionRu": "Вы получаете доменные заклинания на указанных уровнях жреца: 1-й -- Благословение, Лечение ран; 3-й -- Малое восстановление, Духовное оружие; 5-й -- Маяк надежды, Возрождение; 7-й -- Страж веры, Защита от смерти; 9-й -- Массовое лечение ран, Воскрешение. Они всегда подготовлены и не учитываются в лимите.",
+          "descriptionEn": "You gain domain spells at the cleric levels listed: 1st -- Bless, Cure Wounds; 3rd -- Lesser Restoration, Spiritual Weapon; 5th -- Beacon of Hope, Revivify; 7th -- Guardian of Faith, Death Ward; 9th -- Mass Cure Wounds, Raise Dead. These are always prepared and don't count against your limit."
+        },
+        "1b": {
+          "id": "disciple_of_life",
+          "nameRu": "Ученик жизни",
+          "nameEn": "Disciple of Life",
+          "descriptionRu": "Ваши исцеляющие заклинания более эффективны. Когда вы используете заклинание 1-го уровня или выше для восстановления хитов существу, оно восстанавливает дополнительные хиты, равные 2 + уровень заклинания.",
+          "descriptionEn": "Your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+        },
+        "2": {
+          "id": "preserve_life",
+          "nameRu": "Сохранение жизни",
+          "nameEn": "Preserve Life",
+          "descriptionRu": "Вы можете использовать Божественный канал, чтобы исцелить тяжело раненых. Действием вы демонстрируете священный символ и восстанавливаете количество хитов, равное вашему уровню жреца x 5, распределяя их между существами в пределах 30 футов. Нельзя восстановить хиты существу выше половины его максимума.",
+          "descriptionEn": "You can use Channel Divinity to heal the badly injured. As an action, you present your holy symbol and evoke healing energy that restores a number of hit points equal to 5 x your cleric level, divided among creatures within 30 feet. You can't restore a creature above half its hit point maximum."
+        },
+        "6": {
+          "id": "blessed_healer",
+          "nameRu": "Благословенный целитель",
+          "nameEn": "Blessed Healer",
+          "descriptionRu": "Исцеляющие заклинания, которые вы применяете на других, также лечат вас. Когда вы сотворяете заклинание 1-го уровня или выше, восстанавливающее хиты другому существу, вы также восстанавливаете хиты, равные 2 + уровень заклинания.",
+          "descriptionEn": "The healing spells you cast on others also heal you. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
+        },
+        "17": {
+          "id": "supreme_healing",
+          "nameRu": "Высшее исцеление",
+          "nameEn": "Supreme Healing",
+          "descriptionRu": "Когда вы обычно бросаете одну или несколько костей для восстановления хитов заклинанием, вы вместо этого используете максимальное значение для каждой кости.",
+          "descriptionEn": "When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die."
+        }
+      }
+    },
+    {
+      "id": "light",
+      "nameRu": "Домен Света",
+      "nameEn": "Light Domain",
+      "descriptionRu": "Боги света -- включая Хельма, Латандера, Фол, Ра и других -- продвигают идеалы возрождения и обновления, истины, бдительности и красоты. Жрецы этих богов несут свет в тёмные места мира.",
+      "descriptionEn": "Gods of light -- including Helm, Lathander, Pholtus, Ra, and others -- promote the ideals of rebirth and renewal, truth, vigilance, and beauty. Clerics of these gods bring light into the dark places of the world.",
+      "features": {
+        "1": {
+          "id": "light_domain_spells",
+          "nameRu": "Заклинания домена Света",
+          "nameEn": "Light Domain Spells",
+          "descriptionRu": "Вы получаете доменные заклинания: 1-й -- Огненные ладони, Волшебный огонёк; 3-й -- Палящий луч, Пылающий шар; 5-й -- Дневной свет, Огненный шар; 7-й -- Огненная стена, Страж веры; 9-й -- Небесный огонь, Палящая стена. Они всегда подготовлены.",
+          "descriptionEn": "You gain domain spells: 1st -- Burning Hands, Faerie Fire; 3rd -- Scorching Ray, Flaming Sphere; 5th -- Daylight, Fireball; 7th -- Wall of Fire, Guardian of Faith; 9th -- Flame Strike, Scrying. These are always prepared."
+        },
+        "1b": {
+          "id": "warding_flare",
+          "nameRu": "Защитная вспышка",
+          "nameEn": "Warding Flare",
+          "descriptionRu": "Когда существо, которое вы видите, в пределах 30 футов атакует вас, вы можете реакцией создать вспышку света, накладывающую помеху на бросок атаки. Атакующее существо не должно быть невосприимчиво к состоянию ослепления. Вы можете использовать эту способность количество раз, равное модификатору Мудрости (минимум 1).",
+          "descriptionEn": "When a creature you can see within 30 feet attacks you, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker. The attacker can't be immune to the blinded condition. You can use this feature a number of times equal to your Wisdom modifier (minimum once)."
+        },
+        "2": {
+          "id": "radiance_of_the_dawn",
+          "nameRu": "Сияние рассвета",
+          "nameEn": "Radiance of the Dawn",
+          "descriptionRu": "Вы можете использовать Божественный канал, чтобы обрушить солнечный свет, изгоняющий тьму. Действием вы демонстрируете священный символ, и любая магическая тьма в пределах 30 футов рассеивается. Кроме того, каждое враждебное существо в пределах 30 футов должно совершить спасбросок Телосложения, получая урон излучением 2d10 + уровень жреца при провале или половину при успехе.",
+          "descriptionEn": "You can use Channel Divinity to harness sunlight, banishing darkness. As an action, you present your holy symbol, and any magical darkness within 30 feet is dispelled. Additionally, each hostile creature within 30 feet must make a Constitution saving throw, taking 2d10 + cleric level radiant damage on failure, or half on success."
+        },
+        "6": {
+          "id": "improved_warding_flare",
+          "nameRu": "Улучшенная защитная вспышка",
+          "nameEn": "Improved Warding Flare",
+          "descriptionRu": "Вы можете использовать Защитную вспышку, когда существо, которое вы видите в пределах 30 футов, атакует не только вас, но и любое другое существо.",
+          "descriptionEn": "You can use Warding Flare when a creature you can see within 30 feet attacks any creature, not just you."
+        },
+        "17": {
+          "id": "corona_of_light",
+          "nameRu": "Корона света",
+          "nameEn": "Corona of Light",
+          "descriptionRu": "Вы можете действием активировать ауру солнечного света, которая длится 1 минуту. Вы испускаете яркий свет в радиусе 60 футов и тусклый свет ещё на 30 футов. Враждебные существа в зоне яркого света имеют помеху на спасброски против заклинаний, наносящих урон огнём или излучением.",
+          "descriptionEn": "You can use an action to activate an aura of sunlight that lasts for 1 minute. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Hostile creatures in the bright light have disadvantage on saving throws against spells that deal fire or radiant damage."
+        }
+      }
+    },
+    {
+      "id": "trickery",
+      "nameRu": "Домен Обмана",
+      "nameEn": "Trickery Domain",
+      "descriptionRu": "Боги обмана -- такие как Тиморра, Бешаба, Локи и другие -- являются нарушителями спокойствия и зачинщиками, постоянно бросающими вызов установленному порядку среди богов и смертных. Жрецы этих богов разрушают установленный порядок вещей.",
+      "descriptionEn": "Gods of trickery -- such as Tymora, Beshaba, Loki, and others -- are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. Clerics of these gods subvert the established order.",
+      "features": {
+        "1": {
+          "id": "trickery_domain_spells",
+          "nameRu": "Заклинания домена Обмана",
+          "nameEn": "Trickery Domain Spells",
+          "descriptionRu": "Вы получаете доменные заклинания: 1-й -- Маскировка, Очарование личности; 3-й -- Отражения, Бесследное передвижение; 5-й -- Мерцание, Рассеивание магии; 7-й -- Измерение двери, Полиморф; 9-й -- Подчинение личности, Изменение памяти. Они всегда подготовлены.",
+          "descriptionEn": "You gain domain spells: 1st -- Disguise Self, Charm Person; 3rd -- Mirror Image, Pass Without Trace; 5th -- Blink, Dispel Magic; 7th -- Dimension Door, Polymorph; 9th -- Dominate Person, Modify Memory. These are always prepared."
+        },
+        "1b": {
+          "id": "blessing_of_the_trickster",
+          "nameRu": "Благословение хитреца",
+          "nameEn": "Blessing of the Trickster",
+          "descriptionRu": "Действием вы можете коснуться согласного существа (не себя) и дать ему преимущество на проверки Ловкости (Скрытность). Это благословение длится 1 час или пока вы не используете эту способность снова.",
+          "descriptionEn": "As an action, you can touch a willing creature other than yourself and give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
+        },
+        "2": {
+          "id": "invoke_duplicity",
+          "nameRu": "Призыв двойника",
+          "nameEn": "Invoke Duplicity",
+          "descriptionRu": "Вы можете использовать Божественный канал, чтобы создать иллюзорного двойника себя. Действием вы создаёте идеальную иллюзию себя, которая длится 1 минуту. Иллюзия появляется в незанятом пространстве в пределах 30 футов. Бонусным действием вы можете перемещать иллюзию до 30 футов. Вы имеете преимущество на броски атаки против существа, если и вы, и иллюзия находятся в пределах 5 футов от него.",
+          "descriptionEn": "You can use Channel Divinity to create an illusory duplicate of yourself. As an action, you create a perfect illusion of yourself that lasts for 1 minute, appearing in an unoccupied space within 30 feet. As a bonus action, you can move the illusion up to 30 feet. You have advantage on attack rolls against a creature if both you and the illusion are within 5 feet of it."
+        },
+        "6": {
+          "id": "tricksters_transposition",
+          "nameRu": "Перемещение хитреца",
+          "nameEn": "Trickster's Transposition",
+          "descriptionRu": "Вы можете телепортироваться на место своего иллюзорного двойника. Когда вы или ваш двойник находитесь в пределах 120 футов друг от друга, вы можете бонусным действием телепортироваться, меняясь местами с двойником.",
+          "descriptionEn": "You can teleport to the space of your illusory duplicate. When you and your duplicate are within 120 feet of each other, you can use a bonus action to teleport, swapping places with the duplicate."
+        },
+        "17": {
+          "id": "improved_duplicity",
+          "nameRu": "Улучшенный двойник",
+          "nameEn": "Improved Duplicity",
+          "descriptionRu": "Ваш иллюзорный двойник от Призыва двойника теперь может сотворять заклинания как если бы он находился в своём пространстве, используя ваши характеристики. Кроме того, когда и вы, и двойник находитесь в пределах 5 футов от существа, вы оба имеете преимущество на броски атаки против этого существа.",
+          "descriptionEn": "Your illusory duplicate from Invoke Duplicity can now cast spells as though it were in its own space, using your statistics. Additionally, when both you and the duplicate are within 5 feet of a creature, you both have advantage on attack rolls against that creature."
+        }
+      }
+    },
+    {
+      "id": "war",
+      "nameRu": "Домен Войны",
+      "nameEn": "War Domain",
+      "descriptionRu": "Война имеет множество проявлений. Она может делать героев из обычных людей. Она может быть отчаянной и ужасающей, а может быть последним средством в безнадёжной ситуации. Боги войны наблюдают за воинами и вознаграждают их за великие подвиги.",
+      "descriptionEn": "War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, or it can be the last resort in a hopeless situation. Gods of war watch over warriors and reward them for their great deeds.",
+      "features": {
+        "1": {
+          "id": "war_domain_spells",
+          "nameRu": "Заклинания домена Войны",
+          "nameEn": "War Domain Spells",
+          "descriptionRu": "Вы получаете доменные заклинания: 1-й -- Божественное благоволение, Щит веры; 3-й -- Магическое оружие, Духовное оружие; 5-й -- Призрачные стражи, Крестоносец; 7-й -- Каменная кожа, Свобода перемещения; 9-й -- Небесный огонь, Удержание чудовища. Они всегда подготовлены.",
+          "descriptionEn": "You gain domain spells: 1st -- Divine Favor, Shield of Faith; 3rd -- Magic Weapon, Spiritual Weapon; 5th -- Spirit Guardians, Crusader's Mantle; 7th -- Stoneskin, Freedom of Movement; 9th -- Flame Strike, Hold Monster. These are always prepared."
+        },
+        "1b": {
+          "id": "war_priest",
+          "nameRu": "Жрец войны",
+          "nameEn": "War Priest",
+          "descriptionRu": "Когда вы совершаете действие Атака, вы можете бонусным действием совершить одну атаку оружием. Вы можете использовать эту способность количество раз, равное модификатору Мудрости (минимум 1). Все использования восстанавливаются после длинного отдыха.",
+          "descriptionEn": "When you take the Attack action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum once). All uses recharge after a long rest."
+        },
+        "2": {
+          "id": "guided_strike",
+          "nameRu": "Направленный удар",
+          "nameEn": "Guided Strike",
+          "descriptionRu": "Вы можете использовать Божественный канал, чтобы поразить с потрясающей точностью. Когда вы совершаете бросок атаки, вы можете использовать Божественный канал, чтобы получить бонус +10 к броску. Вы делаете этот выбор после броска, но до того, как Мастер объявит результат.",
+          "descriptionEn": "You can use Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether it hits or misses."
+        },
+        "6": {
+          "id": "war_gods_blessing",
+          "nameRu": "Благословение бога войны",
+          "nameEn": "War God's Blessing",
+          "descriptionRu": "Когда существо в пределах 30 футов от вас совершает бросок атаки, вы можете реакцией использовать Божественный канал, чтобы дать этому существу бонус +10 к броску.",
+          "descriptionEn": "When a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity."
+        },
+        "17": {
+          "id": "avatar_of_battle",
+          "nameRu": "Аватар битвы",
+          "nameEn": "Avatar of Battle",
+          "descriptionRu": "Вы получаете сопротивление дробящему, колющему и рубящему урону от немагического оружия.",
+          "descriptionEn": "You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+        }
+      }
+    }
+  ]
+}

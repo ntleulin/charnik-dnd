@@ -1,0 +1,472 @@
+[
+  {
+    "id": "human",
+    "nameRu": "Человек",
+    "nameEn": "Human",
+    "descriptionRu": "Люди — самые многочисленные и разнообразные из всех видов.",
+    "descriptionEn": "Humans are the most numerous and diverse of all species.",
+    "creatureType": "humanoid",
+    "size": "Medium_or_Small",
+    "sizeOptions": ["Medium", "Small"],
+    "speed": 30,
+    "darkvisionRange": null,
+    "lifespan": "~80 лет",
+    "traits": [
+      {
+        "id": "resourceful",
+        "nameRu": "Находчивость",
+        "nameEn": "Resourceful",
+        "descriptionRu": "Вы получаете Вдохновение героя при каждом длинном отдыхе.",
+        "descriptionEn": "You gain Heroic Inspiration whenever you finish a Long Rest.",
+        "type": "passive"
+      },
+      {
+        "id": "skillful",
+        "nameRu": "Умелость",
+        "nameEn": "Skillful",
+        "descriptionRu": "Вы получаете владение одним навыком на ваш выбор.",
+        "descriptionEn": "You gain proficiency in one skill of your choice.",
+        "type": "choice"
+      },
+      {
+        "id": "versatile",
+        "nameRu": "Универсальность",
+        "nameEn": "Versatile",
+        "descriptionRu": "Вы получаете черту Происхождения на ваш выбор.",
+        "descriptionEn": "You gain an Origin feat of your choice.",
+        "type": "choice"
+      }
+    ]
+  },
+  {
+    "id": "elf",
+    "nameRu": "Эльф",
+    "nameEn": "Elf",
+    "descriptionRu": "Эльфы — магический народ неземной грации, обитающий в мире, но не являющийся его частью полностью.",
+    "descriptionEn": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
+    "creatureType": "humanoid",
+    "size": "Medium",
+    "speed": 30,
+    "darkvisionRange": 60,
+    "lifespan": "~750 лет",
+    "traits": [
+      {
+        "id": "elven_lineage",
+        "nameRu": "Эльфийская родословная",
+        "nameEn": "Elven Lineage",
+        "descriptionRu": "Вы выбираете линию: Дроу, Высший эльф или Лесной эльф. Каждая дает заговор и заклинание.",
+        "descriptionEn": "You choose a lineage: Drow, High Elf, or Wood Elf. Each grants a cantrip and a spell.",
+        "type": "choice",
+        "choices": [
+          {
+            "id": "drow",
+            "nameRu": "Дроу",
+            "nameEn": "Drow",
+            "descriptionRu": "Заговор Пляшущие огоньки. На 3 уровне: Огонь фей. На 5 уровне: Тьма. Заклинательная характеристика — Харизма.",
+            "descriptionEn": "Dancing Lights cantrip. At 3rd level: Faerie Fire. At 5th level: Darkness. Spellcasting ability is Charisma."
+          },
+          {
+            "id": "high_elf",
+            "nameRu": "Высший эльф",
+            "nameEn": "High Elf",
+            "descriptionRu": "Один заговор из списка Волшебника. На 3 уровне: Обнаружение магии. На 5 уровне: Невидимость. Заклинательная характеристика — Интеллект.",
+            "descriptionEn": "One Wizard cantrip. At 3rd level: Detect Magic. At 5th level: Misty Step. Spellcasting ability is Intelligence."
+          },
+          {
+            "id": "wood_elf",
+            "nameRu": "Лесной эльф",
+            "nameEn": "Wood Elf",
+            "descriptionRu": "Заговор Друидское ремесло. На 3 уровне: Скороход. На 5 уровне: Бесследное передвижение. Заклинательная характеристика — Мудрость.",
+            "descriptionEn": "Druidcraft cantrip. At 3rd level: Longstrider. At 5th level: Pass without Trace. Spellcasting ability is Wisdom."
+          }
+        ]
+      },
+      {
+        "id": "fey_ancestry",
+        "nameRu": "Наследие фей",
+        "nameEn": "Fey Ancestry",
+        "descriptionRu": "Вы совершаете с преимуществом спасброски против состояния Очарование.",
+        "descriptionEn": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
+        "type": "passive"
+      },
+      {
+        "id": "keen_senses",
+        "nameRu": "Острые чувства",
+        "nameEn": "Keen Senses",
+        "descriptionRu": "Вы владеете навыком Восприятие.",
+        "descriptionEn": "You have proficiency in the Perception skill.",
+        "type": "passive"
+      },
+      {
+        "id": "trance",
+        "nameRu": "Транс",
+        "nameEn": "Trance",
+        "descriptionRu": "Вам не нужно спать, вместо этого вы медитируете 4 часа в полусознательном состоянии. После такого отдыха вы получаете те же преимущества, что и человек после 8 часов сна.",
+        "descriptionEn": "You don't need to sleep. Instead, you meditate deeply for 4 hours. After resting this way, you gain the same benefit a Human does from 8 hours of sleep.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "dwarf",
+    "nameRu": "Дварф",
+    "nameEn": "Dwarf",
+    "descriptionRu": "Дварфы — стойкий народ, известный выносливостью и мастерством.",
+    "descriptionEn": "Dwarves are a stoic people known for their endurance and craftsmanship.",
+    "creatureType": "humanoid",
+    "size": "Medium",
+    "speed": 30,
+    "darkvisionRange": 120,
+    "lifespan": "~350 лет",
+    "traits": [
+      {
+        "id": "dwarven_resilience",
+        "nameRu": "Дварфийская стойкость",
+        "nameEn": "Dwarven Resilience",
+        "descriptionRu": "Вы совершаете с преимуществом спасброски против отравления, и у вас сопротивление урону ядом.",
+        "descriptionEn": "You have Advantage on saving throws against Poison, and you have Resistance to Poison damage.",
+        "type": "passive"
+      },
+      {
+        "id": "dwarven_toughness",
+        "nameRu": "Дварфийская выносливость",
+        "nameEn": "Dwarven Toughness",
+        "descriptionRu": "Ваш максимум хитов увеличивается на 1, и каждый раз когда вы получаете уровень, он увеличивается ещё на 1.",
+        "descriptionEn": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.",
+        "type": "passive"
+      },
+      {
+        "id": "stonecunning",
+        "nameRu": "Знание камня",
+        "nameEn": "Stonecunning",
+        "descriptionRu": "Бонусным действием вы получаете Дрожь земли на 10 минут. Вы можете использовать это количество раз, равное бонусу владения, и восстанавливаете все использования при длинном отдыхе.",
+        "descriptionEn": "As a Bonus Action, you gain Tremorsense for 10 minutes. You can use this a number of times equal to your Proficiency Bonus, and regain all uses on a Long Rest.",
+        "type": "active"
+      }
+    ]
+  },
+  {
+    "id": "halfling",
+    "nameRu": "Полурослик",
+    "nameEn": "Halfling",
+    "descriptionRu": "Полурослики — маленький народ, известный своей удачливостью и храбростью.",
+    "descriptionEn": "Halflings are a small folk known for their luck and bravery.",
+    "creatureType": "humanoid",
+    "size": "Small",
+    "speed": 30,
+    "darkvisionRange": null,
+    "lifespan": "~150 лет",
+    "traits": [
+      {
+        "id": "brave",
+        "nameRu": "Храбрость",
+        "nameEn": "Brave",
+        "descriptionRu": "Вы совершаете с преимуществом спасброски против состояния Испуг.",
+        "descriptionEn": "You have Advantage on saving throws you make to avoid or end the Frightened condition.",
+        "type": "passive"
+      },
+      {
+        "id": "halfling_nimbleness",
+        "nameRu": "Проворство полурослика",
+        "nameEn": "Halfling Nimbleness",
+        "descriptionRu": "Вы можете проходить через пространство, занимаемое любым существом, чей размер больше вашего.",
+        "descriptionEn": "You can move through the space of any creature whose size is larger than yours.",
+        "type": "passive"
+      },
+      {
+        "id": "luck",
+        "nameRu": "Удача",
+        "nameEn": "Luck",
+        "descriptionRu": "Когда вы выбрасываете 1 на d20 при броске атаки, проверке характеристики или спасброске, вы можете перебросить кубик и должны использовать новый результат.",
+        "descriptionEn": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+        "type": "passive"
+      },
+      {
+        "id": "naturally_stealthy",
+        "nameRu": "Природная скрытность",
+        "nameEn": "Naturally Stealthy",
+        "descriptionRu": "Вы можете совершить действие Засада даже когда вас загораживает существо размером не менее Среднего.",
+        "descriptionEn": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "gnome",
+    "nameRu": "Гном",
+    "nameEn": "Gnome",
+    "descriptionRu": "Гномы — любопытный народ, движимый жаждой знаний и стремлением к исследованиям.",
+    "descriptionEn": "Gnomes are a curious folk driven by a desire for knowledge and exploration.",
+    "creatureType": "humanoid",
+    "size": "Small",
+    "speed": 30,
+    "darkvisionRange": 60,
+    "lifespan": "~425 лет",
+    "traits": [
+      {
+        "id": "gnome_cunning",
+        "nameRu": "Гномья хитрость",
+        "nameEn": "Gnome Cunning",
+        "descriptionRu": "Вы совершаете с преимуществом спасброски Интеллекта, Мудрости и Харизмы.",
+        "descriptionEn": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws.",
+        "type": "passive"
+      },
+      {
+        "id": "gnomish_lineage",
+        "nameRu": "Гномья родословная",
+        "nameEn": "Gnomish Lineage",
+        "descriptionRu": "Вы выбираете линию: Лесной гном или Скальный гном.",
+        "descriptionEn": "You choose a lineage: Forest Gnome or Rock Gnome.",
+        "type": "choice",
+        "choices": [
+          {
+            "id": "forest_gnome",
+            "nameRu": "Лесной гном",
+            "nameEn": "Forest Gnome",
+            "descriptionRu": "Заговор Малая иллюзия. Вы можете общаться с Маленькими зверями.",
+            "descriptionEn": "Minor Illusion cantrip. You can communicate with Small animals."
+          },
+          {
+            "id": "rock_gnome",
+            "nameRu": "Скальный гном",
+            "nameEn": "Rock Gnome",
+            "descriptionRu": "Заговор Починка и Ремонт. Вы можете создавать маленькие механические устройства.",
+            "descriptionEn": "Mending and Prestidigitation cantrips. You can create small mechanical devices."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "half_orc",
+    "nameRu": "Орк",
+    "nameEn": "Orc",
+    "descriptionRu": "Орки — сильный и стойкий народ, ценящий физическую мощь.",
+    "descriptionEn": "Orcs are a strong and resilient people who value physical might.",
+    "creatureType": "humanoid",
+    "size": "Medium",
+    "speed": 30,
+    "darkvisionRange": 120,
+    "lifespan": "~80 лет",
+    "traits": [
+      {
+        "id": "adrenaline_rush",
+        "nameRu": "Выброс адреналина",
+        "nameEn": "Adrenaline Rush",
+        "descriptionRu": "Вы можете совершить действие Рывок бонусным действием. Количество раз равно бонусу владения, восстановление при длинном отдыхе. При использовании вы получаете временные хиты, равные вашему бонусу владения.",
+        "descriptionEn": "You can take the Dash action as a Bonus Action. You can use it PB times per Long Rest. When you do, you gain temporary hit points equal to your PB.",
+        "type": "active"
+      },
+      {
+        "id": "relentless_endurance",
+        "nameRu": "Неукротимая стойкость",
+        "nameEn": "Relentless Endurance",
+        "descriptionRu": "Когда ваши хиты падают до 0 но вы не убиты наповал, вы можете упасть до 1 хита вместо 0. Один раз за длинный отдых.",
+        "descriptionEn": "When you are reduced to 0 HP but not killed, you can drop to 1 HP instead. Once per Long Rest.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "tiefling",
+    "nameRu": "Тифлинг",
+    "nameEn": "Tiefling",
+    "descriptionRu": "Тифлинги несут в себе след инфернального наследия.",
+    "descriptionEn": "Tieflings carry the mark of an infernal heritage.",
+    "creatureType": "humanoid",
+    "size": "Medium_or_Small",
+    "sizeOptions": ["Medium", "Small"],
+    "speed": 30,
+    "darkvisionRange": 60,
+    "lifespan": "~100 лет",
+    "traits": [
+      {
+        "id": "fiendish_legacy",
+        "nameRu": "Дьявольское наследие",
+        "nameEn": "Fiendish Legacy",
+        "descriptionRu": "Вы выбираете наследие: Абиссальское, Адское или Хтоническое.",
+        "descriptionEn": "You choose a legacy: Abyssal, Infernal, or Chthonic.",
+        "type": "choice",
+        "choices": [
+          {
+            "id": "abyssal",
+            "nameRu": "Абиссальское",
+            "nameEn": "Abyssal",
+            "descriptionRu": "Сопротивление урону ядом. Заговор Ядовитые брызги. На 3 уровне: Луч болезни. На 5 уровне: Удержание личности.",
+            "descriptionEn": "Poison resistance. Poison Spray cantrip. At 3rd: Ray of Sickness. At 5th: Hold Person."
+          },
+          {
+            "id": "infernal",
+            "nameRu": "Адское",
+            "nameEn": "Infernal",
+            "descriptionRu": "Сопротивление урону огнём. Заговор Огненный снаряд. На 3 уровне: Адское возмездие. На 5 уровне: Тьма.",
+            "descriptionEn": "Fire resistance. Fire Bolt cantrip. At 3rd: Hellish Rebuke. At 5th: Darkness."
+          },
+          {
+            "id": "chthonic",
+            "nameRu": "Хтоническое",
+            "nameEn": "Chthonic",
+            "descriptionRu": "Сопротивление некротическому урону. Заговор Леденящее прикосновение. На 3 уровне: Ложная жизнь. На 5 уровне: Луч слабости.",
+            "descriptionEn": "Necrotic resistance. Chill Touch cantrip. At 3rd: False Life. At 5th: Ray of Enfeeblement."
+          }
+        ]
+      },
+      {
+        "id": "otherworldly_presence",
+        "nameRu": "Потустороннее присутствие",
+        "nameEn": "Otherworldly Presence",
+        "descriptionRu": "Вы знаете заговор Чудотворство. Заклинательная характеристика — Харизма.",
+        "descriptionEn": "You know the Thaumaturgy cantrip. Charisma is your spellcasting ability.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "dragonborn",
+    "nameRu": "Драконорождённый",
+    "nameEn": "Dragonborn",
+    "descriptionRu": "Драконорождённые несут в себе наследие драконов.",
+    "descriptionEn": "Dragonborn carry the legacy of dragons within them.",
+    "creatureType": "humanoid",
+    "size": "Medium",
+    "speed": 30,
+    "darkvisionRange": 60,
+    "lifespan": "~80 лет",
+    "traits": [
+      {
+        "id": "draconic_ancestry",
+        "nameRu": "Драконье наследие",
+        "nameEn": "Draconic Ancestry",
+        "descriptionRu": "Выберите тип дракона. Это определяет тип урона вашего Дыхания и сопротивление урону.",
+        "descriptionEn": "Choose a dragon type. This determines your Breath Weapon damage type and resistance.",
+        "type": "choice",
+        "choices": [
+          {"id": "black", "nameRu": "Чёрный (Кислота)", "nameEn": "Black (Acid)", "descriptionRu": "Кислотный урон. Линия 30 фт.", "descriptionEn": "Acid damage. 30 ft. line."},
+          {"id": "blue", "nameRu": "Синий (Электричество)", "nameEn": "Blue (Lightning)", "descriptionRu": "Электрический урон. Линия 30 фт.", "descriptionEn": "Lightning damage. 30 ft. line."},
+          {"id": "brass", "nameRu": "Латунный (Огонь)", "nameEn": "Brass (Fire)", "descriptionRu": "Огненный урон. Линия 30 фт.", "descriptionEn": "Fire damage. 30 ft. line."},
+          {"id": "bronze", "nameRu": "Бронзовый (Электричество)", "nameEn": "Bronze (Lightning)", "descriptionRu": "Электрический урон. Линия 30 фт.", "descriptionEn": "Lightning damage. 30 ft. line."},
+          {"id": "copper", "nameRu": "Медный (Кислота)", "nameEn": "Copper (Acid)", "descriptionRu": "Кислотный урон. Линия 30 фт.", "descriptionEn": "Acid damage. 30 ft. line."},
+          {"id": "gold", "nameRu": "Золотой (Огонь)", "nameEn": "Gold (Fire)", "descriptionRu": "Огненный урон. Конус 15 фт.", "descriptionEn": "Fire damage. 15 ft. cone."},
+          {"id": "green", "nameRu": "Зелёный (Яд)", "nameEn": "Green (Poison)", "descriptionRu": "Ядовитый урон. Конус 15 фт.", "descriptionEn": "Poison damage. 15 ft. cone."},
+          {"id": "red", "nameRu": "Красный (Огонь)", "nameEn": "Red (Fire)", "descriptionRu": "Огненный урон. Конус 15 фт.", "descriptionEn": "Fire damage. 15 ft. cone."},
+          {"id": "silver", "nameRu": "Серебряный (Холод)", "nameEn": "Silver (Cold)", "descriptionRu": "Холодный урон. Конус 15 фт.", "descriptionEn": "Cold damage. 15 ft. cone."},
+          {"id": "white", "nameRu": "Белый (Холод)", "nameEn": "White (Cold)", "descriptionRu": "Холодный урон. Конус 15 фт.", "descriptionEn": "Cold damage. 15 ft. cone."}
+        ]
+      },
+      {
+        "id": "breath_weapon",
+        "nameRu": "Оружие дыхания",
+        "nameEn": "Breath Weapon",
+        "descriptionRu": "Действием вы можете выдохнуть разрушительную энергию. Спасбросок Ловкости, КС = 8 + Телосложение + бонус владения. Урон 1d10 на 1 уровне, увеличивается на 1d10 на 5, 11 и 17 уровнях. Количество использований = бонус владения, восстановление при длинном отдыхе.",
+        "descriptionEn": "As an action, exhale destructive energy. DEX save DC = 8 + CON mod + PB. 1d10 damage at 1st level, +1d10 at 5th, 11th, 17th. Uses = PB per Long Rest.",
+        "type": "active"
+      },
+      {
+        "id": "damage_resistance",
+        "nameRu": "Сопротивление урону",
+        "nameEn": "Damage Resistance",
+        "descriptionRu": "Вы получаете сопротивление типу урона, определённому вашим Драконьим наследием.",
+        "descriptionEn": "You have Resistance to the damage type determined by your Draconic Ancestry.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "goliath",
+    "nameRu": "Голиаф",
+    "nameEn": "Goliath",
+    "descriptionRu": "Голиафы — великаноподобные существа, живущие высоко в горах.",
+    "descriptionEn": "Goliaths are giant-kin who dwell high in the mountains.",
+    "creatureType": "humanoid",
+    "size": "Medium",
+    "speed": 35,
+    "darkvisionRange": null,
+    "lifespan": "~80 лет",
+    "traits": [
+      {
+        "id": "giant_ancestry",
+        "nameRu": "Великанье наследие",
+        "nameEn": "Giant Ancestry",
+        "descriptionRu": "Вы выбираете сверхъестественный дар от великанов: Облачная прогулка, Стихийная ярость или Великанья ладонь.",
+        "descriptionEn": "Choose a supernatural boon from giants: Cloud's Jaunt, Fire's Burn, Frost's Chill, Hill's Tumble, Stone's Endurance, or Storm's Thunder.",
+        "type": "choice",
+        "choices": [
+          {"id": "clouds_jaunt", "nameRu": "Облачная прогулка", "nameEn": "Cloud's Jaunt", "descriptionRu": "Реакцией при получении урона вы можете телепортироваться на 30 фт. PB раз за длинный отдых.", "descriptionEn": "As a Reaction when you take damage, teleport 30 ft. PB uses per Long Rest."},
+          {"id": "fires_burn", "nameRu": "Огонь великана", "nameEn": "Fire's Burn", "descriptionRu": "При попадании атакой вы наносите дополнительно 1d10 урона огнём. PB раз за длинный отдых.", "descriptionEn": "When you hit with an attack, deal extra 1d10 fire damage. PB uses per Long Rest."},
+          {"id": "frosts_chill", "nameRu": "Лёд великана", "nameEn": "Frost's Chill", "descriptionRu": "При попадании атакой вы наносите дополнительно 1d6 урона холодом и снижаете скорость цели на 10 фт. PB раз за длинный отдых.", "descriptionEn": "When you hit with an attack, deal extra 1d6 cold damage and reduce target's speed by 10 ft. PB uses per Long Rest."},
+          {"id": "hills_tumble", "nameRu": "Холмовой сдвиг", "nameEn": "Hill's Tumble", "descriptionRu": "При попадании атакой вы можете сбить цель с ног (Большой размер или меньше). PB раз за длинный отдых.", "descriptionEn": "When you hit with an attack, knock target Prone if Large or smaller. PB uses per Long Rest."},
+          {"id": "stones_endurance", "nameRu": "Стойкость камня", "nameEn": "Stone's Endurance", "descriptionRu": "Реакцией при получении урона вы можете бросить 1d12 + Телосложение и уменьшить урон на эту сумму. PB раз за длинный отдых.", "descriptionEn": "As a Reaction when you take damage, roll 1d12 + CON mod and reduce damage by that amount. PB uses per Long Rest."},
+          {"id": "storms_thunder", "nameRu": "Гром бури", "nameEn": "Storm's Thunder", "descriptionRu": "Реакцией при получении урона вы наносите атакующему 1d8 урона громом. PB раз за длинный отдых.", "descriptionEn": "As a Reaction when you take damage, deal 1d8 thunder damage to attacker. PB uses per Long Rest."}
+        ]
+      },
+      {
+        "id": "large_form",
+        "nameRu": "Большая форма",
+        "nameEn": "Large Form",
+        "descriptionRu": "Начиная с 5 уровня, бонусным действием вы можете стать Большим на 10 минут. PB раз за длинный отдых.",
+        "descriptionEn": "Starting at 5th level, as a Bonus Action you can become Large for 10 minutes. PB uses per Long Rest.",
+        "type": "active"
+      },
+      {
+        "id": "powerful_build",
+        "nameRu": "Мощное телосложение",
+        "nameEn": "Powerful Build",
+        "descriptionRu": "Вы считаетесь на один размер больше при определении грузоподъёмности.",
+        "descriptionEn": "You count as one size larger when determining carrying capacity.",
+        "type": "passive"
+      }
+    ]
+  },
+  {
+    "id": "aasimar",
+    "nameRu": "Аасимар",
+    "nameEn": "Aasimar",
+    "descriptionRu": "Аасимары несут в себе след небесной силы.",
+    "descriptionEn": "Aasimar carry within them a spark of celestial power.",
+    "creatureType": "humanoid",
+    "size": "Medium_or_Small",
+    "sizeOptions": ["Medium", "Small"],
+    "speed": 30,
+    "darkvisionRange": 60,
+    "lifespan": "~160 лет",
+    "traits": [
+      {
+        "id": "celestial_resistance",
+        "nameRu": "Небесное сопротивление",
+        "nameEn": "Celestial Resistance",
+        "descriptionRu": "Вы получаете сопротивление некротическому и лучистому урону.",
+        "descriptionEn": "You have Resistance to Necrotic and Radiant damage.",
+        "type": "passive"
+      },
+      {
+        "id": "healing_hands",
+        "nameRu": "Целительные руки",
+        "nameEn": "Healing Hands",
+        "descriptionRu": "Действием вы можете прикоснуться к существу и восстановить ему хиты, равные вашему бонусу владения. PB раз за длинный отдых.",
+        "descriptionEn": "As an action, touch a creature to restore HP equal to your PB. PB uses per Long Rest.",
+        "type": "active"
+      },
+      {
+        "id": "light_bearer",
+        "nameRu": "Несущий свет",
+        "nameEn": "Light Bearer",
+        "descriptionRu": "Вы знаете заговор Свет. Харизма — ваша заклинательная характеристика.",
+        "descriptionEn": "You know the Light cantrip. Charisma is your spellcasting ability.",
+        "type": "passive"
+      },
+      {
+        "id": "celestial_revelation",
+        "nameRu": "Небесное откровение",
+        "nameEn": "Celestial Revelation",
+        "descriptionRu": "Начиная с 3 уровня, бонусным действием вы можете активировать одну из трёх форм на 1 минуту: Некрическая завеса, Сияющая душа, Лучистое потребление. PB раз за длинный отдых.",
+        "descriptionEn": "Starting at 3rd level, as a Bonus Action you activate one of three forms for 1 minute: Necrotic Shroud, Radiant Soul, or Radiant Consumption. PB uses per Long Rest.",
+        "type": "choice",
+        "choices": [
+          {"id": "necrotic_shroud", "nameRu": "Некротическая завеса", "nameEn": "Necrotic Shroud", "descriptionRu": "Испуг для врагов в 10 фт. Дополнительный некротический урон = бонус владения.", "descriptionEn": "Frighten enemies within 10 ft. Extra necrotic damage = PB."},
+          {"id": "radiant_soul", "nameRu": "Сияющая душа", "nameEn": "Radiant Soul", "descriptionRu": "Скорость полёта = скорость. Дополнительный лучистый урон = бонус владения.", "descriptionEn": "Fly speed = walking speed. Extra radiant damage = PB."},
+          {"id": "radiant_consumption", "nameRu": "Лучистое потребление", "nameEn": "Radiant Consumption", "descriptionRu": "Лучистый урон в конце хода всем в 10 фт (и себе). Дополнительный лучистый урон = бонус владения.", "descriptionEn": "Radiant damage at end of turn to all within 10 ft (including self). Extra radiant damage = PB."}
+        ]
+      }
+    ]
+  }
+]

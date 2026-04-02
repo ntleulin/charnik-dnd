@@ -1,0 +1,738 @@
+{
+  "id": "wizard",
+  "nameRu": "Волшебник",
+  "nameEn": "Wizard",
+  "descriptionRu": "Волшебник — учёный маг, черпающий силу из тщательного изучения тайных знаний. Благодаря годам обучения и практики, волшебники овладевают мощнейшими заклинаниями, записывая их в свою книгу заклинаний.",
+  "descriptionEn": "A Wizard is a scholarly magic-user who draws power from meticulous study of arcane lore. Through years of training and practice, wizards master the most powerful spells, recording them in their spellbooks.",
+  "hitDie": "d6",
+  "hitDieValue": 6,
+  "primaryAbilities": [
+    "int"
+  ],
+  "savingThrows": [
+    "int",
+    "wis"
+  ],
+  "armorProficiencies": [],
+  "weaponProficiencies": [
+    "simple"
+  ],
+  "toolProficiencies": [],
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "arcana",
+      "history",
+      "insight",
+      "investigation",
+      "medicine",
+      "religion"
+    ]
+  },
+  "startingEquipment": [],
+  "multiclassRequirements": {
+    "int": 13
+  },
+  "spellcastingAbility": "int",
+  "spellcastingType": "full",
+  "preparedCaster": true,
+  "ritualCasting": true,
+  "subclassLevel": 2,
+  "subclassNameRu": "Тайная Традиция",
+  "subclassNameEn": "Arcane Tradition",
+  "levels": {
+    "1": {
+      "features": [
+        "spellcasting",
+        "arcane_recovery"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 3,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "2": {
+      "features": [
+        "subclass"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 3,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "3": {
+      "features": [],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 3,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2,
+      "cantripsKnown": 4,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "5": {
+      "features": [
+        "memorize_spell"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 4,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "6": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 4,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "7": {
+      "features": [],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 4,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3,
+      "cantripsKnown": 4,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "9": {
+      "features": [],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 4,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "10": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "11": {
+      "features": [],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "13": {
+      "features": [],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "14": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "15": {
+      "features": [],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "17": {
+      "features": [],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "18": {
+      "features": [
+        "spell_mastery"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    },
+    "20": {
+      "features": [
+        "signature_spells"
+      ],
+      "proficiencyBonus": 6,
+      "cantripsKnown": 5,
+      "spellsPrepared": "int_mod_plus_level"
+    }
+  },
+  "subclasses": [
+    {
+      "id": "abjurer",
+      "nameRu": "Школа Ограждения",
+      "nameEn": "School of Abjuration",
+      "descriptionRu": "Школа Ограждения делает упор на магию, которая блокирует, изгоняет и защищает. Маги-оградители — искатели, которые ценятся за способность защитить слабых и изгнать злых существ.",
+      "descriptionEn": "The School of Abjuration emphasizes magic that blocks, banishes, and protects. Abjurers are sought when combating evil influences, guarding important locations, or protecting the weak.",
+      "features": {
+        "2": [
+          {
+            "id": "abjuration_savant",
+            "nameRu": "Знаток Ограждения",
+            "nameEn": "Abjuration Savant",
+            "descriptionRu": "Начиная со 2-го уровня, золото и время, которые вы тратите на копирование заклинаний школы Ограждения в книгу заклинаний, сокращаются вдвое.",
+            "descriptionEn": "Beginning at 2nd level, the gold and time you must spend to copy an Abjuration spell into your spellbook is halved."
+          },
+          {
+            "id": "arcane_ward",
+            "nameRu": "Тайный Оберег",
+            "nameEn": "Arcane Ward",
+            "descriptionRu": "Начиная со 2-го уровня, вы можете создавать магический оберег вокруг себя. Когда вы накладываете заклинание школы Ограждения 1-го уровня или выше, вы создаёте оберег с хитами, равными удвоенному уровню заклинания + ваш модификатор Интеллекта. Оберег поглощает урон, пока его хиты не иссякнут.",
+            "descriptionEn": "Starting at 2nd level, you can weave magic around yourself for protection. When you cast an Abjuration spell of 1st level or higher, you create a ward with hit points equal to twice the spell's level + your Intelligence modifier. The ward absorbs damage until its hit points are depleted."
+          }
+        ],
+        "6": [
+          {
+            "id": "projected_ward",
+            "nameRu": "Проецируемый Оберег",
+            "nameEn": "Projected Ward",
+            "descriptionRu": "Начиная с 6-го уровня, когда существо, которое вы видите в пределах 30 футов, получает урон, вы можете реакцией заставить ваш Тайный Оберег поглотить этот урон. Если урон снижает хиты оберега до 0, защищаемое существо получает оставшийся урон.",
+            "descriptionEn": "Starting at 6th level, when a creature that you can see within 30 feet of you takes damage, you can use your Reaction to cause your Arcane Ward to absorb that damage. If the damage reduces the ward to 0 hit points, the warded creature takes any remaining damage."
+          }
+        ],
+        "10": [
+          {
+            "id": "spell_breaker",
+            "nameRu": "Разрушитель Заклинаний",
+            "nameEn": "Spell Breaker",
+            "descriptionRu": "Начиная с 10-го уровня, когда вы восстанавливаете хиты существу заклинанием школы Ограждения, вы также можете завершить одно заклинание, наложенное на это существо. Уровень заклинания, которое вы хотите завершить, должен быть равен или ниже уровня ячейки, использованной для лечащего заклинания.",
+            "descriptionEn": "Starting at 10th level, when you restore hit points to a creature with an Abjuration spell, you can also end one spell on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot used for the healing spell."
+          }
+        ],
+        "14": [
+          {
+            "id": "improved_abjuration",
+            "nameRu": "Улучшенное Ограждение",
+            "nameEn": "Improved Abjuration",
+            "descriptionRu": "Начиная с 14-го уровня, когда вы совершаете проверку характеристики для заклинания школы Ограждения (например, для Рассеивания Магии или Контрзаклинания), вы добавляете свой бонус мастерства к этой проверке.",
+            "descriptionEn": "Starting at 14th level, when you make an ability check as part of casting an Abjuration spell (such as Dispel Magic or Counterspell), you add your proficiency bonus to that check."
+          }
+        ]
+      }
+    },
+    {
+      "id": "diviner",
+      "nameRu": "Школа Прорицания",
+      "nameEn": "School of Divination",
+      "descriptionRu": "Школа Прорицания сосредоточена на магии, раскрывающей информацию. Прорицатели стремятся проникнуть в тайны прошлого, настоящего и будущего.",
+      "descriptionEn": "The School of Divination focuses on magic that reveals information. Diviners strive to part the veils of space, time, and consciousness to see clearly.",
+      "features": {
+        "2": [
+          {
+            "id": "divination_savant",
+            "nameRu": "Знаток Прорицания",
+            "nameEn": "Divination Savant",
+            "descriptionRu": "Начиная со 2-го уровня, золото и время, которые вы тратите на копирование заклинаний школы Прорицания в книгу заклинаний, сокращаются вдвое.",
+            "descriptionEn": "Beginning at 2nd level, the gold and time you must spend to copy a Divination spell into your spellbook is halved."
+          },
+          {
+            "id": "portent",
+            "nameRu": "Предзнаменование",
+            "nameEn": "Portent",
+            "descriptionRu": "Начиная со 2-го уровня, вы получаете проблески будущего. Когда вы заканчиваете продолжительный отдых, бросьте два d20 и запишите результаты. Вы можете заменить бросок атаки, спасбросок или проверку характеристики, сделанные вами или существом, которое вы видите, одним из этих предзнаменований. Вы должны сделать это до броска.",
+            "descriptionEn": "Starting at 2nd level, glimpses of the future begin to press in on your awareness. When you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll."
+          }
+        ],
+        "6": [
+          {
+            "id": "expert_divination",
+            "nameRu": "Экспертное Прорицание",
+            "nameEn": "Expert Divination",
+            "descriptionRu": "Начиная с 6-го уровня, заклинания прорицания становятся для вас столь простыми, что требуют лишь малой части ваших магических усилий. Когда вы накладываете заклинание школы Прорицания 2-го уровня или выше, используя ячейку заклинания, вы восстанавливаете одну потраченную ячейку. Уровень восстановленной ячейки должен быть ниже уровня использованной ячейки и не выше 5-го.",
+            "descriptionEn": "Starting at 6th level, casting Divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a Divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than 5th level."
+          }
+        ],
+        "10": [
+          {
+            "id": "the_third_eye",
+            "nameRu": "Третий Глаз",
+            "nameEn": "The Third Eye",
+            "descriptionRu": "Начиная с 10-го уровня, вы можете действием усилить свои чувства. Выберите одно из следующих преимуществ, которое длится до тех пор, пока вы не станете недееспособны или не завершите короткий или продолжительный отдых: Тёмное Зрение, Эфирное Зрение, Великое Понимание или Видение Невидимого.",
+            "descriptionEn": "Starting at 10th level, you can use your Action to increase your powers of perception. Choose one of the following benefits, which lasts until you are Incapacitated or you take a Short or Long Rest: Darkvision, Ethereal Sight, Greater Comprehension, or See Invisibility."
+          }
+        ],
+        "14": [
+          {
+            "id": "greater_portent",
+            "nameRu": "Великое Предзнаменование",
+            "nameEn": "Greater Portent",
+            "descriptionRu": "Начиная с 14-го уровня, видения в ваших снах усиливаются и рисуют более точную картину грядущих событий. Вы бросаете три d20 для способности Предзнаменование вместо двух.",
+            "descriptionEn": "Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture of what is to come. You roll three d20s for your Portent feature, rather than two."
+          }
+        ]
+      }
+    },
+    {
+      "id": "evoker",
+      "nameRu": "Школа Воплощения",
+      "nameEn": "School of Evocation",
+      "descriptionRu": "Школа Воплощения сосредоточена на заклинаниях, производящих мощные стихийные эффекты — ледяной холод, обжигающее пламя, раскатистый гром, потрескивающие молнии и жгучую кислоту.",
+      "descriptionEn": "The School of Evocation focuses on spells that create powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid.",
+      "features": {
+        "2": [
+          {
+            "id": "evocation_savant",
+            "nameRu": "Знаток Воплощения",
+            "nameEn": "Evocation Savant",
+            "descriptionRu": "Начиная со 2-го уровня, золото и время, которые вы тратите на копирование заклинаний школы Воплощения в книгу заклинаний, сокращаются вдвое.",
+            "descriptionEn": "Beginning at 2nd level, the gold and time you must spend to copy an Evocation spell into your spellbook is halved."
+          },
+          {
+            "id": "sculpt_spells",
+            "nameRu": "Скульптура Заклинаний",
+            "nameEn": "Sculpt Spells",
+            "descriptionRu": "Начиная со 2-го уровня, вы можете создавать карманы относительной безопасности в зонах действия ваших заклинаний Воплощения. Когда вы накладываете заклинание Воплощения, воздействующее на других существ, которых вы видите, вы можете выбрать количество существ, равное 1 + уровень заклинания. Выбранные существа автоматически преуспевают в спасброске и не получают урона.",
+            "descriptionEn": "Starting at 2nd level, you can create pockets of relative safety within the effects of your Evocation spells. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws and take no damage."
+          }
+        ],
+        "6": [
+          {
+            "id": "potent_cantrip",
+            "nameRu": "Мощный Заговор",
+            "nameEn": "Potent Cantrip",
+            "descriptionRu": "Начиная с 6-го уровня, ваши наносящие урон заговоры воздействуют даже на тех существ, которые уклоняются от основной силы заклинания. Когда существо преуспевает в спасброске от вашего заговора, оно получает половину урона заговора (если есть), но не получает дополнительного эффекта.",
+            "descriptionEn": "Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
+          }
+        ],
+        "10": [
+          {
+            "id": "empowered_evocation",
+            "nameRu": "Усиленное Воплощение",
+            "nameEn": "Empowered Evocation",
+            "descriptionRu": "Начиная с 10-го уровня, вы можете добавить свой модификатор Интеллекта к одному броску урона любого заклинания волшебника школы Воплощения, которое вы накладываете.",
+            "descriptionEn": "Starting at 10th level, you can add your Intelligence modifier to one damage roll of any Wizard Evocation spell you cast."
+          }
+        ],
+        "14": [
+          {
+            "id": "overchannel",
+            "nameRu": "Перенасыщение",
+            "nameEn": "Overchannel",
+            "descriptionRu": "Начиная с 14-го уровня, вы можете усилить мощь простого заклинания. Когда вы накладываете заклинание волшебника 1-5 уровня, наносящее урон, вы можете нанести максимальный урон этим заклинанием. Первое использование не имеет последствий, но каждое последующее до продолжительного отдыха наносит вам урон некротической энергией 2d12 за каждый уровень заклинания.",
+            "descriptionEn": "Starting at 14th level, you can increase the power of your simpler spells. When you cast a Wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell. The first time you do so, you suffer no adverse effect. Each subsequent time before a Long Rest, you take 2d12 Necrotic damage per spell level."
+          }
+        ]
+      }
+    },
+    {
+      "id": "illusionist",
+      "nameRu": "Школа Иллюзии",
+      "nameEn": "School of Illusion",
+      "descriptionRu": "Школа Иллюзии сосредоточена на магии, которая обманывает чувства, одурачивает разум и обманывает даже самых мудрых. Иллюзионисты подчиняют восприятие реальности своей воле.",
+      "descriptionEn": "The School of Illusion focuses on magic that dazzles the senses, befuddles the mind, and tricks even the wisest. Illusionists bend perception and reality to their will.",
+      "features": {
+        "2": [
+          {
+            "id": "illusion_savant",
+            "nameRu": "Знаток Иллюзии",
+            "nameEn": "Illusion Savant",
+            "descriptionRu": "Начиная со 2-го уровня, золото и время, которые вы тратите на копирование заклинаний школы Иллюзии в книгу заклинаний, сокращаются вдвое.",
+            "descriptionEn": "Beginning at 2nd level, the gold and time you must spend to copy an Illusion spell into your spellbook is halved."
+          },
+          {
+            "id": "improved_minor_illusion",
+            "nameRu": "Улучшенная Малая Иллюзия",
+            "nameEn": "Improved Minor Illusion",
+            "descriptionRu": "Начиная со 2-го уровня, вы изучаете заговор Малая Иллюзия. Когда вы накладываете его, вы можете создать и звук, и изображение одним наложением заклинания.",
+            "descriptionEn": "Starting at 2nd level, you learn the Minor Illusion cantrip. When you cast it, you can create both a sound and an image with a single casting of the spell."
+          }
+        ],
+        "6": [
+          {
+            "id": "malleable_illusions",
+            "nameRu": "Податливые Иллюзии",
+            "nameEn": "Malleable Illusions",
+            "descriptionRu": "Начиная с 6-го уровня, когда вы накладываете заклинание школы Иллюзии с длительностью 1 минута или дольше, вы можете действием изменить природу этой иллюзии (используя обычные параметры заклинания), при условии, что вы видите иллюзию.",
+            "descriptionEn": "Starting at 6th level, when you cast an Illusion spell that has a duration of 1 minute or longer, you can use your Action to change the nature of that illusion (using the spell's normal parameters), provided that you can see the illusion."
+          }
+        ],
+        "10": [
+          {
+            "id": "illusory_self",
+            "nameRu": "Иллюзорное Я",
+            "nameEn": "Illusory Self",
+            "descriptionRu": "Начиная с 10-го уровня, вы можете реакцией создать иллюзорную копию себя, когда существо совершает по вам бросок атаки. Атака автоматически промахивается, после чего иллюзия рассеивается. Вы можете использовать эту способность количество раз, равное вашему бонусу мастерства, и восстанавливаете все использования после продолжительного отдыха.",
+            "descriptionEn": "Starting at 10th level, you can create an illusory duplicate of yourself as a Reaction when a creature makes an attack roll against you. The attack automatically misses, then the illusion dissipates. You can use this feature a number of times equal to your proficiency bonus and regain all uses after a Long Rest."
+          }
+        ],
+        "14": [
+          {
+            "id": "illusory_reality",
+            "nameRu": "Иллюзорная Реальность",
+            "nameEn": "Illusory Reality",
+            "descriptionRu": "К 14-му уровню вы узнали секрет вплетения теневой магии в ваши иллюзии, придавая им полуреальность. Когда вы накладываете заклинание школы Иллюзии 1-го уровня или выше, вы можете выбрать один неодушевлённый, немагический объект, являющийся частью иллюзии, и сделать его реальным. Объект остаётся реальным в течение 1 минуты.",
+            "descriptionEn": "By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semi-reality. When you cast an Illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. The object remains real for 1 minute."
+          }
+        ]
+      }
+    }
+  ],
+  "spellSlots": {
+    "1": {
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "2": {
+      "slots": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "3": {
+      "slots": [
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 3
+    },
+    "4": {
+      "slots": [
+        4,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "5": {
+      "slots": [
+        4,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "6": {
+      "slots": [
+        4,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "7": {
+      "slots": [
+        4,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "8": {
+      "slots": [
+        4,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "9": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 4
+    },
+    "10": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "11": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "12": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "13": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "14": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "15": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "16": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cantripsKnown": 5
+    },
+    "17": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 5
+    },
+    "18": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 5
+    },
+    "19": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "cantripsKnown": 5
+    },
+    "20": {
+      "slots": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "cantripsKnown": 5
+    }
+  },
+  "features": {
+    "spellcasting": {
+      "id": "spellcasting",
+      "nameRu": "Использование Заклинаний",
+      "nameEn": "Spellcasting",
+      "level": 1,
+      "descriptionRu": "Как ученик тайной магии, у вас есть книга заклинаний, содержащая заклинания. Вы подготавливаете список заклинаний волшебника, доступных для наложения, выбирая из книги заклинаний. Количество подготовленных заклинаний равно вашему модификатору Интеллекта + ваш уровень волшебника (минимум одно заклинание). Интеллект — ваша базовая характеристика для заклинаний. Вы можете использовать тайный фокус в качестве фокусировки. Вы можете накладывать ритуалы.",
+      "descriptionEn": "As a student of Arcane Magic, you have a spellbook containing spells. You prepare the list of Wizard spells that are available for you to cast, choosing from your spellbook. The number of spells you can prepare equals your Intelligence modifier + your Wizard level (minimum of one spell). Intelligence is your spellcasting ability. You can use an Arcane Focus as a spellcasting focus. You can cast rituals."
+    },
+    "arcane_recovery": {
+      "id": "arcane_recovery",
+      "nameRu": "Тайное Восстановление",
+      "nameEn": "Arcane Recovery",
+      "level": 1,
+      "descriptionRu": "Вы научились восстанавливать часть магической энергии, изучая книгу заклинаний. Один раз в день, когда вы заканчиваете короткий отдых, вы можете восстановить потраченные ячейки заклинаний. Суммарный уровень восстановленных ячеек не должен превышать половину вашего уровня волшебника (округлённую вверх), и ни одна из ячеек не может быть 6-го уровня или выше.",
+      "descriptionEn": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be 6th level or higher.",
+      "usesPerRest": 1,
+      "restType": "long"
+    },
+    "memorize_spell": {
+      "id": "memorize_spell",
+      "nameRu": "Запоминание Заклинания",
+      "nameEn": "Memorize Spell",
+      "level": 5,
+      "descriptionRu": "Начиная с 5-го уровня, когда вы заканчиваете короткий отдых, вы можете заменить одно из подготовленных заклинаний волшебника другим заклинанием из вашей книги заклинаний.",
+      "descriptionEn": "Starting at 5th level, whenever you finish a Short Rest, you can replace one of your prepared Wizard spells with another spell from your spellbook."
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение Характеристик",
+      "nameEn": "Ability Score Improvement",
+      "level": 4,
+      "descriptionRu": "Когда вы достигаете 4-го уровня, а также на 8-м, 12-м, 16-м и 19-м уровнях, вы можете увеличить одну из ваших характеристик на 2 или две характеристики на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этой способности. Вместо этого вы можете взять черту.",
+      "descriptionEn": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores by 1. As normal, you can't increase an ability score above 20 using this feature. You can instead take a feat."
+    },
+    "spell_mastery": {
+      "id": "spell_mastery",
+      "nameRu": "Мастерство Заклинаний",
+      "nameEn": "Spell Mastery",
+      "level": 18,
+      "descriptionRu": "На 18-м уровне вы достигли такого мастерства в определённых заклинаниях, что можете накладывать их по желанию. Выберите одно заклинание волшебника 1-го уровня и одно заклинание волшебника 2-го уровня из вашей книги заклинаний. Вы можете накладывать эти заклинания на их базовом уровне, не тратя ячейки заклинаний, если они подготовлены.",
+      "descriptionEn": "At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level Wizard spell and a 2nd-level Wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared."
+    },
+    "signature_spells": {
+      "id": "signature_spells",
+      "nameRu": "Именные Заклинания",
+      "nameEn": "Signature Spells",
+      "level": 20,
+      "descriptionRu": "На 20-м уровне вы получаете мастерство над двумя мощными заклинаниями и можете накладывать их без особых усилий. Выберите два заклинания волшебника 3-го уровня из вашей книги заклинаний в качестве именных заклинаний. Эти заклинания всегда считаются подготовленными и не учитываются в количестве подготовленных заклинаний. Вы можете наложить каждое из них один раз на 3-м уровне без траты ячейки заклинания. Вы восстанавливаете эту способность после короткого или продолжительного отдыха.",
+      "descriptionEn": "At 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level Wizard spells in your spellbook as your Signature Spells. These spells are always prepared and don't count against the number of spells you have prepared. You can cast each of them once at 3rd level without expending a spell slot. You regain the ability to do so after a Short or Long Rest.",
+      "usesPerRest": 1,
+      "restType": "short"
+    }
+  }
+}

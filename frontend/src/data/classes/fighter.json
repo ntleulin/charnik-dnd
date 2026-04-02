@@ -1,0 +1,662 @@
+{
+  "id": "fighter",
+  "nameRu": "Воин",
+  "nameEn": "Fighter",
+  "descriptionRu": "Мастер боевого искусства, владеющий широким арсеналом оружия и доспехов. Воины сочетают физическую мощь, тактическое мастерство и боевой опыт.",
+  "descriptionEn": "A master of martial combat, skilled with a variety of weapons and armor. Fighters combine physical power, tactical knowledge, and combat experience.",
+  "hitDie": "d10",
+  "hitDieValue": 10,
+  "primaryAbilities": [
+    "str",
+    "dex"
+  ],
+  "savingThrows": [
+    "str",
+    "con"
+  ],
+  "armorProficiencies": [
+    "light",
+    "medium",
+    "heavy",
+    "shields"
+  ],
+  "weaponProficiencies": [
+    "simple",
+    "martial"
+  ],
+  "toolProficiencies": null,
+  "skillChoice": {
+    "count": 2,
+    "from": [
+      "acrobatics",
+      "animal_handling",
+      "athletics",
+      "history",
+      "insight",
+      "intimidation",
+      "perception",
+      "survival"
+    ]
+  },
+  "multiclassRequirement": {
+    "minimumScores": {
+      "str": 13,
+      "dex": 13
+    },
+    "requireAll": false
+  },
+  "multiclassProficiencies": [
+    "light",
+    "medium",
+    "shields",
+    "simple",
+    "martial"
+  ],
+  "spellcastingAbility": null,
+  "spellcastingType": null,
+  "subclassLevel": 3,
+  "levels": {
+    "1": {
+      "features": [
+        "fighting_style",
+        "second_wind",
+        "weapon_mastery"
+      ],
+      "proficiencyBonus": 2
+    },
+    "2": {
+      "features": [
+        "action_surge",
+        "tactical_mind"
+      ],
+      "proficiencyBonus": 2
+    },
+    "3": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 2
+    },
+    "4": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 2
+    },
+    "5": {
+      "features": [
+        "extra_attack"
+      ],
+      "proficiencyBonus": 3
+    },
+    "6": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3
+    },
+    "7": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 3
+    },
+    "8": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 3
+    },
+    "9": {
+      "features": [
+        "indomitable",
+        "tactical_master"
+      ],
+      "proficiencyBonus": 4
+    },
+    "10": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 4
+    },
+    "11": {
+      "features": [
+        "extra_attack_2"
+      ],
+      "proficiencyBonus": 4
+    },
+    "12": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 4
+    },
+    "13": {
+      "features": [
+        "indomitable_2",
+        "studied_attacks"
+      ],
+      "proficiencyBonus": 5
+    },
+    "14": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5
+    },
+    "15": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 5
+    },
+    "16": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 5
+    },
+    "17": {
+      "features": [
+        "action_surge_2",
+        "indomitable_3"
+      ],
+      "proficiencyBonus": 6
+    },
+    "18": {
+      "features": [
+        "subclass_feature"
+      ],
+      "proficiencyBonus": 6
+    },
+    "19": {
+      "features": [
+        "asi"
+      ],
+      "proficiencyBonus": 6
+    },
+    "20": {
+      "features": [
+        "extra_attack_3"
+      ],
+      "proficiencyBonus": 6
+    }
+  },
+  "subclasses": [
+    {
+      "id": "champion",
+      "nameRu": "Чемпион",
+      "nameEn": "Champion",
+      "descriptionRu": "Чемпион сосредоточен на развитии грубой физической силы, доведённой до смертоносного совершенства.",
+      "descriptionEn": "A Champion focuses on the development of raw physical power honed to deadly perfection.",
+      "features": {
+        "3": [
+          "improved_critical",
+          "remarkable_athlete"
+        ],
+        "7": [
+          "additional_fighting_style"
+        ],
+        "10": [
+          "heroic_warrior"
+        ],
+        "15": [
+          "superior_critical"
+        ],
+        "18": [
+          "survivor"
+        ]
+      }
+    },
+    {
+      "id": "battle_master",
+      "nameRu": "Мастер боевых искусств",
+      "nameEn": "Battle Master",
+      "descriptionRu": "Мастер боевых искусств использует боевые приёмы, подпитываемые костями превосходства, для контроля поля боя.",
+      "descriptionEn": "A Battle Master uses martial maneuvers fueled by superiority dice to control the battlefield.",
+      "features": {
+        "3": [
+          "combat_superiority",
+          "student_of_war"
+        ],
+        "7": [
+          "know_your_enemy"
+        ],
+        "10": [
+          "improved_combat_superiority"
+        ],
+        "15": [
+          "relentless"
+        ],
+        "18": [
+          "ultimate_combat_superiority"
+        ]
+      }
+    },
+    {
+      "id": "eldritch_knight",
+      "nameRu": "Мистический рыцарь",
+      "nameEn": "Eldritch Knight",
+      "descriptionRu": "Мистический рыцарь сочетает боевое мастерство воина с магией школ Ограждения и Воплощения.",
+      "descriptionEn": "An Eldritch Knight combines the martial mastery of a fighter with the magic of the Abjuration and Evocation schools.",
+      "features": {
+        "3": [
+          "ek_spellcasting",
+          "war_bond"
+        ],
+        "7": [
+          "war_magic"
+        ],
+        "10": [
+          "eldritch_strike"
+        ],
+        "15": [
+          "arcane_charge"
+        ],
+        "18": [
+          "improved_war_magic"
+        ]
+      }
+    },
+    {
+      "id": "psi_warrior",
+      "nameRu": "Пси-воин",
+      "nameEn": "Psi Warrior",
+      "descriptionRu": "Пси-воин использует псионическую силу для усиления своих физических способностей на поле боя.",
+      "descriptionEn": "A Psi Warrior augments their physical might with psionic power on the battlefield.",
+      "features": {
+        "3": [
+          "psionic_power"
+        ],
+        "7": [
+          "telekinetic_adept"
+        ],
+        "10": [
+          "guarded_mind"
+        ],
+        "15": [
+          "bulwark_of_force"
+        ],
+        "18": [
+          "telekinetic_master"
+        ]
+      }
+    }
+  ],
+  "spellSlots": null,
+  "features": {
+    "fighting_style": {
+      "id": "fighting_style",
+      "nameRu": "Боевой стиль",
+      "nameEn": "Fighting Style",
+      "descriptionRu": "Вы принимаете определённый стиль боя. Выберите один из вариантов боевого стиля. Вы не можете выбрать один и тот же стиль дважды.",
+      "descriptionEn": "You adopt a particular style of fighting as your specialty. Choose one Fighting Style option. You can't take the same Fighting Style option more than once.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "second_wind": {
+      "id": "second_wind",
+      "nameRu": "Второе дыхание",
+      "nameEn": "Second Wind",
+      "descriptionRu": "Бонусным действием вы можете восстановить хиты, равные 1d10 + ваш уровень воина. Вы можете использовать это свойство количество раз, равное вашему бонусу мастерства, и восстанавливаете все использования после длительного отдыха.",
+      "descriptionEn": "As a Bonus Action, you can regain Hit Points equal to 1d10 plus your Fighter level. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.",
+      "level": 1,
+      "actionType": "bonus_action",
+      "usesPerRest": "proficiency_bonus",
+      "restType": "long"
+    },
+    "weapon_mastery": {
+      "id": "weapon_mastery",
+      "nameRu": "Мастерство оружия",
+      "nameEn": "Weapon Mastery",
+      "descriptionRu": "Ваша подготовка с оружием позволяет вам использовать свойства мастерства оружия. При атаке оружием, чьё свойство мастерства вы можете использовать, вы можете применить его эффект.",
+      "descriptionEn": "Your training with weapons allows you to use the mastery properties of weapons. When you attack with a weapon whose mastery property you can use, you can apply its effect.",
+      "level": 1,
+      "actionType": "passive"
+    },
+    "action_surge": {
+      "id": "action_surge",
+      "nameRu": "Всплеск действий",
+      "nameEn": "Action Surge",
+      "descriptionRu": "Вы можете совершить одно дополнительное действие в свой ход. Использовав это свойство, вы должны завершить короткий или длительный отдых, прежде чем сможете использовать его снова. Начиная с 17-го уровня, вы можете использовать его дважды до отдыха.",
+      "descriptionEn": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action. Once you use this feature, you must finish a Short or Long Rest before you can use it again. Starting at 17th level, you can use it twice before a rest.",
+      "level": 2,
+      "actionType": "free",
+      "usesPerRest": 1,
+      "restType": "short",
+      "usesScaling": {
+        "2": 1,
+        "17": 2
+      }
+    },
+    "tactical_mind": {
+      "id": "tactical_mind",
+      "nameRu": "Тактический ум",
+      "nameEn": "Tactical Mind",
+      "descriptionRu": "Вы можете потратить использование Второго дыхания, чтобы добавить 1d10 к проваленной проверке характеристики. Если изменённая проверка всё ещё проваливается, использование не расходуется.",
+      "descriptionEn": "You can push your mind to its limits. When you fail an ability check, you can expend a use of Second Wind to add 1d10 to the check. If the modified check still fails, the use isn't expended.",
+      "level": 2,
+      "actionType": "passive"
+    },
+    "asi": {
+      "id": "asi",
+      "nameRu": "Увеличение характеристик",
+      "nameEn": "Ability Score Improvement",
+      "descriptionRu": "Вы можете увеличить одну характеристику на 2 или две характеристики на 1. Характеристика не может превышать 20. Вместо этого вы можете взять черту.",
+      "descriptionEn": "You can increase one ability score by 2, or two ability scores by 1. An ability score can't exceed 20. Alternatively, you can take a feat.",
+      "level": 4,
+      "actionType": "passive"
+    },
+    "extra_attack": {
+      "id": "extra_attack",
+      "nameRu": "Дополнительная атака",
+      "nameEn": "Extra Attack",
+      "descriptionRu": "Вы можете атаковать дважды, а не один раз, когда совершаете действие Атаки в свой ход.",
+      "descriptionEn": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+      "level": 5,
+      "actionType": "passive"
+    },
+    "indomitable": {
+      "id": "indomitable",
+      "nameRu": "Неукротимый",
+      "nameEn": "Indomitable",
+      "descriptionRu": "Вы можете перебросить проваленный спасбросок. Вы должны использовать новый результат. Вы можете использовать это свойство один раз и восстанавливаете использование после длительного отдыха. На 13-м уровне — 2 раза, на 17-м — 3 раза.",
+      "descriptionEn": "You can reroll a saving throw that you fail. You must use the new roll. You can use this feature once, and regain the use after a Long Rest. At 13th level you gain 2 uses, at 17th level 3 uses.",
+      "level": 9,
+      "actionType": "passive",
+      "usesPerRest": 1,
+      "restType": "long",
+      "usesScaling": {
+        "9": 1,
+        "13": 2,
+        "17": 3
+      }
+    },
+    "tactical_master": {
+      "id": "tactical_master",
+      "nameRu": "Тактический мастер",
+      "nameEn": "Tactical Master",
+      "descriptionRu": "Когда вы атакуете оружием, свойство мастерства которого вы можете использовать, вы можете заменить это свойство свойством Толчок, Замедление или Рывок.",
+      "descriptionEn": "When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.",
+      "level": 9,
+      "actionType": "passive"
+    },
+    "extra_attack_2": {
+      "id": "extra_attack_2",
+      "nameRu": "Дополнительная атака (2)",
+      "nameEn": "Extra Attack (2)",
+      "descriptionRu": "Вы можете атаковать трижды, а не один раз, когда совершаете действие Атаки в свой ход.",
+      "descriptionEn": "You can attack three times whenever you take the Attack action on your turn.",
+      "level": 11,
+      "actionType": "passive"
+    },
+    "indomitable_2": {
+      "id": "indomitable_2",
+      "nameRu": "Неукротимый (2 использования)",
+      "nameEn": "Indomitable (2 uses)",
+      "descriptionRu": "Теперь вы можете использовать свойство «Неукротимый» дважды между длительными отдыхами.",
+      "descriptionEn": "You can now use Indomitable twice between Long Rests.",
+      "level": 13,
+      "actionType": "passive",
+      "usesPerRest": 2,
+      "restType": "long"
+    },
+    "studied_attacks": {
+      "id": "studied_attacks",
+      "nameRu": "Изученные атаки",
+      "nameEn": "Studied Attacks",
+      "descriptionRu": "Если вы промахиваетесь по существу атакой, вы получаете преимущество на следующий бросок атаки по этому существу до конца вашего следующего хода.",
+      "descriptionEn": "When you miss a creature with an attack roll, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+      "level": 13,
+      "actionType": "passive"
+    },
+    "action_surge_2": {
+      "id": "action_surge_2",
+      "nameRu": "Всплеск действий (2 использования)",
+      "nameEn": "Action Surge (2 uses)",
+      "descriptionRu": "Теперь вы можете использовать «Всплеск действий» дважды до короткого или длительного отдыха.",
+      "descriptionEn": "You can now use Action Surge twice before a Short or Long Rest.",
+      "level": 17,
+      "actionType": "passive",
+      "usesPerRest": 2,
+      "restType": "short"
+    },
+    "indomitable_3": {
+      "id": "indomitable_3",
+      "nameRu": "Неукротимый (3 использования)",
+      "nameEn": "Indomitable (3 uses)",
+      "descriptionRu": "Теперь вы можете использовать свойство «Неукротимый» трижды между длительными отдыхами.",
+      "descriptionEn": "You can now use Indomitable three times between Long Rests.",
+      "level": 17,
+      "actionType": "passive",
+      "usesPerRest": 3,
+      "restType": "long"
+    },
+    "extra_attack_3": {
+      "id": "extra_attack_3",
+      "nameRu": "Дополнительная атака (3)",
+      "nameEn": "Extra Attack (3)",
+      "descriptionRu": "Вы можете атаковать четыре раза, когда совершаете действие Атаки в свой ход.",
+      "descriptionEn": "You can attack four times whenever you take the Attack action on your turn.",
+      "level": 20,
+      "actionType": "passive"
+    },
+    "subclass_feature": {
+      "id": "subclass_feature",
+      "nameRu": "Умение подкласса",
+      "nameEn": "Subclass Feature",
+      "descriptionRu": "Вы получаете умение от выбранного подкласса.",
+      "descriptionEn": "You gain a feature from your chosen subclass.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "improved_critical": {
+      "id": "improved_critical",
+      "nameRu": "Улучшенный критический удар",
+      "nameEn": "Improved Critical",
+      "descriptionRu": "Ваши атаки оружием наносят критический удар при выпадении 19 или 20 на кости атаки.",
+      "descriptionEn": "Your weapon attacks score a critical hit on a roll of 19 or 20 on the d20.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "remarkable_athlete": {
+      "id": "remarkable_athlete",
+      "nameRu": "Замечательный атлет",
+      "nameEn": "Remarkable Athlete",
+      "descriptionRu": "Вы получаете преимущество к проверкам Инициативы и Силы (Атлетика). При совершении прыжка в длину с разбега дальность увеличивается на число футов, равное вашему модификатору Силы.",
+      "descriptionEn": "You have Advantage on Initiative rolls and Strength (Athletics) checks. When you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "additional_fighting_style": {
+      "id": "additional_fighting_style",
+      "nameRu": "Дополнительный боевой стиль",
+      "nameEn": "Additional Fighting Style",
+      "descriptionRu": "Вы выбираете ещё один вариант боевого стиля.",
+      "descriptionEn": "You choose another Fighting Style option.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "heroic_warrior": {
+      "id": "heroic_warrior",
+      "nameRu": "Героический воин",
+      "nameEn": "Heroic Warrior",
+      "descriptionRu": "Критический удар восстанавливает одно использование Второго дыхания или Всплеска действий (по вашему выбору).",
+      "descriptionEn": "When you score a critical hit, you regain one expended use of Second Wind or Action Surge (your choice).",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "superior_critical": {
+      "id": "superior_critical",
+      "nameRu": "Превосходный критический удар",
+      "nameEn": "Superior Critical",
+      "descriptionRu": "Ваши атаки оружием наносят критический удар при выпадении 18, 19 или 20 на кости атаки.",
+      "descriptionEn": "Your weapon attacks score a critical hit on a roll of 18, 19, or 20 on the d20.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "survivor": {
+      "id": "survivor",
+      "nameRu": "Выживший",
+      "nameEn": "Survivor",
+      "descriptionRu": "В начале каждого вашего хода вы восстанавливаете хиты, равные 5 + ваш модификатор Телосложения, если у вас осталось не более половины хитов. Это не работает, если у вас 0 хитов.",
+      "descriptionEn": "At the start of each of your turns, you regain Hit Points equal to 5 + your Constitution modifier if you have no more than half your Hit Points remaining. You don't gain this benefit if you have 0 Hit Points.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "combat_superiority": {
+      "id": "combat_superiority",
+      "nameRu": "Боевое превосходство",
+      "nameEn": "Combat Superiority",
+      "descriptionRu": "Вы изучаете приёмы, которые подпитываются костями превосходства. Вы получаете четыре кости d8 превосходства и изучаете три приёма. Кости растут до d10 на 10-м уровне и d12 на 18-м.",
+      "descriptionEn": "You learn maneuvers fueled by superiority dice. You gain four d8 superiority dice and learn three maneuvers. The dice increase to d10 at 10th level and d12 at 18th level.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "student_of_war": {
+      "id": "student_of_war",
+      "nameRu": "Ученик войны",
+      "nameEn": "Student of War",
+      "descriptionRu": "Вы получаете владение одним набором ремесленных инструментов по вашему выбору.",
+      "descriptionEn": "You gain proficiency with one type of artisan's tools of your choice.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "know_your_enemy": {
+      "id": "know_your_enemy",
+      "nameRu": "Знай своего врага",
+      "nameEn": "Know Your Enemy",
+      "descriptionRu": "Бонусным действием вы можете потратить кость превосходства, чтобы узнать сведения о существе, которое видите в пределах 30 футов.",
+      "descriptionEn": "As a Bonus Action, you can expend a superiority die to learn information about a creature you can see within 30 feet.",
+      "level": 7,
+      "actionType": "bonus_action"
+    },
+    "improved_combat_superiority": {
+      "id": "improved_combat_superiority",
+      "nameRu": "Улучшенное боевое превосходство",
+      "nameEn": "Improved Combat Superiority",
+      "descriptionRu": "Ваши кости превосходства становятся d10. Вы также изучаете два дополнительных приёма.",
+      "descriptionEn": "Your superiority dice become d10. You also learn two additional maneuvers.",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "relentless": {
+      "id": "relentless",
+      "nameRu": "Неумолимый",
+      "nameEn": "Relentless",
+      "descriptionRu": "Один раз за ход, когда вы используете приём, но у вас не осталось костей превосходства, вы можете бросить d8 вместо траты кости.",
+      "descriptionEn": "Once per turn, when you use a maneuver and have no superiority dice remaining, you can roll a d8 instead of expending a die.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "ultimate_combat_superiority": {
+      "id": "ultimate_combat_superiority",
+      "nameRu": "Непревзойдённое боевое превосходство",
+      "nameEn": "Ultimate Combat Superiority",
+      "descriptionRu": "Ваши кости превосходства становятся d12.",
+      "descriptionEn": "Your superiority dice become d12.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "ek_spellcasting": {
+      "id": "ek_spellcasting",
+      "nameRu": "Использование заклинаний (Мистический рыцарь)",
+      "nameEn": "Spellcasting (Eldritch Knight)",
+      "descriptionRu": "Вы получаете возможность использовать заклинания волшебника. Вы изучаете заговоры и заклинания 1-го уровня школ Ограждения и Воплощения. Интеллект — ваша заклинательная характеристика.",
+      "descriptionEn": "You gain the ability to cast Wizard spells. You learn cantrips and 1st-level spells from the Abjuration and Evocation schools. Intelligence is your spellcasting ability.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "war_bond": {
+      "id": "war_bond",
+      "nameRu": "Боевая связь",
+      "nameEn": "War Bond",
+      "descriptionRu": "Вы можете связать себя с одним оружием в ходе ритуала длительностью 1 час. Вы не можете быть обезоружены, пока в сознании, и можете призвать его бонусным действием.",
+      "descriptionEn": "You can bond with one weapon during a 1-hour ritual. You can't be disarmed while conscious, and you can summon it as a Bonus Action.",
+      "level": 3,
+      "actionType": "passive"
+    },
+    "war_magic": {
+      "id": "war_magic",
+      "nameRu": "Боевая магия",
+      "nameEn": "War Magic",
+      "descriptionRu": "Когда вы используете действие для сотворения заговора, вы можете совершить одну атаку оружием бонусным действием.",
+      "descriptionEn": "When you use your action to cast a cantrip, you can make one weapon attack as a Bonus Action.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "eldritch_strike": {
+      "id": "eldritch_strike",
+      "nameRu": "Мистический удар",
+      "nameEn": "Eldritch Strike",
+      "descriptionRu": "Когда вы попадаете по существу атакой оружием, это существо получает помеху на следующий спасбросок от вашего заклинания до конца вашего следующего хода.",
+      "descriptionEn": "When you hit a creature with a weapon attack, that creature has Disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "arcane_charge": {
+      "id": "arcane_charge",
+      "nameRu": "Магический рывок",
+      "nameEn": "Arcane Charge",
+      "descriptionRu": "Когда вы используете Всплеск действий, вы можете телепортироваться на расстояние до 30 футов в свободное пространство, которое видите.",
+      "descriptionEn": "When you use Action Surge, you can teleport up to 30 feet to an unoccupied space you can see.",
+      "level": 15,
+      "actionType": "passive"
+    },
+    "improved_war_magic": {
+      "id": "improved_war_magic",
+      "nameRu": "Улучшенная боевая магия",
+      "nameEn": "Improved War Magic",
+      "descriptionRu": "Когда вы используете действие для сотворения заклинания, вы можете совершить одну атаку оружием бонусным действием.",
+      "descriptionEn": "When you use your action to cast a spell, you can make one weapon attack as a Bonus Action.",
+      "level": 18,
+      "actionType": "passive"
+    },
+    "psionic_power": {
+      "id": "psionic_power",
+      "nameRu": "Псионическая сила",
+      "nameEn": "Psionic Power",
+      "descriptionRu": "Вы получаете псионические энергетические кости (количество = бонус мастерства x2, d6). Вы можете использовать их для: Защитного поля (реакция, уменьшает урон себе или существу рядом), Псионический удар (дополнительный урон при попадании), Телекинетическое движение (перемещение предмета или существа).",
+      "descriptionEn": "You gain psionic energy dice (number = proficiency bonus x2, d6). You can use them for: Protective Field (reaction, reduce damage to self or nearby creature), Psionic Strike (extra damage on hit), Telekinetic Movement (move object or creature).",
+      "level": 3,
+      "actionType": "varies"
+    },
+    "telekinetic_adept": {
+      "id": "telekinetic_adept",
+      "nameRu": "Телекинетический адепт",
+      "nameEn": "Telekinetic Adept",
+      "descriptionRu": "Псионический удар наносит дополнительно 1d8 урона силой. Вы также можете использовать Телекинетическое движение, чтобы переместить себя.",
+      "descriptionEn": "Psionic Strike deals an extra 1d8 force damage. You can also use Telekinetic Movement to move yourself.",
+      "level": 7,
+      "actionType": "passive"
+    },
+    "guarded_mind": {
+      "id": "guarded_mind",
+      "nameRu": "Защищённый разум",
+      "nameEn": "Guarded Mind",
+      "descriptionRu": "Вы получаете сопротивление к психическому урону. Если вы очарованы или испуганы, вы можете потратить псионическую энергетическую кость, чтобы немедленно снять эффект.",
+      "descriptionEn": "You have resistance to psychic damage. If you are charmed or frightened, you can expend a psionic energy die to end the effect on yourself.",
+      "level": 10,
+      "actionType": "passive"
+    },
+    "bulwark_of_force": {
+      "id": "bulwark_of_force",
+      "nameRu": "Оплот силы",
+      "nameEn": "Bulwark of Force",
+      "descriptionRu": "Бонусным действием вы можете потратить псионическую энергетическую кость, чтобы дать себе и существам по вашему выбору в пределах 30 футов (до бонуса мастерства существ) половинное укрытие на 1 минуту.",
+      "descriptionEn": "As a Bonus Action, you can expend a psionic energy die to give yourself and creatures of your choice within 30 feet (up to your proficiency bonus) half cover for 1 minute.",
+      "level": 15,
+      "actionType": "bonus_action"
+    },
+    "telekinetic_master": {
+      "id": "telekinetic_master",
+      "nameRu": "Телекинетический мастер",
+      "nameEn": "Telekinetic Master",
+      "descriptionRu": "Вы можете сотворить Телекинез, не тратя ячейку заклинания и не используя компоненты. Интеллект — ваша заклинательная характеристика. Использовав это свойство, вы должны завершить длительный отдых или потратить псионическую энергетическую кость, чтобы использовать его снова.",
+      "descriptionEn": "You can cast Telekinesis without expending a spell slot or using components. Intelligence is your spellcasting ability. Once you use this feature, you must finish a Long Rest or expend a psionic energy die to use it again.",
+      "level": 18,
+      "actionType": "action"
+    }
+  }
+}
